@@ -1,0 +1,151 @@
+venue_id,venue_name,city,country,capacity_seats,standing_capacity
+VEN001,Rotterdam Heritage Stadium 1,Rotterdam,Netherlands,43184,3924
+VEN002,Warsaw Riverside Sports Park 2,Warsaw,Poland,65883,8824
+VEN003,Salzburg Riverside Sports Park 3,Salzburg,Austria,14149,2302
+VEN004,London Central Arena 4,London,UK,22191,447
+VEN005,Vienna Apex Stadium 5,Vienna,Austria,35513,415
+VEN006,Vienna Central Arena 6,Vienna,Austria,17215,2613
+VEN007,Paris Civic Arena 7,Paris,France,44088,820
+VEN008,Copenhagen Metropolitan Arena 8,Copenhagen,Denmark,62550,7739
+VEN009,Hamburg City Sports Complex 9,Hamburg,Germany,21140,3157
+VEN010,Madrid Championship Grounds 10,Madrid,Spain,30702,4508
+VEN011,Prague Phoenix Arena 11,Prague,Czech Republic,71849,10696
+VEN012,Helsinki Heritage Stadium 12,Helsinki,Finland,88301,10658
+VEN013,Krakow Capital Sports Center 13,Krakow,Poland,46930,2353
+VEN014,Stockholm Grand Stadium 14,Stockholm,Sweden,42830,5291
+VEN015,Salzburg Central Arena 15,Salzburg,Austria,17974,366
+VEN016,Dublin Grand Stadium 16,Dublin,Ireland,37215,6051
+VEN017,Salzburg Civic Arena 17,Salzburg,Austria,41900,1434
+VEN018,Ghent Grand Stadium 18,Ghent,Belgium,26442,1440
+VEN019,Gothenburg Phoenix Arena 19,Gothenburg,Sweden,20995,1626
+VEN020,Amsterdam Grand Stadium 20,Amsterdam,Netherlands,13907,1185
+VEN021,Madrid Metropolitan Arena 21,Madrid,Spain,10575,611
+VEN022,Salzburg Northern Athletic Center 22,Salzburg,Austria,9322,686
+VEN023,Oslo Apex Stadium 23,Oslo,Norway,42472,5253
+VEN024,Helsinki Apex Stadium 24,Helsinki,Finland,32779,1099
+VEN025,Oslo Heritage Stadium 25,Oslo,Norway,22441,1117
+VEN026,Porto Capital Sports Center 26,Porto,Portugal,24589,922
+VEN027,Amsterdam Riverside Sports Park 27,Amsterdam,Netherlands,34038,3759
+VEN028,Turin National Arena 28,Turin,Italy,27179,1525
+VEN029,Rotterdam Northern Athletic Center 29,Rotterdam,Netherlands,13421,1380
+VEN030,Zurich Championship Grounds 30,Zurich,Switzerland,51883,3164
+VEN031,Barcelona Premier Grounds 31,Barcelona,Spain,36005,5232
+VEN032,Gothenburg Apex Stadium 32,Gothenburg,Sweden,35189,3503
+VEN033,Copenhagen Premier Grounds 33,Copenhagen,Denmark,49587,1421
+VEN034,Hamburg Championship Grounds 34,Hamburg,Germany,18412,390
+VEN035,London Capital Sports Center 35,London,UK,62142,7822
+VEN036,Salzburg National Arena 36,Salzburg,Austria,27582,2032
+VEN037,Lisbon Central Arena 37,Lisbon,Portugal,51129,6284
+VEN038,Oslo Riverside Sports Park 38,Oslo,Norway,46612,6174
+VEN039,Copenhagen National Arena 39,Copenhagen,Denmark,16085,1236
+VEN040,Lisbon Harbor Arena 40,Lisbon,Portugal,40566,5354
+VEN041,Turin Grand Stadium 41,Turin,Italy,36487,1935
+VEN042,Hamburg Unity Sports Center 42,Hamburg,Germany,30550,968
+VEN043,Stockholm Premier Grounds 43,Stockholm,Sweden,28348,1308
+VEN044,Hamburg Northern Athletic Center 44,Hamburg,Germany,28493,4116
+VEN045,Turin Northern Athletic Center 45,Turin,Italy,48852,961
+VEN046,Brussels Central Arena 46,Brussels,Belgium,42433,5035
+VEN047,Vienna Phoenix Arena 47,Vienna,Austria,30553,1094
+VEN048,London Harbor Arena 48,London,UK,12256,931
+VEN049,Prague Phoenix Arena 49,Prague,Czech Republic,40360,5750
+VEN050,Krakow Heritage Stadium 50,Krakow,Poland,46310,4403
+VEN051,Krakow Olympic Center 51,Krakow,Poland,95000,4054
+VEN052,Athens Apex Stadium 52,Athens,Greece,57194,7319
+VEN053,Turin Olympic Center 53,Turin,Italy,9599,740
+VEN054,Salzburg Metropolitan Arena 54,Salzburg,Austria,31445,4621
+VEN055,Paris Apex Stadium 55,Paris,France,88945,13578
+VEN056,Warsaw City Sports Complex 56,Warsaw,Poland,43611,4691
+VEN057,Amsterdam Apex Stadium 57,Amsterdam,Netherlands,36539,2687
+VEN058,Oslo Heritage Stadium 58,Oslo,Norway,51487,1904
+VEN059,Turin Phoenix Arena 59,Turin,Italy,20651,2388
+VEN060,Berlin Unity Sports Center 60,Berlin,Germany,39966,4180
+VEN061,Porto Unity Sports Center 61,Porto,Portugal,25813,455
+VEN062,London Civic Arena 62,London,UK,29648,4204
+VEN063,Oslo Unity Sports Center 63,Oslo,Norway,49317,945
+VEN064,Hamburg National Arena 64,Hamburg,Germany,17204,1262
+VEN065,Budapest National Arena 65,Budapest,Hungary,64973,4169
+VEN066,Rotterdam Olympic Center 66,Rotterdam,Netherlands,23278,892
+VEN067,Paris Harbor Arena 67,Paris,France,35078,3470
+VEN068,Turin Grand Stadium 68,Turin,Italy,12947,261
+VEN069,Salzburg Olympic Center 69,Salzburg,Austria,46205,7325
+VEN070,Salzburg Grand Stadium 70,Salzburg,Austria,71457,7734
+VEN071,Stockholm Championship Grounds 71,Stockholm,Sweden,22030,1674
+VEN072,Krakow Civic Arena 72,Krakow,Poland,15410,554
+VEN073,Brussels Unity Sports Center 73,Brussels,Belgium,35445,3133
+VEN074,Aarhus Premier Grounds 74,Aarhus,Denmark,71814,6184
+VEN075,Berlin Harbor Arena 75,Berlin,Germany,12569,544
+VEN076,Milan Premier Grounds 76,Milan,Italy,15446,731
+VEN077,Athens Central Arena 77,Athens,Greece,22843,521
+VEN078,Gothenburg National Arena 78,Gothenburg,Sweden,18338,14
+VEN079,Stockholm Civic Arena 79,Stockholm,Sweden,18373,1896
+VEN080,Dublin Central Arena 80,Dublin,Ireland,8539,776
+VEN081,Vienna Harbor Arena 81,Vienna,Austria,42718,3773
+VEN082,London Heritage Stadium 82,London,UK,36760,2258
+VEN083,Salzburg Metropolitan Arena 83,Salzburg,Austria,10825,1792
+VEN084,Paris Civic Arena 84,Paris,France,71917,10816
+VEN085,Barcelona National Arena 85,Barcelona,Spain,82257,12551
+VEN086,Vienna Olympic Center 86,Vienna,Austria,19118,844
+VEN087,Milan Grand Stadium 87,Milan,Italy,60408,9731
+VEN088,Oslo Grand Stadium 88,Oslo,Norway,21272,2448
+VEN089,Vienna Premier Grounds 89,Vienna,Austria,33443,362
+VEN090,Oslo Heritage Stadium 90,Oslo,Norway,18169,959
+VEN091,Krakow Grand Stadium 91,Krakow,Poland,95000,14151
+VEN092,London Northern Athletic Center 92,London,UK,25118,4127
+VEN093,Vienna Capital Sports Center 93,Vienna,Austria,32364,4719
+VEN094,Zurich Capital Sports Center 94,Zurich,Switzerland,19854,2449
+VEN095,Vienna City Sports Complex 95,Vienna,Austria,91650,4944
+VEN096,Hamburg Central Arena 96,Hamburg,Germany,93052,8540
+VEN097,Prague Riverside Sports Park 97,Prague,Czech Republic,79818,4923
+VEN098,Paris Civic Arena 98,Paris,France,53253,2869
+VEN099,Dublin Grand Stadium 99,Dublin,Ireland,20621,2030
+VEN100,Brussels Apex Stadium 100,Brussels,Belgium,49299,6244
+VEN101,Copenhagen Civic Arena 101,Copenhagen,Denmark,29873,3410
+VEN102,London Premier Grounds 102,London,UK,65933,4913
+VEN103,Amsterdam Phoenix Arena 103,Amsterdam,Netherlands,58600,8813
+VEN104,Vienna Northern Athletic Center 104,Vienna,Austria,20320,923
+VEN105,Aarhus Unity Sports Center 105,Aarhus,Denmark,52978,2365
+VEN106,Salzburg Civic Arena 106,Salzburg,Austria,45169,472
+VEN107,Prague Apex Stadium 107,Prague,Czech Republic,5680,570
+VEN108,London Central Arena 108,London,UK,48509,3181
+VEN109,Lisbon Capital Sports Center 109,Lisbon,Portugal,23152,832
+VEN110,Lyon Unity Sports Center 110,Lyon,France,17629,323
+VEN111,Aarhus Olympic Center 111,Aarhus,Denmark,18087,1519
+VEN112,Dublin Grand Stadium 112,Dublin,Ireland,27661,1560
+VEN113,Lisbon Grand Stadium 113,Lisbon,Portugal,40014,3089
+VEN114,Aarhus Heritage Stadium 114,Aarhus,Denmark,13222,298
+VEN115,Porto Heritage Stadium 115,Porto,Portugal,33619,4813
+VEN116,Helsinki Capital Sports Center 116,Helsinki,Finland,42404,1711
+VEN117,Stockholm National Arena 117,Stockholm,Sweden,91677,14892
+VEN118,Warsaw Metropolitan Arena 118,Warsaw,Poland,15723,778
+VEN119,Rotterdam Phoenix Arena 119,Rotterdam,Netherlands,24323,3089
+VEN120,Salzburg Heritage Stadium 120,Salzburg,Austria,35099,1987
+VEN121,Budapest Capital Sports Center 121,Budapest,Hungary,59718,3921
+VEN122,Krakow Premier Grounds 122,Krakow,Poland,24994,2318
+VEN123,Oslo Harbor Arena 123,Oslo,Norway,61582,8743
+VEN124,Stockholm Harbor Arena 124,Stockholm,Sweden,9381,535
+VEN125,Athens Unity Sports Center 125,Athens,Greece,14142,2036
+VEN126,Milan Phoenix Arena 126,Milan,Italy,36980,5918
+VEN127,Krakow Heritage Stadium 127,Krakow,Poland,12867,1311
+VEN128,Brussels Civic Arena 128,Brussels,Belgium,14827,1281
+VEN129,Paris Central Arena 129,Paris,France,21857,2304
+VEN130,Rotterdam National Arena 130,Rotterdam,Netherlands,47658,1195
+VEN131,Lisbon Civic Arena 131,Lisbon,Portugal,9617,1133
+VEN132,Stockholm Heritage Stadium 132,Stockholm,Sweden,33227,1248
+VEN133,Copenhagen Premier Grounds 133,Copenhagen,Denmark,55755,3768
+VEN134,Zurich Phoenix Arena 134,Zurich,Switzerland,26688,2013
+VEN135,Dublin Capital Sports Center 135,Dublin,Ireland,24044,2681
+VEN136,Lisbon Phoenix Arena 136,Lisbon,Portugal,38178,6253
+VEN137,Rotterdam Unity Sports Center 137,Rotterdam,Netherlands,26733,4018
+VEN138,Amsterdam Championship Grounds 138,Amsterdam,Netherlands,69096,5770
+VEN139,London Phoenix Arena 139,London,UK,15399,2238
+VEN140,Amsterdam Grand Stadium 140,Amsterdam,Netherlands,29084,4441
+VEN141,Athens Olympic Center 141,Athens,Greece,33940,277
+VEN142,Gothenburg Grand Stadium 142,Gothenburg,Sweden,23905,2737
+VEN143,Krakow Civic Arena 143,Krakow,Poland,5357,6
+VEN144,London Olympic Center 144,London,UK,27239,1895
+VEN145,Turin National Arena 145,Turin,Italy,51485,2474
+VEN146,Warsaw Unity Sports Center 146,Warsaw,Poland,47849,4142
+VEN147,Brussels Phoenix Arena 147,Brussels,Belgium,37116,495
+VEN148,Hamburg National Arena 148,Hamburg,Germany,15525,1998
+VEN149,Madrid Civic Arena 149,Madrid,Spain,38030,4359
+VEN150,Madrid Apex Stadium 150,Madrid,Spain,21266,68

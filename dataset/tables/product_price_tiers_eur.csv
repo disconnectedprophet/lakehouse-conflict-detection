@@ -1,0 +1,201 @@
+product_id,category,price_tier_eur,brand
+PROD001,Electronics,Luxury (455+),Panasonic
+PROD002,Food & Beverage,Premium (228-455),LG
+PROD003,Apparel,Economy (45-91),H&M
+PROD004,Home & Garden,Mid-range (91-228),Sony
+PROD005,Sports Equipment,Premium (228-455),Heinz
+PROD006,Electronics,Budget (0-45),Siemens
+PROD007,Food & Beverage,Luxury (455+),Philips
+PROD008,Apparel,Premium (228-455),Panasonic
+PROD009,Home & Garden,Premium (228-455),Nestlé
+PROD010,Sports Equipment,Budget (0-45),Nike
+PROD011,Electronics,Luxury (455+),3M
+PROD012,Food & Beverage,Economy (45-91),Sony
+PROD013,Apparel,Economy (45-91),Nestlé
+PROD014,Home & Garden,Budget (0-45),Sony
+PROD015,Sports Equipment,Budget (0-45),Apple
+PROD016,Electronics,Economy (45-91),P&G
+PROD017,Food & Beverage,Premium (228-455),Adidas
+PROD018,Apparel,Mid-range (91-228),Apple
+PROD019,Home & Garden,Premium (228-455),Philips
+PROD020,Sports Equipment,Luxury (455+),Puma
+PROD021,Electronics,Luxury (455+),3M
+PROD022,Food & Beverage,Luxury (455+),Heinz
+PROD023,Apparel,Economy (45-91),IKEA
+PROD024,Home & Garden,Premium (228-455),Unilever
+PROD025,Sports Equipment,Budget (0-45),Bosch
+PROD026,Electronics,Mid-range (91-228),Sony
+PROD027,Food & Beverage,Budget (0-45),Zara
+PROD028,Apparel,Luxury (455+),Nike
+PROD029,Home & Garden,Budget (0-45),Nestlé
+PROD030,Sports Equipment,Luxury (455+),Puma
+PROD031,Electronics,Mid-range (91-228),Zara
+PROD032,Food & Beverage,Economy (45-91),P&G
+PROD033,Apparel,Budget (0-45),Siemens
+PROD034,Home & Garden,Premium (228-455),Unilever
+PROD035,Sports Equipment,Mid-range (91-228),Adidas
+PROD036,Electronics,Mid-range (91-228),Philips
+PROD037,Food & Beverage,Luxury (455+),H&M
+PROD038,Apparel,Mid-range (91-228),Siemens
+PROD039,Home & Garden,Budget (0-45),Apple
+PROD040,Sports Equipment,Premium (228-455),IKEA
+PROD041,Electronics,Premium (228-455),P&G
+PROD042,Food & Beverage,Premium (228-455),3M
+PROD043,Apparel,Mid-range (91-228),H&M
+PROD044,Home & Garden,Budget (0-45),Apple
+PROD045,Sports Equipment,Economy (45-91),H&M
+PROD046,Electronics,Premium (228-455),Zara
+PROD047,Food & Beverage,Mid-range (91-228),Nestlé
+PROD048,Apparel,Premium (228-455),Colgate
+PROD049,Home & Garden,Luxury (455+),3M
+PROD050,Sports Equipment,Economy (45-91),Unilever
+PROD051,Electronics,Budget (0-45),P&G
+PROD052,Food & Beverage,Budget (0-45),Nike
+PROD053,Apparel,Luxury (455+),3M
+PROD054,Home & Garden,Luxury (455+),Siemens
+PROD055,Sports Equipment,Economy (45-91),Nestlé
+PROD056,Electronics,Mid-range (91-228),3M
+PROD057,Food & Beverage,Budget (0-45),Nike
+PROD058,Apparel,Luxury (455+),Bosch
+PROD059,Home & Garden,Luxury (455+),Adidas
+PROD060,Sports Equipment,Premium (228-455),Unilever
+PROD061,Electronics,Economy (45-91),IKEA
+PROD062,Food & Beverage,Premium (228-455),Nike
+PROD063,Apparel,Mid-range (91-228),IKEA
+PROD064,Home & Garden,Economy (45-91),Philips
+PROD065,Sports Equipment,Economy (45-91),3M
+PROD066,Electronics,Economy (45-91),Apple
+PROD067,Food & Beverage,Luxury (455+),Adidas
+PROD068,Apparel,Premium (228-455),Adidas
+PROD069,Home & Garden,Mid-range (91-228),Apple
+PROD070,Sports Equipment,Luxury (455+),Zara
+PROD071,Electronics,Luxury (455+),Zara
+PROD072,Food & Beverage,Budget (0-45),P&G
+PROD073,Apparel,Premium (228-455),Apple
+PROD074,Home & Garden,Budget (0-45),IKEA
+PROD075,Sports Equipment,Mid-range (91-228),Puma
+PROD076,Electronics,Mid-range (91-228),Zara
+PROD077,Food & Beverage,Mid-range (91-228),Heinz
+PROD078,Apparel,Economy (45-91),Adidas
+PROD079,Home & Garden,Budget (0-45),Puma
+PROD080,Sports Equipment,Luxury (455+),Sony
+PROD081,Electronics,Mid-range (91-228),Puma
+PROD082,Food & Beverage,Mid-range (91-228),IKEA
+PROD083,Apparel,Mid-range (91-228),Bosch
+PROD084,Home & Garden,Premium (228-455),Nestlé
+PROD085,Sports Equipment,Budget (0-45),Colgate
+PROD086,Electronics,Mid-range (91-228),Bosch
+PROD087,Food & Beverage,Premium (228-455),Samsung
+PROD088,Apparel,Luxury (455+),Heinz
+PROD089,Home & Garden,Economy (45-91),Apple
+PROD090,Sports Equipment,Budget (0-45),3M
+PROD091,Electronics,Luxury (455+),Adidas
+PROD092,Food & Beverage,Economy (45-91),Adidas
+PROD093,Apparel,Economy (45-91),LG
+PROD094,Home & Garden,Mid-range (91-228),Apple
+PROD095,Sports Equipment,Premium (228-455),Panasonic
+PROD096,Electronics,Budget (0-45),Nike
+PROD097,Food & Beverage,Luxury (455+),Samsung
+PROD098,Apparel,Budget (0-45),Heinz
+PROD099,Home & Garden,Budget (0-45),LG
+PROD100,Sports Equipment,Budget (0-45),Unilever
+PROD101,Electronics,Premium (228-455),LG
+PROD102,Food & Beverage,Economy (45-91),Sony
+PROD103,Apparel,Mid-range (91-228),LG
+PROD104,Home & Garden,Premium (228-455),Zara
+PROD105,Sports Equipment,Mid-range (91-228),Siemens
+PROD106,Electronics,Budget (0-45),IKEA
+PROD107,Food & Beverage,Premium (228-455),LG
+PROD108,Apparel,Economy (45-91),Heinz
+PROD109,Home & Garden,Economy (45-91),Samsung
+PROD110,Sports Equipment,Economy (45-91),Philips
+PROD111,Electronics,Mid-range (91-228),Adidas
+PROD112,Food & Beverage,Premium (228-455),Nike
+PROD113,Apparel,Economy (45-91),Zara
+PROD114,Home & Garden,Luxury (455+),IKEA
+PROD115,Sports Equipment,Economy (45-91),Apple
+PROD116,Electronics,Luxury (455+),Bosch
+PROD117,Food & Beverage,Luxury (455+),Bosch
+PROD118,Apparel,Mid-range (91-228),Samsung
+PROD119,Home & Garden,Mid-range (91-228),IKEA
+PROD120,Sports Equipment,Budget (0-45),Heinz
+PROD121,Electronics,Budget (0-45),Puma
+PROD122,Food & Beverage,Budget (0-45),Unilever
+PROD123,Apparel,Premium (228-455),Adidas
+PROD124,Home & Garden,Luxury (455+),P&G
+PROD125,Sports Equipment,Luxury (455+),Sony
+PROD126,Electronics,Economy (45-91),Bosch
+PROD127,Food & Beverage,Economy (45-91),Samsung
+PROD128,Apparel,Mid-range (91-228),Sony
+PROD129,Home & Garden,Premium (228-455),Philips
+PROD130,Sports Equipment,Economy (45-91),Bosch
+PROD131,Electronics,Budget (0-45),Zara
+PROD132,Food & Beverage,Economy (45-91),Adidas
+PROD133,Apparel,Premium (228-455),Colgate
+PROD134,Home & Garden,Budget (0-45),Puma
+PROD135,Sports Equipment,Premium (228-455),Apple
+PROD136,Electronics,Luxury (455+),Samsung
+PROD137,Food & Beverage,Mid-range (91-228),Bosch
+PROD138,Apparel,Budget (0-45),H&M
+PROD139,Home & Garden,Premium (228-455),Apple
+PROD140,Sports Equipment,Budget (0-45),Sony
+PROD141,Electronics,Budget (0-45),Adidas
+PROD142,Food & Beverage,Mid-range (91-228),LG
+PROD143,Apparel,Luxury (455+),Adidas
+PROD144,Home & Garden,Budget (0-45),Nestlé
+PROD145,Sports Equipment,Budget (0-45),Bosch
+PROD146,Electronics,Budget (0-45),Puma
+PROD147,Food & Beverage,Luxury (455+),Colgate
+PROD148,Apparel,Mid-range (91-228),P&G
+PROD149,Home & Garden,Budget (0-45),Zara
+PROD150,Sports Equipment,Luxury (455+),Heinz
+PROD151,Electronics,Economy (45-91),Adidas
+PROD152,Food & Beverage,Premium (228-455),Apple
+PROD153,Apparel,Budget (0-45),Zara
+PROD154,Home & Garden,Budget (0-45),Nike
+PROD155,Sports Equipment,Mid-range (91-228),Apple
+PROD156,Electronics,Economy (45-91),Panasonic
+PROD157,Food & Beverage,Premium (228-455),LG
+PROD158,Apparel,Budget (0-45),Zara
+PROD159,Home & Garden,Budget (0-45),Nestlé
+PROD160,Sports Equipment,Mid-range (91-228),Philips
+PROD161,Electronics,Economy (45-91),Zara
+PROD162,Food & Beverage,Premium (228-455),Heinz
+PROD163,Apparel,Budget (0-45),3M
+PROD164,Home & Garden,Luxury (455+),Apple
+PROD165,Sports Equipment,Economy (45-91),Puma
+PROD166,Electronics,Economy (45-91),Colgate
+PROD167,Food & Beverage,Budget (0-45),Puma
+PROD168,Apparel,Budget (0-45),Samsung
+PROD169,Home & Garden,Premium (228-455),Unilever
+PROD170,Sports Equipment,Budget (0-45),Sony
+PROD171,Electronics,Premium (228-455),Apple
+PROD172,Food & Beverage,Luxury (455+),Samsung
+PROD173,Apparel,Mid-range (91-228),IKEA
+PROD174,Home & Garden,Budget (0-45),Nike
+PROD175,Sports Equipment,Budget (0-45),Heinz
+PROD176,Electronics,Premium (228-455),Nestlé
+PROD177,Food & Beverage,Mid-range (91-228),Nike
+PROD178,Apparel,Budget (0-45),Samsung
+PROD179,Home & Garden,Luxury (455+),Nestlé
+PROD180,Sports Equipment,Luxury (455+),Colgate
+PROD181,Electronics,Mid-range (91-228),LG
+PROD182,Food & Beverage,Luxury (455+),Samsung
+PROD183,Apparel,Mid-range (91-228),P&G
+PROD184,Home & Garden,Mid-range (91-228),Puma
+PROD185,Sports Equipment,Economy (45-91),Philips
+PROD186,Electronics,Economy (45-91),Apple
+PROD187,Food & Beverage,Luxury (455+),Nestlé
+PROD188,Apparel,Luxury (455+),H&M
+PROD189,Home & Garden,Premium (228-455),Apple
+PROD190,Sports Equipment,Premium (228-455),Siemens
+PROD191,Electronics,Luxury (455+),Heinz
+PROD192,Food & Beverage,Luxury (455+),Nike
+PROD193,Apparel,Luxury (455+),Sony
+PROD194,Home & Garden,Economy (45-91),Sony
+PROD195,Sports Equipment,Premium (228-455),3M
+PROD196,Electronics,Mid-range (91-228),Nike
+PROD197,Food & Beverage,Economy (45-91),Heinz
+PROD198,Apparel,Luxury (455+),LG
+PROD199,Home & Garden,Mid-range (91-228),Unilever
+PROD200,Sports Equipment,Mid-range (91-228),Adidas

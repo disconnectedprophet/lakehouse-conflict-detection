@@ -1,0 +1,121 @@
+player_id,player_name,nationality,sport,elo_rating,rank_elo
+PLAY001,Matteo Fritz,Norway,Football,2341,13
+PLAY002,Novak Auger-Aliassime,Sweden,Tennis,2360,11
+PLAY003,Matteo Alcaraz,Germany,Tennis,1723,1
+PLAY004,Holger Humbert,Portugal,Boxing,1234,7
+PLAY005,Daniil Berdych,Belgium,Judo,1691,76
+PLAY006,Viktor Bublik,United States,Judo,2229,8
+PLAY007,Holger Edberg,Switzerland,Boxing,2366,101
+PLAY008,Alexander Zverev,Switzerland,Tennis,1496,43
+PLAY009,Rafael Musetti,United Kingdom,Athletics,2164,89
+PLAY010,David Berdych,United States,Basketball,1883,59
+PLAY011,Denis Becker,Austria,Swimming,1640,33
+PLAY012,Tomas Zverev,Norway,Boxing,1496,46
+PLAY013,Sebastian Becker,Denmark,Football,2165,119
+PLAY014,Denis Tiafoe,India,Basketball,2374,61
+PLAY015,Diego Alcaraz,Norway,Football,1253,3
+PLAY016,Casper Djokovic,Canada,Tennis,1685,44
+PLAY017,Carlos Sinner,Mexico,Basketball,2537,82
+PLAY018,Andrey Berdych,South Africa,Tennis,2274,54
+PLAY019,Alexander Schwartzman,Switzerland,Cycling,1742,22
+PLAY020,Boris Rossi,France,Football,2113,100
+PLAY021,Grigor Paul,Mexico,Boxing,2035,81
+PLAY022,Daniil Wilander,China,Athletics,1757,17
+PLAY023,Lorenzo Berrettini,Spain,Basketball,1945,14
+PLAY024,Lorenzo Medvedev,Germany,Judo,2517,60
+PLAY025,Rafael Berrettini,France,Boxing,1667,114
+PLAY026,Tommy Bublik,Belgium,Athletics,1247,19
+PLAY027,Nicolas Rossi,South Korea,Swimming,2330,49
+PLAY028,Francis Djokovic,Switzerland,Athletics,1678,83
+PLAY029,Casper Shapovalov,Australia,Basketball,1380,25
+PLAY030,Diego Schwartzman,Belgium,Football,2008,77
+PLAY031,Carlos Bublik,Brazil,Football,2115,35
+PLAY032,Grigor Klein,South Korea,Football,1911,94
+PLAY033,Matteo Becker,Switzerland,Swimming,1908,69
+PLAY034,Alexander Musetti,Czech Republic,Cycling,1526,53
+PLAY035,Tommy Alcaraz,Norway,Basketball,1658,96
+PLAY036,Diego Auger-Aliassime,Belgium,Tennis,2151,110
+PLAY037,Matteo Klein,Spain,Tennis,2121,73
+PLAY038,Tommy Tsitsipas,Poland,Tennis,1607,99
+PLAY039,Marco Troicki,India,Swimming,1637,108
+PLAY040,Novak Dimitrov,Belgium,Football,2094,55
+PLAY041,Felix Djokovic,Sweden,Judo,1780,42
+PLAY042,Grigor Schwartzman,Japan,Judo,2369,27
+PLAY043,Grigor Edberg,Belgium,Swimming,2221,91
+PLAY044,Carlos Fritz,Japan,Swimming,2037,31
+PLAY045,Dominic Shapovalov,Poland,Football,1738,97
+PLAY046,Rafael Bublik,Argentina,Football,2422,118
+PLAY047,Taylor Auger-Aliassime,Russia,Swimming,1647,120
+PLAY048,Jannik Lendl,Russia,Basketball,1992,6
+PLAY049,Carlos Auger-Aliassime,Austria,Boxing,1511,40
+PLAY050,Nicolas Djokovic,Serbia,Football,1524,62
+PLAY051,Felix Berrettini,Japan,Judo,1742,56
+PLAY052,Boris Troicki,Croatia,Boxing,1985,52
+PLAY053,Lucas Medvedev,Germany,Judo,2211,30
+PLAY054,Sebastian Klein,Greece,Tennis,2288,88
+PLAY055,Boris Wilander,France,Football,2361,117
+PLAY056,Holger Zverev,United States,Football,1390,103
+PLAY057,Rafael Auger-Aliassime,Croatia,Athletics,1695,112
+PLAY058,Pablo Rune,Czech Republic,Basketball,2128,2
+PLAY059,Tomas Bublik,Poland,Boxing,1515,102
+PLAY060,Stefanos Berdych,Croatia,Tennis,1954,86
+PLAY061,Sebastian Troicki,Brazil,Judo,1418,65
+PLAY062,Francis Becker,Canada,Boxing,1522,75
+PLAY063,Denis Bublik,Norway,Cycling,2438,106
+PLAY064,Stefanos Edberg,United Kingdom,Tennis,2274,85
+PLAY065,Alexander Djokovic,Canada,Judo,2345,104
+PLAY066,Viktor Wilander,China,Swimming,1830,29
+PLAY067,Francis Nadal,Greece,Basketball,2108,66
+PLAY068,Lorenzo Rublev,Canada,Swimming,2044,107
+PLAY069,Rafael Edberg,Denmark,Cycling,1512,80
+PLAY070,Andrey Wawrinka,China,Tennis,1982,21
+PLAY071,Rafael Rune,Netherlands,Athletics,1744,39
+PLAY072,David Musetti,Serbia,Cycling,2480,38
+PLAY073,Grigor Fritz,United Kingdom,Tennis,1663,70
+PLAY074,Tomas Schwartzman,South Korea,Judo,2392,71
+PLAY075,Denis Sinner,Netherlands,Football,1243,9
+PLAY076,Rafael Wilander,Portugal,Basketball,2356,45
+PLAY077,Lucas Rublev,Sweden,Swimming,1861,105
+PLAY078,Lorenzo Auger-Aliassime,Italy,Basketball,1553,12
+PLAY079,Dominic Wilander,Canada,Cycling,1450,113
+PLAY080,Rafael Thiem,Argentina,Basketball,1701,23
+PLAY081,Lucas Rune,Croatia,Judo,2474,90
+PLAY082,Jannik Medvedev,Italy,Tennis,1301,111
+PLAY083,Nicolas Auger-Aliassime,Australia,Swimming,1402,109
+PLAY084,Tommy Wawrinka,Croatia,Cycling,2196,93
+PLAY085,Taylor Lendl,Argentina,Football,1894,26
+PLAY086,Francis Wawrinka,United Kingdom,Judo,1402,63
+PLAY087,Taylor Rune,Italy,Basketball,1889,37
+PLAY088,Stefanos Shapovalov,France,Football,1565,79
+PLAY089,Viktor Shapovalov,Japan,Swimming,1319,28
+PLAY090,Felix Humbert,Serbia,Judo,1970,116
+PLAY091,Nicolas Dimitrov,China,Football,2170,92
+PLAY092,Jannik Edberg,Norway,Football,1833,34
+PLAY093,Novak Lendl,Czech Republic,Boxing,1583,16
+PLAY094,Tommy Djokovic,Argentina,Judo,2514,72
+PLAY095,Tommy Rossi,China,Cycling,2169,50
+PLAY096,Tomas Tsitsipas,India,Cycling,1268,67
+PLAY097,Pablo Musetti,United States,Boxing,1885,64
+PLAY098,Holger Medvedev,Mexico,Boxing,1617,24
+PLAY099,Novak Rune,Canada,Cycling,1332,95
+PLAY100,Marco Musetti,South Africa,Boxing,1754,4
+PLAY101,Lorenzo Tiafoe,Switzerland,Boxing,1967,15
+PLAY102,Diego Becker,Denmark,Cycling,2369,32
+PLAY103,Viktor Tiafoe,Canada,Judo,2435,36
+PLAY104,Felix Tiafoe,Brazil,Football,2049,84
+PLAY105,Rafael Lendl,South Korea,Judo,1456,41
+PLAY106,Dominic Humbert,United States,Football,1941,51
+PLAY107,Felix Rossi,Poland,Boxing,1726,47
+PLAY108,Tommy Sinner,Portugal,Boxing,2228,68
+PLAY109,Lucas Edberg,Croatia,Athletics,2449,18
+PLAY110,Rafael Djokovic,Poland,Basketball,1594,74
+PLAY111,Marco Bublik,India,Basketball,1683,10
+PLAY112,Stefanos Alcaraz,Japan,Football,2112,98
+PLAY113,Alexander Thiem,Poland,Swimming,1394,57
+PLAY114,Diego Troicki,Spain,Boxing,2168,115
+PLAY115,Nicolas Tiafoe,Germany,Tennis,1270,48
+PLAY116,Rafael Zverev,Serbia,Boxing,2248,58
+PLAY117,Novak Berrettini,Portugal,Athletics,2534,87
+PLAY118,Sebastian Bublik,Croatia,Football,2109,20
+PLAY119,Felix Auger-Aliassime,Argentina,Judo,2159,78
+PLAY120,Taylor Klein,Brazil,Boxing,2449,5

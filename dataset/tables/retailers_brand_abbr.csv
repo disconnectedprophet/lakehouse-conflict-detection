@@ -1,0 +1,151 @@
+store_id,store_name,brand_abbr,country,annual_revenue_eur
+ST001,Store 001,Albert Heijn,India,61835777
+ST002,Store 002,Jumbo,Canada,122235184
+ST003,Store 003,Esselunga,Czech Republic,196353867
+ST004,Store 004,Lidl,Canada,115058591
+ST005,Store 005,Mercadona,Austria,68921458
+ST006,Store 006,Conad,United Kingdom,184867116
+ST007,Store 007,Biedronka,Germany,24987966
+ST008,Store 008,Aldi,Germany,116430970
+ST009,Store 009,Lidl,Denmark,198819041
+ST010,Store 010,Conad,Russia,35427601
+ST011,Store 011,Penny,France,157928020
+ST012,Store 012,Penny,Sweden,88988668
+ST013,Store 013,Lidl,Czech Republic,95418261
+ST014,Store 014,Jumbo,China,194058252
+ST015,Store 015,Carrefour,Japan,161671357
+ST016,Store 016,Morrisons,Netherlands,28310064
+ST017,Store 017,Netto,Portugal,57606638
+ST018,Store 018,Rewe,Austria,129936731
+ST019,Store 019,Coop,China,29549651
+ST020,Store 020,Conad,China,149821376
+ST021,Store 021,Conad,Italy,75277585
+ST022,Store 022,Netto,Argentina,115688984
+ST023,Store 023,Penny,South Korea,167392712
+ST024,Store 024,Spar,Austria,173023242
+ST025,Store 025,Penny,Spain,163975827
+ST026,Store 026,Sainsbury's,Spain,48930071
+ST027,Store 027,Sainsbury's,Greece,83442444
+ST028,Store 028,Mercadona,Netherlands,2139010
+ST029,Store 029,Edeka,China,38953779
+ST030,Store 030,Netto,Austria,108084729
+ST031,Store 031,Aldi,United Kingdom,199402367
+ST032,Store 032,Tesco,Germany,142900362
+ST033,Store 033,Migros,Serbia,113197926
+ST034,Store 034,Albert Heijn,Canada,42754230
+ST035,Store 035,Conad,Japan,194201942
+ST036,Store 036,Mercadona,South Korea,152862234
+ST037,Store 037,Spar,Germany,14622074
+ST038,Store 038,Rewe,United States,166349674
+ST039,Store 039,Carrefour,Austria,22399374
+ST040,Store 040,Sainsbury's,Croatia,178187815
+ST041,Store 041,Jumbo,Poland,163460724
+ST042,Store 042,Albert Heijn,Czech Republic,73827666
+ST043,Store 043,Migros,South Korea,138031915
+ST044,Store 044,Lidl,Netherlands,115904062
+ST045,Store 045,Lidl,Japan,182557728
+ST046,Store 046,Netto,Poland,141947797
+ST047,Store 047,Morrisons,France,59694967
+ST048,Store 048,Esselunga,Norway,15205420
+ST049,Store 049,Tesco,Brazil,81411642
+ST050,Store 050,Migros,South Korea,37338686
+ST051,Store 051,Sainsbury's,Japan,88579674
+ST052,Store 052,Lidl,Spain,134015857
+ST053,Store 053,Jumbo,United States,35178023
+ST054,Store 054,Esselunga,Sweden,189390317
+ST055,Store 055,Coop,Portugal,150481214
+ST056,Store 056,Conad,Germany,107087980
+ST057,Store 057,Carrefour,Czech Republic,5530893
+ST058,Store 058,Albert Heijn,South Africa,21401084
+ST059,Store 059,Mercadona,Switzerland,115735123
+ST060,Store 060,Netto,Serbia,190954676
+ST061,Store 061,Jumbo,Japan,31416617
+ST062,Store 062,Esselunga,Spain,87679295
+ST063,Store 063,Edeka,Russia,166426736
+ST064,Store 064,Albert Heijn,Mexico,185615785
+ST065,Store 065,Conad,Germany,117728925
+ST066,Store 066,Lidl,Argentina,117451026
+ST067,Store 067,Netto,Serbia,141150125
+ST068,Store 068,Aldi,Serbia,83788692
+ST069,Store 069,Mercadona,Argentina,89907427
+ST070,Store 070,Edeka,Germany,137531813
+ST071,Store 071,Lidl,Portugal,137389214
+ST072,Store 072,Migros,India,94284709
+ST073,Store 073,Conad,Denmark,173759778
+ST074,Store 074,Rewe,Argentina,28096380
+ST075,Store 075,Rewe,Australia,53454746
+ST076,Store 076,Edeka,Norway,41535670
+ST077,Store 077,Aldi,United States,169063715
+ST078,Store 078,Biedronka,Croatia,151826590
+ST079,Store 079,Netto,Croatia,183340374
+ST080,Store 080,Netto,Belgium,171036593
+ST081,Store 081,Spar,Canada,168867390
+ST082,Store 082,Mercadona,United Kingdom,118547933
+ST083,Store 083,Aldi,Poland,119204322
+ST084,Store 084,Morrisons,Russia,74232150
+ST085,Store 085,Netto,France,94973770
+ST086,Store 086,Kaufland,Germany,83824472
+ST087,Store 087,Albert Heijn,Croatia,10595119
+ST088,Store 088,Carrefour,Netherlands,77561654
+ST089,Store 089,Aldi,Belgium,24738783
+ST090,Store 090,Spar,Norway,136614981
+ST091,Store 091,Esselunga,Croatia,156280988
+ST092,Store 092,Penny,Russia,198852606
+ST093,Store 093,Carrefour,Croatia,153952923
+ST094,Store 094,Migros,Canada,162905017
+ST095,Store 095,Biedronka,Portugal,40996460
+ST096,Store 096,Carrefour,Croatia,28283573
+ST097,Store 097,Mercadona,Greece,23136928
+ST098,Store 098,Kaufland,Belgium,46820930
+ST099,Store 099,Carrefour,Argentina,190450754
+ST100,Store 100,Albert Heijn,Croatia,141178581
+ST101,Store 101,Kaufland,Norway,43113111
+ST102,Store 102,Conad,Netherlands,76438667
+ST103,Store 103,Esselunga,Czech Republic,91329739
+ST104,Store 104,Spar,France,169852325
+ST105,Store 105,Mercadona,Germany,89000689
+ST106,Store 106,Lidl,Sweden,182601068
+ST107,Store 107,Esselunga,Japan,68144603
+ST108,Store 108,Spar,China,40865532
+ST109,Store 109,Mercadona,Germany,156927947
+ST110,Store 110,Rewe,South Africa,94404302
+ST111,Store 111,Morrisons,Belgium,187996786
+ST112,Store 112,Esselunga,United Kingdom,160230162
+ST113,Store 113,Aldi,Japan,150534500
+ST114,Store 114,Esselunga,Belgium,88674753
+ST115,Store 115,Rewe,Austria,189164725
+ST116,Store 116,Kaufland,Germany,173915966
+ST117,Store 117,Jumbo,Portugal,97627490
+ST118,Store 118,Tesco,Netherlands,83410605
+ST119,Store 119,Edeka,Brazil,92233077
+ST120,Store 120,Biedronka,Brazil,61312185
+ST121,Store 121,Rewe,United Kingdom,21213845
+ST122,Store 122,Morrisons,China,27649766
+ST123,Store 123,Kaufland,South Korea,145393609
+ST124,Store 124,Kaufland,France,178185277
+ST125,Store 125,Mercadona,India,166401559
+ST126,Store 126,Rewe,Norway,101624970
+ST127,Store 127,Rewe,United States,49045468
+ST128,Store 128,Spar,Russia,44936581
+ST129,Store 129,Albert Heijn,France,110789019
+ST130,Store 130,Conad,Austria,193662308
+ST131,Store 131,Coop,Croatia,164405460
+ST132,Store 132,Morrisons,South Korea,121008182
+ST133,Store 133,Coop,Sweden,64701304
+ST134,Store 134,Morrisons,Russia,126400416
+ST135,Store 135,Migros,Netherlands,182581601
+ST136,Store 136,Netto,Croatia,124431274
+ST137,Store 137,Morrisons,South Korea,103008101
+ST138,Store 138,Kaufland,Portugal,112883408
+ST139,Store 139,Edeka,Mexico,54105951
+ST140,Store 140,Spar,United Kingdom,67609727
+ST141,Store 141,Carrefour,Belgium,129507571
+ST142,Store 142,Conad,Sweden,28038720
+ST143,Store 143,Kaufland,China,33967934
+ST144,Store 144,Morrisons,Germany,43533515
+ST145,Store 145,Sainsbury's,Croatia,138302076
+ST146,Store 146,Rewe,Mexico,117933147
+ST147,Store 147,Aldi,South Africa,60102873
+ST148,Store 148,Albert Heijn,India,94341028
+ST149,Store 149,Tesco,Czech Republic,14796037
+ST150,Store 150,Esselunga,Portugal,100884523

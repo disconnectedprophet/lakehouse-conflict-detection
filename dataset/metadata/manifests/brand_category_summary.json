@@ -1,0 +1,82 @@
+{
+  "table": "brand_category_summary",
+  "columns": {
+    "brand": {
+      "row_count": 20,
+      "null_count": 0,
+      "distinct_count": 20,
+      "sample_values": [
+        "3M",
+        "Sony",
+        "Samsung",
+        "Adidas",
+        "LG",
+        "H&M"
+      ]
+    },
+    "brand_full": {
+      "row_count": 20,
+      "null_count": 0,
+      "distinct_count": 20,
+      "sample_values": [
+        "3M Company",
+        "Sony Corporation",
+        "Samsung Electronics Co., Ltd.",
+        "Adidas AG",
+        "LG Electronics Inc.",
+        "Hennes & Mauritz AB"
+      ]
+    },
+    "total_products": {
+      "row_count": 20,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "11",
+        "10",
+        "7",
+        "9",
+        "15",
+        "9"
+      ],
+      "min": 5.0,
+      "max": 15.0,
+      "mean": 10.0,
+      "std": 2.9019
+    },
+    "total_sales_usd": {
+      "row_count": 20,
+      "null_count": 0,
+      "distinct_count": 20,
+      "sample_values": [
+        "233792464",
+        "233016212",
+        "197629260",
+        "231801814",
+        "489793598",
+        "206424059"
+      ],
+      "min": 102943114.0,
+      "max": 489793598.0,
+      "mean": 264132806.65,
+      "std": 101060724.3728
+    },
+    "avg_sales_usd": {
+      "row_count": 20,
+      "null_count": 0,
+      "distinct_count": 20,
+      "sample_values": [
+        "21253860",
+        "23301621",
+        "28232751",
+        "25755757",
+        "32652906",
+        "22936006"
+      ],
+      "min": 20588622.0,
+      "max": 34661876.0,
+      "mean": 26123896.75,
+      "std": 4081326.2816
+    }
+  }
+}

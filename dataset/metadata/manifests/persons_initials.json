@@ -1,0 +1,57 @@
+{
+  "table": "persons_initials",
+  "columns": {
+    "person_id": {
+      "row_count": 400,
+      "null_count": 0,
+      "distinct_count": 400,
+      "sample_values": [
+        "PER0210",
+        "PER0281",
+        "PER0034",
+        "PER0211",
+        "PER0094",
+        "PER0085"
+      ]
+    },
+    "initials_name": {
+      "row_count": 400,
+      "null_count": 0,
+      "distinct_count": 327,
+      "sample_values": [
+        "H. King 210",
+        "M. Robinson",
+        "S. Turner",
+        "A. Roberts",
+        "S. Johnson",
+        "H. Martin"
+      ]
+    },
+    "department": {
+      "row_count": 400,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "HR",
+        "Marketing",
+        "HR",
+        "Legal",
+        "Engineering",
+        "Finance"
+      ]
+    },
+    "company": {
+      "row_count": 400,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "Globex",
+        "Umbrella Ltd",
+        "Acme Corp",
+        "Massive Dynamics",
+        "Umbrella Ltd",
+        "Acme Corp"
+      ]
+    }
+  }
+}

@@ -1,0 +1,201 @@
+series_id,name,director_abbr,year,language,genre
+SR001,Series Falling 1,Q. Denisova,2014,ES,Horror
+SR002,Series Burning 2,P. Guadagnino Jr,2017,DE,Comedy
+SR003,Series Crimson 3,P. Cuaronez,2017,EN,Drama
+SR004,Series Burning 4,P. Gerwigova,2022,ES,Sci-Fi
+SR005,Series Broken 5,M. Finchereux,2012,JA,Romance
+SR006,Series Lost 6,S. Tarantinov,2013,JA,Comedy
+SR007,Series Lost 7,A. Scottbury,2018,ES,Drama
+SR008,Series Dark 8,J. Tarantinov,2005,ZH,Horror
+SR009,Series Golden 9,D. Scottbury,2013,AR,Comedy
+SR010,Series Rising 10,C. Tarantinov,2019,JA,Romance
+SR011,Series Golden 11,M. Gerwigova,2021,JA,Action
+SR012,Series Silent 12,P. DuVernay Jr,2014,KO,Sci-Fi
+SR013,Series Lost 13,J. Cuaronez,2009,JA,Comedy
+SR014,Series Golden 14,M. Denisova,2007,EN,Romance
+SR015,Series Hidden 15,A. Camerone,2019,PT,Comedy
+SR016,Series Last 16,J. Campionette,2005,JA,Sci-Fi
+SR017,Series Hollow 17,Q. Andersonsen,2009,ES,Drama
+SR018,Series Golden 18,J. Scorsetti,2022,DE,Drama
+SR019,Series Hollow 19,C. Jacksonov,2015,EN,Thriller
+SR020,Series Iron 20,D. Villeneuven,2008,ES,Thriller
+SR021,Series Dark 21,P. Nolanberg,2017,PT,Horror
+SR022,Series Burning 22,M. Jacksonov,2009,JA,Documentary
+SR023,Series Broken 23,C. Campionette,2010,PT,Documentary
+SR024,Series Lost 24,D. Camerone,2016,KO,Sci-Fi
+SR025,Series Dark 25,C. Bigelowska,2023,KO,Thriller
+SR026,Series Crimson 26,M. Scottbury,2012,PT,Horror
+SR027,Series Dark 27,F. Coppola II,2018,ZH,Romance
+SR028,Series Final 28,R. Camerone,2013,EN,Action
+SR029,Series Golden 29,S. Jacksonov,2022,AR,Sci-Fi
+SR030,Series Burning 30,L. Villeneuven,2022,KO,Sci-Fi
+SR031,Series Distant 31,G. Cuaronez,2009,ES,Sci-Fi
+SR032,Series Falling 32,G. Villeneuven,2005,PT,Romance
+SR033,Series Golden 33,P. Tarantinov,2021,IT,Sci-Fi
+SR034,Series Rising 34,J. Jacksonov,2023,IT,Sci-Fi
+SR035,Series Crimson 35,M. Kubricksen,2012,ZH,Horror
+SR036,Series Distant 36,C. Camerone,2013,AR,Drama
+SR037,Series Burning 37,M. Camerone,2022,EN,Comedy
+SR038,Series Burning 38,K. Spielmann,2017,JA,Romance
+SR039,Series Burning 39,L. Scottbury,2022,DE,Thriller
+SR040,Series Iron 40,D. Campionette,2021,IT,Documentary
+SR041,Series Falling 41,D. Bigelowska,2012,PT,Comedy
+SR042,Series Distant 42,F. Gerwigova,2006,ES,Documentary
+SR043,Series Hidden 43,K. Kubricksen,2018,JA,Thriller
+SR044,Series Rising 44,S. Finchereux,2009,JA,Drama
+SR045,Series Broken 45,J. Campionette,2013,DE,Romance
+SR046,Series Hollow 46,S. Coppola II,2017,DE,Comedy
+SR047,Series Hollow 47,C. Guadagnino Jr,2020,JA,Thriller
+SR048,Series Hollow 48,L. Denisova,2009,PT,Action
+SR049,Series Hollow 49,M. Guadagnino Jr,2021,ES,Documentary
+SR050,Series Crimson 50,F. Camerone,2019,EN,Sci-Fi
+SR051,Series Hidden 51,A. Scottbury SD1,2023,FR,Horror
+SR052,Series Rising 52,A. Cuaronez,2007,JA,Horror
+SR053,Series Burning 53,S. Finchereux,2018,PT,Action
+SR054,Series Hidden 54,M. Coppola Jr,2005,AR,Drama
+SR055,Series Lost 55,Q. Spielmann,2007,AR,Sci-Fi
+SR056,Series Broken 56,F. Spielmann,2007,PT,Romance
+SR057,Series Rising 57,R. Scorsetti,2014,IT,Documentary
+SR058,Series Burning 58,J. Villeneuven,2007,EN,Action
+SR059,Series Last 59,P. Bigelowska,2011,EN,Documentary
+SR060,Series Crimson 60,C. Coppola II,2008,JA,Thriller
+SR061,Series Dark 61,D. Guadagnino Jr,2023,DE,Sci-Fi
+SR062,Series Golden 62,Q. Campionette,2012,DE,Documentary
+SR063,Series Iron 63,C. Villeneuven,2016,FR,Action
+SR064,Series Crimson 64,S. Denisova,2010,DE,Sci-Fi
+SR065,Series Golden 65,Q. Guadagnino Jr SD2,2011,DE,Horror
+SR066,Series Golden 66,D. Coppola Jr,2018,ES,Comedy
+SR067,Series Iron 67,S. Bigelowska,2008,DE,Drama
+SR068,Series Golden 68,S. Coppola II SD3,2012,KO,Thriller
+SR069,Series Dark 69,L. Scorsetti,2011,JA,Horror
+SR070,Series Broken 70,R. Spielmann,2020,KO,Sci-Fi
+SR071,Series Dark 71,G. Spielmann,2018,KO,Action
+SR072,Series Final 72,R. DuVernay Jr,2005,ES,Sci-Fi
+SR073,Series Final 73,P. Scorsetti SD4,2015,JA,Action
+SR074,Series Broken 74,L. Gerwigova,2010,DE,Comedy
+SR075,Series Crimson 75,F. Scottbury,2012,PT,Comedy
+SR076,Series Last 76,S. Andersonsen,2006,AR,Documentary
+SR077,Series Rising 77,S. Nolanberg,2013,FR,Action
+SR078,Series Silent 78,K. Finchereux,2015,JA,Comedy
+SR079,Series Iron 79,L. DuVernay Jr,2022,EN,Comedy
+SR080,Series Falling 80,S. Gerwigova,2021,FR,Thriller
+SR081,Series Iron 81,M. DuVernay Jr,2008,FR,Action
+SR082,Series Golden 82,R. Villeneuven,2017,DE,Thriller
+SR083,Series Falling 83,S. Scottbury,2015,ES,Documentary
+SR084,Series Hidden 84,J. Denisova,2005,FR,Drama
+SR085,Series Silent 85,A. Spielmann SD5,2010,FR,Horror
+SR086,Series Distant 86,S. Nolanberg,2016,PT,Action
+SR087,Series Silent 87,P. DuVernay Jr,2013,ZH,Comedy
+SR088,Series Hidden 88,S. Guadagnino Jr,2014,ES,Action
+SR089,Series Iron 89,F. Spielmann SD6,2020,ZH,Drama
+SR090,Series Iron 90,S. Coppola Jr,2009,ZH,Comedy
+SR091,Series Lost 91,A. Nolanberg,2013,JA,Action
+SR092,Series Broken 92,S. Tarantinov,2008,EN,Action
+SR093,Series Iron 93,D. DuVernay Jr,2008,EN,Thriller
+SR094,Series Hollow 94,Q. Jacksonov SD7,2018,ZH,Drama
+SR095,Series Falling 95,P. Finchereux,2015,EN,Thriller
+SR096,Series Crimson 96,R. Jacksonov,2006,FR,Drama
+SR097,Series Crimson 97,M. Scorsetti,2011,KO,Action
+SR098,Series Iron 98,C. Guadagnino Jr,2014,AR,Comedy
+SR099,Series Silent 99,D. Villeneuven,2013,ZH,Action
+SR100,Series Dark 100,G. DuVernay Jr,2005,JA,Drama
+SR101,Series Golden 101,D. Coppola II,2023,KO,Drama
+SR102,Series Lost 102,L. Guadagnino Jr,2018,KO,Thriller
+SR103,Series Rising 103,J. Kubricksen,2017,ZH,Horror
+SR104,Series Falling 104,K. Scorsetti,2007,DE,Documentary
+SR105,Series Lost 105,P. Scottbury,2020,IT,Horror
+SR106,Series Golden 106,G. Scorsetti,2020,FR,Horror
+SR107,Series Crimson 107,A. Jacksonov,2007,DE,Thriller
+SR108,Series Hollow 108,P. Campionette,2021,AR,Drama
+SR109,Series Falling 109,S. Kubricksen SD8,2009,AR,Drama
+SR110,Series Hollow 110,L. Andersonsen,2013,PT,Documentary
+SR111,Series Hidden 111,L. Camerone,2022,KO,Horror
+SR112,Series Rising 112,C. Nolanberg SD9,2023,EN,Thriller
+SR113,Series Dark 113,A. Coppola Jr,2022,ES,Drama
+SR114,Series Silent 114,J. Bigelowska,2006,KO,Thriller
+SR115,Series Final 115,M. Spielmann,2022,DE,Sci-Fi
+SR116,Series Broken 116,S. Kubricksen,2022,JA,Comedy
+SR117,Series Distant 117,P. Guadagnino Jr,2005,ES,Romance
+SR118,Series Final 118,Q. Cuaronez SD10,2017,DE,Horror
+SR119,Series Rising 119,C. Scorsetti,2019,JA,Thriller
+SR120,Series Iron 120,C. Scottbury,2022,FR,Sci-Fi
+SR121,Series Hollow 121,C. Bigelowska SD11,2009,DE,Drama
+SR122,Series Burning 122,S. Spielmann SD12,2008,FR,Comedy
+SR123,Series Broken 123,C. Coppola Jr SD13,2013,DE,Sci-Fi
+SR124,Series Dark 124,G. Gerwigova,2007,EN,Romance
+SR125,Series Falling 125,C. Denisova,2019,IT,Comedy
+SR126,Series Iron 126,S. Denisova,2013,ZH,Thriller
+SR127,Series Broken 127,M. Cuaronez,2018,ES,Drama
+SR128,Series Crimson 128,F. Nolanberg,2021,IT,Documentary
+SR129,Series Dark 129,A. Finchereux,2008,KO,Sci-Fi
+SR130,Series Falling 130,J. Campionette SD14,2012,PT,Horror
+SR131,Series Last 131,A. Spielmann,2015,IT,Action
+SR132,Series Distant 132,C. Tarantinov,2010,JA,Comedy
+SR133,Series Silent 133,J. Bigelowska,2017,PT,Romance
+SR134,Series Broken 134,P. Campionette,2017,AR,Sci-Fi
+SR135,Series Rising 135,A. Bigelowska,2013,JA,Horror
+SR136,Series Falling 136,P. Coppola II SD15,2022,ZH,Romance
+SR137,Series Distant 137,R. Guadagnino Jr SD16,2018,EN,Thriller
+SR138,Series Silent 138,G. Tarantinov SD17,2022,KO,Drama
+SR139,Series Falling 139,R. Guadagnino Jr,2012,ZH,Drama
+SR140,Series Silent 140,P. Scottbury,2023,PT,Comedy
+SR141,Series Lost 141,K. Tarantinov SD18,2017,DE,Drama
+SR142,Series Last 142,S. Bigelowska,2022,PT,Documentary
+SR143,Series Dark 143,K. Denisova,2019,ES,Horror
+SR144,Series Rising 144,S. Coppola Jr,2014,ZH,Action
+SR145,Series Lost 145,F. Finchereux,2021,DE,Drama
+SR146,Series Hollow 146,A. Guadagnino Jr,2017,ES,Romance
+SR147,Series Lost 147,D. Jacksonov,2023,DE,Sci-Fi
+SR148,Series Silent 148,A. Denisova,2014,FR,Romance
+SR149,Series Broken 149,J. Tarantinov,2007,ZH,Horror
+SR150,Series Lost 150,C. Denisova,2015,IT,Documentary
+SR151,Series Silent 151,R. Campionette,2015,ZH,Thriller
+SR152,Series Iron 152,S. Scorsetti,2023,PT,Romance
+SR153,Series Rising 153,C. Kubricksen,2013,ES,Drama
+SR154,Series Crimson 154,D. Guadagnino Jr,2015,PT,Drama
+SR155,Series Hollow 155,P. Coppola II SD19,2006,ES,Horror
+SR156,Series Distant 156,S. DuVernay Jr,2008,EN,Horror
+SR157,Series Last 157,S. Gerwigova,2008,EN,Horror
+SR158,Series Distant 158,C. Guadagnino Jr SD20,2009,JA,Horror
+SR159,Series Golden 159,M. Kubricksen SD21,2010,ES,Sci-Fi
+SR160,Series Rising 160,R. Gerwigova,2006,ES,Thriller
+SR161,Series Lost 161,C. Coppola Jr,2020,PT,Thriller
+SR162,Series Dark 162,C. DuVernay Jr SD22,2016,ES,Drama
+SR163,Series Silent 163,J. DuVernay Jr,2012,KO,Horror
+SR164,Series Falling 164,J. Scottbury SD23,2017,PT,Romance
+SR165,Series Golden 165,C. Coppola II,2006,DE,Sci-Fi
+SR166,Series Hollow 166,A. Denisova SD24,2016,IT,Thriller
+SR167,Series Rising 167,Q. DuVernay Jr,2008,FR,Thriller
+SR168,Series Silent 168,M. Nolanberg,2007,FR,Comedy
+SR169,Series Silent 169,G. Andersonsen,2020,DE,Sci-Fi
+SR170,Series Silent 170,S. Tarantinov,2007,IT,Drama
+SR171,Series Last 171,G. Camerone,2018,DE,Documentary
+SR172,Series Last 172,S. Villeneuven SD25,2006,KO,Romance
+SR173,Series Silent 173,A. DuVernay Jr,2012,ES,Thriller
+SR174,Series Lost 174,F. Denisova,2022,ZH,Horror
+SR175,Series Crimson 175,S. DuVernay Jr,2022,AR,Sci-Fi
+SR176,Series Lost 176,M. Gerwigova SD26,2017,KO,Documentary
+SR177,Series Dark 177,D. Spielmann,2011,AR,Drama
+SR178,Series Silent 178,G. Spielmann SD27,2018,FR,Drama
+SR179,Series Falling 179,L. Bigelowska,2015,KO,Romance
+SR180,Series Hollow 180,A. Bigelowska,2012,KO,Comedy
+SR181,Series Dark 181,C. Finchereux,2018,JA,Horror
+SR182,Series Distant 182,P. Andersonsen,2009,IT,Horror
+SR183,Series Lost 183,C. Nolanberg,2008,IT,Comedy
+SR184,Series Hollow 184,P. Nolanberg SD28,2021,ES,Sci-Fi
+SR185,Series Hidden 185,A. Bigelowska SD29,2023,DE,Action
+SR186,Series Rising 186,C. Kubricksen,2013,KO,Horror
+SR187,Series Hollow 187,D. Campionette,2015,DE,Horror
+SR188,Series Crimson 188,A. Camerone SD30,2016,EN,Action
+SR189,Series Burning 189,C. Bigelowska SD31,2006,IT,Horror
+SR190,Series Golden 190,S. Denisova SD32,2017,ZH,Documentary
+SR191,Series Distant 191,D. Coppola Jr,2020,ZH,Drama
+SR192,Series Crimson 192,R. Kubricksen,2005,JA,Comedy
+SR193,Series Broken 193,L. Scottbury SD33,2006,DE,Horror
+SR194,Series Broken 194,S. Bigelowska SD34,2005,FR,Thriller
+SR195,Series Crimson 195,G. Coppola Jr,2023,KO,Documentary
+SR196,Series Falling 196,Q. Gerwigova SD35,2014,PT,Documentary
+SR197,Series Hollow 197,A. Andersonsen SD36,2009,EN,Thriller
+SR198,Series Hollow 198,D. Scottbury,2014,ZH,Romance
+SR199,Series Broken 199,P. Finchereux SD37,2021,EN,Drama
+SR200,Series Dark 200,J. Guadagnino Jr SD38,2023,FR,Romance

@@ -1,0 +1,57 @@
+{
+  "table": "employees_nationality_full",
+  "columns": {
+    "employee_id": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 250,
+      "sample_values": [
+        "EMP0143",
+        "EMP0007",
+        "EMP0098",
+        "EMP0061",
+        "EMP0113",
+        "EMP0182"
+      ]
+    },
+    "full_name": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 250,
+      "sample_values": [
+        "Sophia Walker",
+        "Amelia Hill",
+        "William Watson",
+        "Henry Cooper",
+        "Hannah Jackson",
+        "Thomas Smith"
+      ]
+    },
+    "department": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "HR",
+        "Operations",
+        "Sales",
+        "HR",
+        "Engineering",
+        "Sales"
+      ]
+    },
+    "nationality": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 30,
+      "sample_values": [
+        "Croatia",
+        "Mexico",
+        "Belgium",
+        "Mexico",
+        "Greece",
+        "Switzerland"
+      ]
+    }
+  }
+}

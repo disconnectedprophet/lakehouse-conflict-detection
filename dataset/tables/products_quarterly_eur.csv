@@ -1,0 +1,201 @@
+product_id,product_name,brand,category,report_quarter,quarterly_sales_eur
+PROD001,Smart TV X45,Unilever,Electronics,Q1-2023,1073856
+PROD002,Coffee Blend X23,3M,Food & Beverage,Q1-2023,1831228
+PROD003,Smartphone N14 Plus,Samsung,Electronics,Q1-2023,1180315
+PROD004,Laptop Model H74,Heinz,Electronics,Q1-2023,226057
+PROD005,Smartphone G93 Plus,3M,Electronics,Q1-2023,2074683
+PROD006,Air Purifier O85,P&G,Home & Garden,Q1-2023,1282335
+PROD007,Laptop Model W64,Adidas,Electronics,Q1-2023,482857
+PROD008,Sports Jacket G53,LG,Apparel,Q1-2023,1510609
+PROD009,Tablet Pro D55,Puma,Electronics,Q1-2023,1106312
+PROD010,Resistance Bands Z15,Zara,Sports Equipment,Q1-2023,1072375
+PROD011,Fitness Tracker M20,3M,Sports Equipment,Q1-2023,787104
+PROD012,Training Tee S34,Sony,Apparel,Q1-2023,1490219
+PROD013,Laptop Model Y47,Sony,Electronics,Q1-2023,411102
+PROD014,Energy Drink Pack M45,Zara,Food & Beverage,Q1-2023,630419
+PROD015,Sports Jacket L55,Nestlé,Apparel,Q1-2023,511087
+PROD016,Running Shoes T91,Bosch,Apparel,Q1-2023,1555310
+PROD017,Yoga Mat Pro F69,IKEA,Sports Equipment,Q1-2023,790619
+PROD018,Sports Jacket V51,Apple,Apparel,Q1-2023,604488
+PROD019,Energy Drink Pack Z50,IKEA,Food & Beverage,Q1-2023,391183
+PROD020,Running Shoes G82,Adidas,Apparel,Q1-2023,573231
+PROD021,Sparkling Water M92,Zara,Food & Beverage,Q1-2023,832838
+PROD022,Protein Bar E41,3M,Food & Beverage,Q1-2023,588418
+PROD023,Resistance Bands X84,H&M,Sports Equipment,Q1-2023,3113589
+PROD024,Dumbbells L38kg,Philips,Sports Equipment,Q1-2023,2353285
+PROD025,Dumbbells C16kg,LG,Sports Equipment,Q1-2023,57224
+PROD026,Coffee Blend Z97,H&M,Food & Beverage,Q1-2023,120922
+PROD027,Fitness Tracker M58,Heinz,Sports Equipment,Q1-2023,711516
+PROD028,Smart Thermostat R11,LG,Home & Garden,Q1-2023,554287
+PROD029,Resistance Bands Y92,Adidas,Sports Equipment,Q1-2023,962543
+PROD030,Wireless Headphones N30,Zara,Electronics,Q1-2023,1047238
+PROD031,Wireless Headphones Q32,Siemens,Electronics,Q1-2023,6145473
+PROD032,Wireless Headphones U74,Heinz,Electronics,Q1-2023,267858
+PROD033,Coffee Blend L30,3M,Food & Beverage,Q1-2023,525517
+PROD034,Fitness Tracker T51,Panasonic,Sports Equipment,Q1-2023,5783975
+PROD035,Smart TV L49,Unilever,Electronics,Q1-2023,1424116
+PROD036,Laptop Model S20,Sony,Electronics,Q1-2023,1601433
+PROD037,Robot Vacuum Y78,Philips,Home & Garden,Q1-2023,467024
+PROD038,Sparkling Water R31,P&G,Food & Beverage,Q1-2023,160005
+PROD039,Dumbbells G79kg,Nestlé,Sports Equipment,Q1-2023,880736
+PROD040,Performance Shorts V93,Puma,Apparel,Q1-2023,866507
+PROD041,Cordless Drill D41,Unilever,Home & Garden,Q1-2023,236583
+PROD042,Wireless Headphones A85,3M,Electronics,Q1-2023,423613
+PROD043,Coffee Blend A19,Apple,Food & Beverage,Q1-2023,723601
+PROD044,Energy Drink Pack B52,Sony,Food & Beverage,Q1-2023,318029
+PROD045,Yoga Mat Pro I95,Panasonic,Sports Equipment,Q1-2023,770781
+PROD046,Coffee Blend X83,Colgate,Food & Beverage,Q1-2023,897242
+PROD047,Air Purifier Z70,H&M,Home & Garden,Q1-2023,794315
+PROD048,Energy Drink Pack D94,H&M,Food & Beverage,Q1-2023,446255
+PROD049,Performance Shorts N69,Apple,Apparel,Q1-2023,1534628
+PROD050,Smart TV M53,LG,Electronics,Q1-2023,1800502
+PROD051,Coffee Blend G78,Zara,Food & Beverage,Q1-2023,1169377
+PROD052,Sparkling Water F45,Zara,Food & Beverage,Q1-2023,355371
+PROD053,Energy Drink Pack O80,LG,Food & Beverage,Q1-2023,1779549
+PROD054,Smartphone A21 Plus,Unilever,Electronics,Q1-2023,508559
+PROD055,Sparkling Water P71,Nestlé,Food & Beverage,Q1-2023,2080110
+PROD056,Robot Vacuum F58,Samsung,Home & Garden,Q1-2023,268049
+PROD057,Smart Thermostat Z68,Nike,Home & Garden,Q1-2023,2081073
+PROD058,Cordless Drill E34,Nike,Home & Garden,Q1-2023,772599
+PROD059,Energy Drink Pack S79,Apple,Food & Beverage,Q1-2023,229387
+PROD060,Running Shoes B84,Panasonic,Apparel,Q1-2023,597260
+PROD061,Yoga Mat Pro B75,Sony,Sports Equipment,Q1-2023,895789
+PROD062,Energy Drink Pack T18,Unilever,Food & Beverage,Q1-2023,1132989
+PROD063,Robot Vacuum S41,Colgate,Home & Garden,Q1-2023,313201
+PROD064,Fitness Tracker T20,H&M,Sports Equipment,Q1-2023,261535
+PROD065,Resistance Bands I36,Adidas,Sports Equipment,Q1-2023,965116
+PROD066,Protein Bar M26,Nike,Food & Beverage,Q1-2023,521565
+PROD067,Smart Thermostat Y19,Samsung,Home & Garden,Q1-2023,970768
+PROD068,Robot Vacuum C78,Nestlé,Home & Garden,Q1-2023,1603107
+PROD069,Resistance Bands E54,Sony,Sports Equipment,Q1-2023,150751
+PROD070,Protein Bar J30,Zara,Food & Beverage,Q1-2023,997251
+PROD071,Resistance Bands T93,Siemens,Sports Equipment,Q1-2023,2631692
+PROD072,Smartphone J94 Plus,LG,Electronics,Q1-2023,569608
+PROD073,Protein Bar D23,3M,Food & Beverage,Q1-2023,330254
+PROD074,Protein Bar J87,Nestlé,Food & Beverage,Q1-2023,1566355
+PROD075,Sports Jacket V91,P&G,Apparel,Q1-2023,1111913
+PROD076,Dumbbells I16kg,Sony,Sports Equipment,Q1-2023,1936420
+PROD077,Smart Thermostat B10,Adidas,Home & Garden,Q1-2023,556799
+PROD078,Protein Bar F66,3M,Food & Beverage,Q1-2023,187586
+PROD079,Robot Vacuum D19,Philips,Home & Garden,Q1-2023,685144
+PROD080,Fitness Tracker L84,3M,Sports Equipment,Q1-2023,550010
+PROD081,Sparkling Water E15,Nike,Food & Beverage,Q1-2023,1816430
+PROD082,Running Shoes L36,Unilever,Apparel,Q1-2023,907793
+PROD083,Wireless Headphones Y81,H&M,Electronics,Q1-2023,155059
+PROD084,Yoga Mat Pro H30,Bosch,Sports Equipment,Q1-2023,257504
+PROD085,Robot Vacuum F52,H&M,Home & Garden,Q1-2023,2073270
+PROD086,Protein Bar F99,LG,Food & Beverage,Q1-2023,1570547
+PROD087,Robot Vacuum P38,Nestlé,Home & Garden,Q1-2023,430204
+PROD088,Smart Thermostat J39,Unilever,Home & Garden,Q1-2023,757343
+PROD089,Laptop Model M52,P&G,Electronics,Q1-2023,1347764
+PROD090,Wireless Headphones L92,Siemens,Electronics,Q1-2023,1223496
+PROD091,Smart Thermostat A24,P&G,Home & Garden,Q1-2023,2057089
+PROD092,Protein Bar B23,Heinz,Food & Beverage,Q1-2023,1059331
+PROD093,Smart Thermostat X50,H&M,Home & Garden,Q1-2023,741006
+PROD094,Fitness Tracker M83,Nestlé,Sports Equipment,Q1-2023,619652
+PROD095,Running Shoes W65,Samsung,Apparel,Q1-2023,2199099
+PROD096,Yoga Mat Pro L65,Sony,Sports Equipment,Q1-2023,80223
+PROD097,Training Tee V25,Nike,Apparel,Q1-2023,666073
+PROD098,Resistance Bands V62,Adidas,Sports Equipment,Q1-2023,786106
+PROD099,Smart Thermostat R26,Nestlé,Home & Garden,Q1-2023,201552
+PROD100,Cordless Drill V32,Heinz,Home & Garden,Q1-2023,1089723
+PROD101,Resistance Bands M80,Samsung,Sports Equipment,Q1-2023,388341
+PROD102,Training Tee G65,Colgate,Apparel,Q1-2023,2036936
+PROD103,Resistance Bands O66,Zara,Sports Equipment,Q1-2023,749789
+PROD104,Sparkling Water Z31,Sony,Food & Beverage,Q1-2023,1669054
+PROD105,Training Tee C40,Nike,Apparel,Q1-2023,2918798
+PROD106,Coffee Blend E13,Apple,Food & Beverage,Q1-2023,1112548
+PROD107,Sparkling Water T19,Zara,Food & Beverage,Q1-2023,328453
+PROD108,Air Purifier W99,IKEA,Home & Garden,Q1-2023,183815
+PROD109,Cordless Drill H28,Samsung,Home & Garden,Q1-2023,4757047
+PROD110,Tablet Pro H32,Siemens,Electronics,Q1-2023,676889
+PROD111,Robot Vacuum R41,LG,Home & Garden,Q1-2023,422979
+PROD112,Air Purifier Z69,Siemens,Home & Garden,Q1-2023,884101
+PROD113,Resistance Bands Y66,Heinz,Sports Equipment,Q1-2023,632244
+PROD114,Dumbbells R67kg,Bosch,Sports Equipment,Q1-2023,1886426
+PROD115,Cordless Drill I41,P&G,Home & Garden,Q1-2023,840714
+PROD116,Dumbbells U40kg,P&G,Sports Equipment,Q1-2023,822273
+PROD117,Robot Vacuum W46,Unilever,Home & Garden,Q1-2023,366666
+PROD118,Training Tee K79,Sony,Apparel,Q1-2023,1357162
+PROD119,Coffee Blend H59,Philips,Food & Beverage,Q1-2023,274510
+PROD120,Energy Drink Pack N62,Adidas,Food & Beverage,Q1-2023,1464759
+PROD121,Dumbbells N17kg,Nestlé,Sports Equipment,Q1-2023,3896066
+PROD122,Cordless Drill Y84,Samsung,Home & Garden,Q1-2023,187440
+PROD123,Dumbbells P10kg,Puma,Sports Equipment,Q1-2023,72183
+PROD124,Performance Shorts N78,3M,Apparel,Q1-2023,1556115
+PROD125,Yoga Mat Pro P38,P&G,Sports Equipment,Q1-2023,10450652
+PROD126,Cordless Drill A59,Adidas,Home & Garden,Q1-2023,297143
+PROD127,Air Purifier O26,Heinz,Home & Garden,Q1-2023,214503
+PROD128,Fitness Tracker M85,Colgate,Sports Equipment,Q1-2023,1420815
+PROD129,Smart TV U64,Philips,Electronics,Q1-2023,338832
+PROD130,Air Purifier B43,IKEA,Home & Garden,Q1-2023,464567
+PROD131,Sports Jacket O51,Adidas,Apparel,Q1-2023,585878
+PROD132,Smart Thermostat Y63,P&G,Home & Garden,Q1-2023,1361301
+PROD133,Tablet Pro A79,Apple,Electronics,Q1-2023,498448
+PROD134,Sports Jacket U18,Apple,Apparel,Q1-2023,1009585
+PROD135,Laptop Model G12,Heinz,Electronics,Q1-2023,691061
+PROD136,Coffee Blend E70,LG,Food & Beverage,Q1-2023,321151
+PROD137,Yoga Mat Pro O99,P&G,Sports Equipment,Q1-2023,614562
+PROD138,Sports Jacket T87,LG,Apparel,Q1-2023,309756
+PROD139,Protein Bar D84,Samsung,Food & Beverage,Q1-2023,803522
+PROD140,Performance Shorts M35,Sony,Apparel,Q1-2023,264547
+PROD141,Yoga Mat Pro D99,Nike,Sports Equipment,Q1-2023,282849
+PROD142,Fitness Tracker Z82,Apple,Sports Equipment,Q1-2023,3347096
+PROD143,Performance Shorts V57,Sony,Apparel,Q1-2023,781009
+PROD144,Resistance Bands A63,Panasonic,Sports Equipment,Q1-2023,766816
+PROD145,Tablet Pro L91,Zara,Electronics,Q1-2023,1284894
+PROD146,Sparkling Water F76,P&G,Food & Beverage,Q1-2023,557894
+PROD147,Dumbbells O65kg,Colgate,Sports Equipment,Q1-2023,667734
+PROD148,Training Tee H21,P&G,Apparel,Q1-2023,1255377
+PROD149,Air Purifier Y69,Colgate,Home & Garden,Q1-2023,1121252
+PROD150,Dumbbells K13kg,Panasonic,Sports Equipment,Q1-2023,266418
+PROD151,Sports Jacket P37,Puma,Apparel,Q1-2023,1901812
+PROD152,Training Tee I86,P&G,Apparel,Q1-2023,468031
+PROD153,Fitness Tracker Q34,Sony,Sports Equipment,Q1-2023,287764
+PROD154,Sparkling Water P81,Unilever,Food & Beverage,Q1-2023,335234
+PROD155,Cordless Drill O12,Sony,Home & Garden,Q1-2023,552482
+PROD156,Sports Jacket M98,Unilever,Apparel,Q1-2023,4231175
+PROD157,Training Tee P80,Siemens,Apparel,Q1-2023,234059
+PROD158,Performance Shorts X80,Adidas,Apparel,Q1-2023,996863
+PROD159,Performance Shorts I49,P&G,Apparel,Q1-2023,100345
+PROD160,Energy Drink Pack X34,Adidas,Food & Beverage,Q1-2023,739325
+PROD161,Smartphone Y98 Plus,Bosch,Electronics,Q1-2023,2068781
+PROD162,Coffee Blend X71,P&G,Food & Beverage,Q1-2023,594706
+PROD163,Resistance Bands D34,Nike,Sports Equipment,Q1-2023,415888
+PROD164,Protein Bar F48,Samsung,Food & Beverage,Q1-2023,1048393
+PROD165,Yoga Mat Pro I15,Apple,Sports Equipment,Q1-2023,1523796
+PROD166,Resistance Bands W26,Panasonic,Sports Equipment,Q1-2023,1632629
+PROD167,Smart TV S46,Panasonic,Electronics,Q1-2023,6045422
+PROD168,Cordless Drill K33,Apple,Home & Garden,Q1-2023,987992
+PROD169,Performance Shorts D18,IKEA,Apparel,Q1-2023,408206
+PROD170,Robot Vacuum S90,Apple,Home & Garden,Q1-2023,682077
+PROD171,Coffee Blend Z82,Nike,Food & Beverage,Q1-2023,758809
+PROD172,Laptop Model D81,H&M,Electronics,Q1-2023,961374
+PROD173,Yoga Mat Pro Y76,IKEA,Sports Equipment,Q1-2023,793534
+PROD174,Cordless Drill J85,H&M,Home & Garden,Q1-2023,916113
+PROD175,Running Shoes T22,Nestlé,Apparel,Q1-2023,154215
+PROD176,Protein Bar V20,Bosch,Food & Beverage,Q1-2023,1845373
+PROD177,Coffee Blend R19,Bosch,Food & Beverage,Q1-2023,471298
+PROD178,Tablet Pro O98,Heinz,Electronics,Q1-2023,232565
+PROD179,Smart Thermostat B39,Nike,Home & Garden,Q1-2023,1577144
+PROD180,Performance Shorts C97,Unilever,Apparel,Q1-2023,3003832
+PROD181,Sports Jacket N24,3M,Apparel,Q1-2023,1407261
+PROD182,Coffee Blend I28,Sony,Food & Beverage,Q1-2023,916823
+PROD183,Laptop Model Z49,Heinz,Electronics,Q1-2023,322374
+PROD184,Resistance Bands O25,Zara,Sports Equipment,Q1-2023,15062050
+PROD185,Performance Shorts I74,3M,Apparel,Q1-2023,1806066
+PROD186,Cordless Drill C86,Apple,Home & Garden,Q1-2023,274665
+PROD187,Smart Thermostat T42,Samsung,Home & Garden,Q1-2023,378683
+PROD188,Laptop Model V83,Colgate,Electronics,Q1-2023,813067
+PROD189,Wireless Headphones S15,Bosch,Electronics,Q1-2023,164141
+PROD190,Cordless Drill I33,Colgate,Home & Garden,Q1-2023,979229
+PROD191,Cordless Drill C70,Puma,Home & Garden,Q1-2023,471281
+PROD192,Smart Thermostat K95,LG,Home & Garden,Q1-2023,2760587
+PROD193,Protein Bar N98,Panasonic,Food & Beverage,Q1-2023,2041477
+PROD194,Performance Shorts Y80,Apple,Apparel,Q1-2023,54453
+PROD195,Robot Vacuum K42,Adidas,Home & Garden,Q1-2023,774173
+PROD196,Tablet Pro Q10,3M,Electronics,Q1-2023,168711
+PROD197,Cordless Drill B34,Siemens,Home & Garden,Q1-2023,2608932
+PROD198,Performance Shorts U66,Apple,Apparel,Q1-2023,1018226
+PROD199,Protein Bar R26,Nike,Food & Beverage,Q1-2023,1440007
+PROD200,Cordless Drill D13,Heinz,Home & Garden,Q1-2023,260080

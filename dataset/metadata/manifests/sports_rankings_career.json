@@ -1,0 +1,74 @@
+{
+  "table": "sports_rankings_career",
+  "columns": {
+    "player_id": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 120,
+      "sample_values": [
+        "PLAY045",
+        "PLAY048",
+        "PLAY005",
+        "PLAY056",
+        "PLAY027",
+        "PLAY065"
+      ]
+    },
+    "player_name": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 120,
+      "sample_values": [
+        "Dominic Shapovalov",
+        "Jannik Lendl",
+        "Daniil Berdych",
+        "Holger Zverev",
+        "Nicolas Rossi",
+        "Alexander Djokovic"
+      ]
+    },
+    "sport": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Football",
+        "Basketball",
+        "Judo",
+        "Football",
+        "Swimming",
+        "Judo"
+      ]
+    },
+    "career_span": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 1,
+      "sample_values": [
+        "2015-2023",
+        "2015-2023",
+        "2015-2023",
+        "2015-2023",
+        "2015-2023",
+        "2015-2023"
+      ]
+    },
+    "career_total_points": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 119,
+      "sample_values": [
+        "7553",
+        "15858",
+        "6197",
+        "3997",
+        "15948",
+        "19537"
+      ],
+      "min": 755.0,
+      "max": 26920.0,
+      "mean": 11421.9833,
+      "std": 6362.3653
+    }
+  }
+}

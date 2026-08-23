@@ -1,0 +1,201 @@
+product_id,product_name,brand_abbr,category,annual_sales_usd
+BP001,Product 001,Unilever,Electronics,47832719
+BP002,Product 002,Bosch,Food & Beverage,21054088
+BP003,Product 003,3M,Apparel,1117677
+BP004,Product 004,3M,Home & Garden,27579791
+BP005,Product 005,Sony,Sports Equipment,15279405
+BP006,Product 006,LG,Electronics,31167243
+BP007,Product 007,LG,Food & Beverage,43667061
+BP008,Product 008,Philips,Apparel,33645413
+BP009,Product 009,Nike,Home & Garden,34349822
+BP010,Product 010,P&G,Sports Equipment,28083084
+BP011,Product 011,Panasonic,Electronics,31890133
+BP012,Product 012,Unilever,Food & Beverage,30854421
+BP013,Product 013,3M,Apparel,9906758
+BP014,Product 014,IKEA,Home & Garden,12991645
+BP015,Product 015,Heinz,Sports Equipment,34307468
+BP016,Product 016,Philips,Electronics,4884875
+BP017,Product 017,P&G,Food & Beverage,28046314
+BP018,Product 018,Adidas,Apparel,34273698
+BP019,Product 019,P&G,Home & Garden,372151
+BP020,Product 020,Nike,Sports Equipment,48924456
+BP021,Product 021,Nike,Electronics,39588723
+BP022,Product 022,Colgate,Food & Beverage,44487874
+BP023,Product 023,Panasonic,Apparel,10172069
+BP024,Product 024,Zara,Home & Garden,36343530
+BP025,Product 025,Panasonic,Sports Equipment,23360875
+BP026,Product 026,Adidas,Electronics,37238550
+BP027,Product 027,3M,Food & Beverage,25514138
+BP028,Product 028,Zara,Apparel,21794112
+BP029,Product 029,Nestlé,Home & Garden,47008327
+BP030,Product 030,Unilever,Sports Equipment,38572690
+BP031,Product 031,IKEA,Electronics,15874110
+BP032,Product 032,H&M,Food & Beverage,3129120
+BP033,Product 033,Adidas,Apparel,31940898
+BP034,Product 034,IKEA,Home & Garden,26109306
+BP035,Product 035,Philips,Sports Equipment,33440942
+BP036,Product 036,Apple,Electronics,8672243
+BP037,Product 037,Siemens,Food & Beverage,39806338
+BP038,Product 038,Adidas,Apparel,6935354
+BP039,Product 039,Zara,Home & Garden,6891538
+BP040,Product 040,Siemens,Sports Equipment,30863924
+BP041,Product 041,Samsung,Electronics,48682384
+BP042,Product 042,Philips,Food & Beverage,27713199
+BP043,Product 043,Philips,Apparel,5221638
+BP044,Product 044,Panasonic,Home & Garden,17985377
+BP045,Product 045,Adidas,Sports Equipment,42026230
+BP046,Product 046,IKEA,Electronics,43809799
+BP047,Product 047,Sony,Food & Beverage,22249663
+BP048,Product 048,3M,Apparel,25701998
+BP049,Product 049,Adidas,Home & Garden,42263780
+BP050,Product 050,Panasonic,Sports Equipment,36506970
+BP051,Product 051,Apple,Electronics,41637003
+BP052,Product 052,Sony,Food & Beverage,15955164
+BP053,Product 053,Nike,Apparel,15466345
+BP054,Product 054,Sony,Home & Garden,29323332
+BP055,Product 055,LG,Sports Equipment,42730096
+BP056,Product 056,LG,Electronics,29974763
+BP057,Product 057,Bosch,Food & Beverage,46773629
+BP058,Product 058,Nike,Apparel,2142617
+BP059,Product 059,Apple,Home & Garden,21968415
+BP060,Product 060,Apple,Sports Equipment,19887578
+BP061,Product 061,Puma,Electronics,25355159
+BP062,Product 062,H&M,Food & Beverage,9969023
+BP063,Product 063,Unilever,Apparel,35845968
+BP064,Product 064,H&M,Home & Garden,38178789
+BP065,Product 065,Bosch,Sports Equipment,11607409
+BP066,Product 066,Bosch,Electronics,5499476
+BP067,Product 067,Heinz,Food & Beverage,25872113
+BP068,Product 068,Heinz,Apparel,46044385
+BP069,Product 069,Unilever,Home & Garden,33597883
+BP070,Product 070,Colgate,Sports Equipment,9804467
+BP071,Product 071,Unilever,Electronics,31147246
+BP072,Product 072,P&G,Food & Beverage,31041254
+BP073,Product 073,P&G,Apparel,44950923
+BP074,Product 074,Samsung,Home & Garden,31422617
+BP075,Product 075,Nike,Sports Equipment,45673696
+BP076,Product 076,3M,Electronics,10801564
+BP077,Product 077,Sony,Food & Beverage,29843983
+BP078,Product 078,Puma,Apparel,39631269
+BP079,Product 079,Nike,Home & Garden,43078450
+BP080,Product 080,H&M,Sports Equipment,46526155
+BP081,Product 081,P&G,Electronics,30857732
+BP082,Product 082,Nike,Food & Beverage,13569226
+BP083,Product 083,IKEA,Apparel,32627544
+BP084,Product 084,LG,Home & Garden,16118605
+BP085,Product 085,IKEA,Sports Equipment,38581082
+BP086,Product 086,Puma,Electronics,38774975
+BP087,Product 087,Nike,Food & Beverage,47127824
+BP088,Product 088,Nike,Apparel,1672341
+BP089,Product 089,IKEA,Home & Garden,18620066
+BP090,Product 090,Samsung,Sports Equipment,38178853
+BP091,Product 091,Apple,Electronics,40895250
+BP092,Product 092,Panasonic,Food & Beverage,19406164
+BP093,Product 093,Unilever,Apparel,40939442
+BP094,Product 094,Puma,Home & Garden,14897145
+BP095,Product 095,Nestlé,Sports Equipment,41867300
+BP096,Product 096,P&G,Electronics,45684002
+BP097,Product 097,Philips,Food & Beverage,42361016
+BP098,Product 098,LG,Apparel,42308000
+BP099,Product 099,Apple,Home & Garden,20932134
+BP100,Product 100,Zara,Sports Equipment,2439055
+BP101,Product 101,Colgate,Electronics,24685422
+BP102,Product 102,Philips,Food & Beverage,6248748
+BP103,Product 103,Nike,Apparel,22125749
+BP104,Product 104,H&M,Home & Garden,11987005
+BP105,Product 105,Nestlé,Sports Equipment,9069093
+BP106,Product 106,3M,Electronics,24752283
+BP107,Product 107,Siemens,Food & Beverage,33874876
+BP108,Product 108,P&G,Apparel,11242389
+BP109,Product 109,P&G,Home & Garden,32536260
+BP110,Product 110,Nike,Sports Equipment,22930795
+BP111,Product 111,LG,Electronics,31629187
+BP112,Product 112,Sony,Food & Beverage,9646043
+BP113,Product 113,Unilever,Apparel,45587316
+BP114,Product 114,IKEA,Home & Garden,37600616
+BP115,Product 115,Puma,Sports Equipment,6260123
+BP116,Product 116,IKEA,Electronics,1134065
+BP117,Product 117,P&G,Food & Beverage,36208758
+BP118,Product 118,LG,Apparel,30720173
+BP119,Product 119,Puma,Home & Garden,45352748
+BP120,Product 120,P&G,Sports Equipment,39429163
+BP121,Product 121,IKEA,Electronics,43052315
+BP122,Product 122,Puma,Food & Beverage,7470983
+BP123,Product 123,Unilever,Apparel,31840277
+BP124,Product 124,Samsung,Home & Garden,41777086
+BP125,Product 125,3M,Sports Equipment,22212128
+BP126,Product 126,Heinz,Electronics,15055701
+BP127,Product 127,Sony,Food & Beverage,42841235
+BP128,Product 128,Zara,Apparel,47248492
+BP129,Product 129,Nike,Home & Garden,43769721
+BP130,Product 130,H&M,Sports Equipment,8029989
+BP131,Product 131,Philips,Electronics,3243172
+BP132,Product 132,Apple,Food & Beverage,20625561
+BP133,Product 133,Panasonic,Apparel,7992713
+BP134,Product 134,LG,Home & Garden,15957163
+BP135,Product 135,3M,Sports Equipment,9304260
+BP136,Product 136,IKEA,Electronics,30643517
+BP137,Product 137,Puma,Food & Beverage,45195568
+BP138,Product 138,3M,Apparel,28327120
+BP139,Product 139,Colgate,Home & Garden,48961243
+BP140,Product 140,Philips,Sports Equipment,28042429
+BP141,Product 141,LG,Electronics,33039523
+BP142,Product 142,Heinz,Food & Beverage,27588193
+BP143,Product 143,P&G,Apparel,2395552
+BP144,Product 144,Puma,Home & Garden,14780721
+BP145,Product 145,Zara,Sports Equipment,30043033
+BP146,Product 146,Unilever,Electronics,24539448
+BP147,Product 147,LG,Food & Beverage,46215223
+BP148,Product 148,Puma,Apparel,36738485
+BP149,Product 149,Puma,Home & Garden,4263447
+BP150,Product 150,IKEA,Sports Equipment,18714090
+BP151,Product 151,Nestlé,Electronics,8397999
+BP152,Product 152,Zara,Food & Beverage,6352099
+BP153,Product 153,Nestlé,Apparel,43264057
+BP154,Product 154,Heinz,Home & Garden,1633274
+BP155,Product 155,Apple,Sports Equipment,22581420
+BP156,Product 156,Unilever,Electronics,8650608
+BP157,Product 157,Colgate,Food & Beverage,13971113
+BP158,Product 158,Sony,Apparel,37392255
+BP159,Product 159,Nestlé,Home & Garden,39551502
+BP160,Product 160,Nestlé,Sports Equipment,15836276
+BP161,Product 161,Adidas,Electronics,10102193
+BP162,Product 162,Heinz,Food & Beverage,390290
+BP163,Product 163,P&G,Apparel,9909845
+BP164,Product 164,Philips,Home & Garden,36453245
+BP165,Product 165,P&G,Sports Equipment,11910303
+BP166,Product 166,LG,Electronics,44562827
+BP167,Product 167,Samsung,Food & Beverage,9045165
+BP168,Product 168,Samsung,Apparel,24241232
+BP169,Product 169,Unilever,Home & Garden,39717250
+BP170,Product 170,Adidas,Sports Equipment,1259050
+BP171,Product 171,Bosch,Electronics,18008512
+BP172,Product 172,Apple,Food & Beverage,8706621
+BP173,Product 173,H&M,Apparel,35505002
+BP174,Product 174,LG,Home & Garden,4465307
+BP175,Product 175,Panasonic,Sports Equipment,30283240
+BP176,Product 176,Puma,Electronics,34642816
+BP177,Product 177,Colgate,Food & Beverage,7518490
+BP178,Product 178,Zara,Apparel,34012042
+BP179,Product 179,Unilever,Home & Garden,41479121
+BP180,Product 180,Apple,Sports Equipment,49004451
+BP181,Product 181,Siemens,Electronics,20442068
+BP182,Product 182,Zara,Food & Beverage,43373862
+BP183,Product 183,Samsung,Apparel,4281923
+BP184,Product 184,Panasonic,Home & Garden,27152077
+BP185,Product 185,H&M,Sports Equipment,46243223
+BP186,Product 186,LG,Electronics,33101385
+BP187,Product 187,Zara,Food & Beverage,5131878
+BP188,Product 188,Sony,Apparel,21816558
+BP189,Product 189,Heinz,Home & Garden,10154514
+BP190,Product 190,Sony,Sports Equipment,8668574
+BP191,Product 191,P&G,Electronics,42097237
+BP192,Product 192,Colgate,Food & Beverage,36999577
+BP193,Product 193,Adidas,Apparel,25762061
+BP194,Product 194,Heinz,Home & Garden,35805066
+BP195,Product 195,Nike,Sports Equipment,30648326
+BP196,Product 196,Siemens,Electronics,40829504
+BP197,Product 197,H&M,Food & Beverage,6855753
+BP198,Product 198,LG,Apparel,44137042
+BP199,Product 199,3M,Home & Garden,48574747
+BP200,Product 200,Nestlé,Sports Equipment,29061505

@@ -1,0 +1,74 @@
+{
+  "table": "products_brand_full",
+  "columns": {
+    "product_id": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 200,
+      "sample_values": [
+        "BP096",
+        "BP016",
+        "BP031",
+        "BP159",
+        "BP129",
+        "BP116"
+      ]
+    },
+    "product_name": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 200,
+      "sample_values": [
+        "Product 096",
+        "Product 016",
+        "Product 031",
+        "Product 159",
+        "Product 129",
+        "Product 116"
+      ]
+    },
+    "brand_full": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 20,
+      "sample_values": [
+        "Procter & Gamble Company",
+        "Koninklijke Philips N.V.",
+        "Inter IKEA Group",
+        "Nestl\u00e9 S.A.",
+        "Nike, Inc.",
+        "Inter IKEA Group"
+      ]
+    },
+    "category": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 5,
+      "sample_values": [
+        "Electronics",
+        "Electronics",
+        "Electronics",
+        "Home & Garden",
+        "Home & Garden",
+        "Electronics"
+      ]
+    },
+    "annual_sales_usd": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 200,
+      "sample_values": [
+        "45684002",
+        "4884875",
+        "15874110",
+        "39551502",
+        "43769721",
+        "1134065"
+      ],
+      "min": 372151.0,
+      "max": 49004451.0,
+      "mean": 26413280.665,
+      "std": 14403767.7889
+    }
+  }
+}

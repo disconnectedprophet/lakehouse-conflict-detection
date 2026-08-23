@@ -1,0 +1,57 @@
+{
+  "table": "product_price_tiers_eur",
+  "columns": {
+    "product_id": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 200,
+      "sample_values": [
+        "PROD096",
+        "PROD016",
+        "PROD031",
+        "PROD159",
+        "PROD129",
+        "PROD116"
+      ]
+    },
+    "category": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 5,
+      "sample_values": [
+        "Electronics",
+        "Electronics",
+        "Electronics",
+        "Home & Garden",
+        "Home & Garden",
+        "Electronics"
+      ]
+    },
+    "price_tier_eur": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 5,
+      "sample_values": [
+        "Budget (0-45)",
+        "Economy (45-91)",
+        "Mid-range (91-228)",
+        "Budget (0-45)",
+        "Premium (228-455)",
+        "Luxury (455+)"
+      ]
+    },
+    "brand": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 20,
+      "sample_values": [
+        "Nike",
+        "P&G",
+        "Zara",
+        "Nestl\u00e9",
+        "Philips",
+        "Bosch"
+      ]
+    }
+  }
+}

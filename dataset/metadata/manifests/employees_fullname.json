@@ -1,0 +1,57 @@
+{
+  "table": "employees_fullname",
+  "columns": {
+    "employee_id": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 300,
+      "sample_values": [
+        "EMP0204",
+        "EMP0267",
+        "EMP0153",
+        "EMP0010",
+        "EMP0234",
+        "EMP0227"
+      ]
+    },
+    "full_name": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 300,
+      "sample_values": [
+        "Jessica Jones",
+        "Jessica White",
+        "Alice Evans",
+        "Samuel Clarke",
+        "Hannah Lewis",
+        "Samuel Smith 227"
+      ]
+    },
+    "department": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Operations",
+        "HR",
+        "Marketing",
+        "Legal",
+        "Legal",
+        "Legal"
+      ]
+    },
+    "company": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "Acme Corp",
+        "Initech",
+        "Hooli",
+        "Umbrella Ltd",
+        "Soylent Inc",
+        "Umbrella Ltd"
+      ]
+    }
+  }
+}

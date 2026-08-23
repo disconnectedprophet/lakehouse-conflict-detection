@@ -1,0 +1,91 @@
+{
+  "table": "venues_capacity_exact",
+  "columns": {
+    "venue_id": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 150,
+      "sample_values": [
+        "VEN074",
+        "VEN019",
+        "VEN119",
+        "VEN079",
+        "VEN077",
+        "VEN032"
+      ]
+    },
+    "venue_name": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 150,
+      "sample_values": [
+        "Aarhus Premier Grounds 74",
+        "Gothenburg Phoenix Arena 19",
+        "Rotterdam Phoenix Arena 119",
+        "Stockholm Civic Arena 79",
+        "Athens Central Arena 77",
+        "Gothenburg Apex Stadium 32"
+      ]
+    },
+    "city": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 30,
+      "sample_values": [
+        "Aarhus",
+        "Gothenburg",
+        "Rotterdam",
+        "Stockholm",
+        "Athens",
+        "Gothenburg"
+      ]
+    },
+    "country": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 19,
+      "sample_values": [
+        "Denmark",
+        "Sweden",
+        "Netherlands",
+        "Sweden",
+        "Greece",
+        "Sweden"
+      ]
+    },
+    "capacity_seats": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 149,
+      "sample_values": [
+        "71814",
+        "20995",
+        "24323",
+        "18373",
+        "22843",
+        "35189"
+      ],
+      "min": 5357.0,
+      "max": 95000.0,
+      "mean": 36352.66,
+      "std": 20986.128
+    },
+    "standing_capacity": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 149,
+      "sample_values": [
+        "6184",
+        "1626",
+        "3089",
+        "1896",
+        "521",
+        "3503"
+      ],
+      "min": 6.0,
+      "max": 14892.0,
+      "mean": 3305.76,
+      "std": 3029.5506
+    }
+  }
+}

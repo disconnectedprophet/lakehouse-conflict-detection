@@ -1,0 +1,201 @@
+author_id,full_name,genre,country
+AU001,Ava Thomas,Action,Sweden
+AU002,Alfie Turner,Romance,United States
+AU003,Lewis Taylor,Action,United Kingdom
+AU004,Freddie Evans,Documentary,Sweden
+AU005,Grace Brown,Action,Canada
+AU006,Isabella Lee,Action,France
+AU007,William Smith,Documentary,Italy
+AU008,Jacob White,Drama,Austria
+AU009,Poppy White,Drama,Germany
+AU010,Charlie Lee,Thriller,Czech Republic
+AU011,Alice Wilson,Sci-Fi,Portugal
+AU012,Grace Roberts,Sci-Fi,Sweden
+AU013,Jacob Watson,Thriller,Spain
+AU014,Evie Brown,Romance,Norway
+AU015,George Turner,Action,Denmark
+AU016,Thomas Turner,Action,United States
+AU017,Isabella Jones,Thriller,Denmark
+AU018,Samuel Clarke,Documentary,South Africa
+AU019,Sophia Taylor,Comedy,Canada
+AU020,Evie Robinson,Action,Netherlands
+AU021,Amelia Turner,Romance,France
+AU022,Charlotte Lee,Documentary,United Kingdom
+AU023,Mia Wilson,Horror,India
+AU024,Jessica Taylor,Documentary,Italy
+AU025,Noah King,Thriller,Austria
+AU026,Joshua Wilson,Thriller,Argentina
+AU027,Charlotte Clarke,Romance,Spain
+AU028,Daniel Robinson,Comedy,Serbia
+AU029,Jack Green,Romance,Spain
+AU030,Charlie Scott,Action,Switzerland
+AU031,Isabella Clarke,Comedy,France
+AU032,Isabella Turner,Documentary,Mexico
+AU033,Sophia Green,Comedy,Serbia
+AU034,Hannah Johnson,Horror,South Korea
+AU035,Benjamin Harris,Drama,Switzerland
+AU036,Sophia Lewis,Romance,Italy
+AU037,Noah Smith,Drama,China
+AU038,Charlie Cooper,Documentary,Argentina
+AU039,Charlotte Wilson,Thriller,South Korea
+AU040,Daniel Harris AU1,Thriller,Belgium
+AU041,Isabella Taylor,Romance,France
+AU042,Charlotte Watson,Horror,Switzerland
+AU043,Samuel Wright,Comedy,Sweden
+AU044,Jessica Scott,Sci-Fi,Germany
+AU045,Samuel Jones,Romance,Spain
+AU046,Charlie Jackson,Action,Belgium
+AU047,Charlie Taylor AU2,Documentary,Mexico
+AU048,Lily Lewis,Comedy,South Africa
+AU049,Benjamin Clarke,Sci-Fi,Poland
+AU050,Lewis Cooper,Horror,South Africa
+AU051,Harry Lewis,Horror,Switzerland
+AU052,Grace Scott,Horror,Belgium
+AU053,Evie Jackson,Horror,Serbia
+AU054,Jessica Jones,Thriller,Japan
+AU055,Lewis Clarke,Documentary,Austria
+AU056,Daniel Harris,Drama,Norway
+AU057,Oliver Evans,Documentary,Serbia
+AU058,Olivia Smith,Thriller,Croatia
+AU059,Thomas Taylor,Romance,South Africa
+AU060,Mia Hill,Documentary,Denmark
+AU061,Benjamin Martin,Horror,Argentina
+AU062,Oliver King,Sci-Fi,Austria
+AU063,Evie Scott,Documentary,Poland
+AU064,Henry Lewis AU3,Sci-Fi,Norway
+AU065,Lily Thomas,Drama,Australia
+AU066,Grace Martin,Drama,Netherlands
+AU067,Jack Johnson,Comedy,Belgium
+AU068,Evie Cooper,Thriller,Croatia
+AU069,Sophia Lee,Sci-Fi,Poland
+AU070,Amelia Evans,Action,South Africa
+AU071,William King,Romance,India
+AU072,Lewis Lee,Drama,United Kingdom
+AU073,Henry Lee,Drama,Croatia
+AU074,Olivia Scott,Drama,Sweden
+AU075,Charlotte Scott,Sci-Fi,India
+AU076,Noah Johnson,Horror,Netherlands
+AU077,Henry Wright,Comedy,Argentina
+AU078,Sophie King,Romance,United Kingdom
+AU079,Ava Johnson,Drama,Japan
+AU080,Poppy Taylor,Horror,Belgium
+AU081,Noah Green,Action,Denmark
+AU082,Lewis Johnson,Romance,United States
+AU083,Charlotte Green,Drama,Serbia
+AU084,Olivia Lee,Comedy,Australia
+AU085,Samuel Evans,Thriller,India
+AU086,Sophia Scott,Documentary,United States
+AU087,Charlotte Lewis,Action,Netherlands
+AU088,Thomas Martin,Comedy,Denmark
+AU089,Grace Turner,Romance,Spain
+AU090,Joshua Lee,Thriller,Czech Republic
+AU091,Amelia Davies,Comedy,Russia
+AU092,Jacob Evans AU4,Documentary,Japan
+AU093,Poppy Hill,Comedy,United Kingdom
+AU094,Hannah Cooper,Drama,France
+AU095,Mia Lee,Drama,Croatia
+AU096,Sophie Davies,Horror,Czech Republic
+AU097,Lewis Wright,Comedy,Greece
+AU098,George Evans,Thriller,India
+AU099,Noah Williams,Sci-Fi,Sweden
+AU100,Lewis Scott,Drama,China
+AU101,Sophia Brown,Comedy,Argentina
+AU102,Thomas Watson,Romance,Serbia
+AU103,Henry Walker,Action,United Kingdom
+AU104,Alfie Hill,Horror,Mexico
+AU105,Samuel Taylor,Comedy,Belgium
+AU106,Mia Wright,Romance,Netherlands
+AU107,Ava Wood AU5,Horror,Brazil
+AU108,Harry Wilson,Drama,Serbia
+AU109,Freddie Harris,Action,Czech Republic
+AU110,Isabella Smith,Action,India
+AU111,Ava Wilson AU6,Comedy,Czech Republic
+AU112,Ava Wood,Sci-Fi,Croatia
+AU113,Emily Brown,Horror,Denmark
+AU114,James Roberts,Sci-Fi,Croatia
+AU115,Lily Smith,Comedy,Croatia
+AU116,Alice Clarke,Sci-Fi,Serbia
+AU117,Grace Robinson,Horror,Croatia
+AU118,Isla Robinson,Drama,Netherlands
+AU119,Jessica Jackson AU7,Horror,Canada
+AU120,Lewis Green,Horror,Canada
+AU121,Samuel King,Horror,Austria
+AU122,Sophia Cooper,Sci-Fi,Serbia
+AU123,Joshua Martin,Comedy,United Kingdom
+AU124,Sophia Robinson,Documentary,Denmark
+AU125,Joshua Lewis,Sci-Fi,Portugal
+AU126,Lily Johnson,Drama,Brazil
+AU127,Sophie Lewis,Horror,Argentina
+AU128,George Cooper,Drama,Brazil
+AU129,Alfie Johnson,Documentary,Greece
+AU130,Lily Martin,Action,Brazil
+AU131,Sophie Jackson,Comedy,Switzerland
+AU132,Alfie Taylor,Thriller,Brazil
+AU133,Alice Watson AU8,Thriller,China
+AU134,William Taylor,Thriller,Denmark
+AU135,Ava King,Action,Austria
+AU136,Henry Cooper,Documentary,Russia
+AU137,Isabella Jackson AU9,Thriller,Norway
+AU138,Jack Wood,Action,Netherlands
+AU139,Grace Thompson,Romance,India
+AU140,Daniel Williams,Action,Croatia
+AU141,Amelia Smith,Sci-Fi,Sweden
+AU142,Grace Watson,Horror,China
+AU143,Jack Turner,Sci-Fi,South Korea
+AU144,Henry Thompson,Sci-Fi,Russia
+AU145,Freddie Williams,Sci-Fi,Czech Republic
+AU146,Henry Williams,Sci-Fi,Netherlands
+AU147,Isabella Jackson,Thriller,Belgium
+AU148,Sophia Turner,Thriller,Japan
+AU149,Oliver Cooper,Horror,Brazil
+AU150,Charlotte Robinson,Comedy,Serbia
+AU151,Alfie Walker,Thriller,United Kingdom
+AU152,Emily Harris,Documentary,Poland
+AU153,Sophie Cooper AU10,Comedy,Italy
+AU154,Poppy Johnson,Action,Sweden
+AU155,Ava Jackson,Drama,Belgium
+AU156,Hannah Robinson,Documentary,Croatia
+AU157,Freddie Lee,Documentary,Japan
+AU158,Sophie Harris,Thriller,India
+AU159,William Scott,Thriller,Mexico
+AU160,James Wright,Comedy,South Korea
+AU161,Jack Cooper,Drama,China
+AU162,Henry Jackson,Horror,Norway
+AU163,Jacob Lee,Action,Czech Republic
+AU164,George Wright,Thriller,France
+AU165,George White,Thriller,Brazil
+AU166,Benjamin King,Comedy,Brazil
+AU167,Amelia King,Horror,Canada
+AU168,Isla Wilson,Romance,Sweden
+AU169,Olivia Clarke,Documentary,India
+AU170,Charlotte King AU11,Action,United States
+AU171,Jacob Johnson,Documentary,Austria
+AU172,Noah Taylor,Drama,Serbia
+AU173,Lewis Jackson,Comedy,South Africa
+AU174,Samuel Martin,Comedy,Portugal
+AU175,Benjamin Walker,Romance,Czech Republic
+AU176,Alice Brown,Drama,United States
+AU177,Thomas Davies,Drama,Croatia
+AU178,Charlie Roberts,Action,Spain
+AU179,Henry Davies,Romance,Greece
+AU180,Daniel Turner,Sci-Fi,Brazil
+AU181,Sophia Thompson,Action,Serbia
+AU182,Noah Davies,Romance,Switzerland
+AU183,Sophia Walker,Documentary,Austria
+AU184,Henry Green AU12,Comedy,United States
+AU185,Grace Lee AU13,Drama,Australia
+AU186,Charlie White,Horror,Denmark
+AU187,Sophia Smith,Horror,Austria
+AU188,Jack Watson,Action,Switzerland
+AU189,Jack Harris,Sci-Fi,South Korea
+AU190,Joshua Taylor,Thriller,United Kingdom
+AU191,Jessica Smith AU14,Comedy,Belgium
+AU192,James Johnson,Action,Serbia
+AU193,Samuel Roberts,Comedy,Switzerland
+AU194,Oliver Martin,Romance,Russia
+AU195,Joshua Scott,Documentary,Russia
+AU196,George Davies,Drama,Brazil
+AU197,Isla Green,Documentary,United Kingdom
+AU198,Charlotte Davies,Thriller,Czech Republic
+AU199,Sophie Evans,Comedy,Canada
+AU200,Henry Taylor,Sci-Fi,Croatia

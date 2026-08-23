@@ -1,0 +1,57 @@
+{
+  "table": "survey_gender_abbr",
+  "columns": {
+    "respondent_id": {
+      "row_count": 500,
+      "null_count": 0,
+      "distinct_count": 500,
+      "sample_values": [
+        "R0362",
+        "R0074",
+        "R0375",
+        "R0156",
+        "R0105",
+        "R0395"
+      ]
+    },
+    "age_group": {
+      "row_count": 500,
+      "null_count": 0,
+      "distinct_count": 6,
+      "sample_values": [
+        "45-54",
+        "18-24",
+        "25-34",
+        "25-34",
+        "55-64",
+        "55-64"
+      ]
+    },
+    "country": {
+      "row_count": 500,
+      "null_count": 0,
+      "distinct_count": 20,
+      "sample_values": [
+        "Netherlands",
+        "France",
+        "Canada",
+        "Australia",
+        "France",
+        "Norway"
+      ]
+    },
+    "gender_abbr": {
+      "row_count": 500,
+      "null_count": 0,
+      "distinct_count": 3,
+      "sample_values": [
+        "NB",
+        "F",
+        "F",
+        "M",
+        "F",
+        "M"
+      ]
+    }
+  }
+}

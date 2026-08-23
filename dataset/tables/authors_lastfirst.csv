@@ -1,0 +1,201 @@
+author_id,last_first,genre,country
+AU001,"Thomas, Ava",Action,Sweden
+AU002,"Turner, Alfie",Romance,United States
+AU003,"Taylor, Lewis",Action,United Kingdom
+AU004,"Evans, Freddie",Documentary,Sweden
+AU005,"Brown, Grace",Action,Canada
+AU006,"Lee, Isabella",Action,France
+AU007,"Smith, William",Documentary,Italy
+AU008,"White, Jacob",Drama,Austria
+AU009,"White, Poppy",Drama,Germany
+AU010,"Lee, Charlie",Thriller,Czech Republic
+AU011,"Wilson, Alice",Sci-Fi,Portugal
+AU012,"Roberts, Grace",Sci-Fi,Sweden
+AU013,"Watson, Jacob",Thriller,Spain
+AU014,"Brown, Evie",Romance,Norway
+AU015,"Turner, George",Action,Denmark
+AU016,"Turner, Thomas",Action,United States
+AU017,"Jones, Isabella",Thriller,Denmark
+AU018,"Clarke, Samuel",Documentary,South Africa
+AU019,"Taylor, Sophia",Comedy,Canada
+AU020,"Robinson, Evie",Action,Netherlands
+AU021,"Turner, Amelia",Romance,France
+AU022,"Lee, Charlotte",Documentary,United Kingdom
+AU023,"Wilson, Mia",Horror,India
+AU024,"Taylor, Jessica",Documentary,Italy
+AU025,"King, Noah",Thriller,Austria
+AU026,"Wilson, Joshua",Thriller,Argentina
+AU027,"Clarke, Charlotte",Romance,Spain
+AU028,"Robinson, Daniel",Comedy,Serbia
+AU029,"Green, Jack",Romance,Spain
+AU030,"Scott, Charlie",Action,Switzerland
+AU031,"Clarke, Isabella",Comedy,France
+AU032,"Turner, Isabella",Documentary,Mexico
+AU033,"Green, Sophia",Comedy,Serbia
+AU034,"Johnson, Hannah",Horror,South Korea
+AU035,"Harris, Benjamin",Drama,Switzerland
+AU036,"Lewis, Sophia",Romance,Italy
+AU037,"Smith, Noah",Drama,China
+AU038,"Cooper, Charlie",Documentary,Argentina
+AU039,"Wilson, Charlotte",Thriller,South Korea
+AU040,"AU1, Daniel Harris",Thriller,Belgium
+AU041,"Taylor, Isabella",Romance,France
+AU042,"Watson, Charlotte",Horror,Switzerland
+AU043,"Wright, Samuel",Comedy,Sweden
+AU044,"Scott, Jessica",Sci-Fi,Germany
+AU045,"Jones, Samuel",Romance,Spain
+AU046,"Jackson, Charlie",Action,Belgium
+AU047,"AU2, Charlie Taylor",Documentary,Mexico
+AU048,"Lewis, Lily",Comedy,South Africa
+AU049,"Clarke, Benjamin",Sci-Fi,Poland
+AU050,"Cooper, Lewis",Horror,South Africa
+AU051,"Lewis, Harry",Horror,Switzerland
+AU052,"Scott, Grace",Horror,Belgium
+AU053,"Jackson, Evie",Horror,Serbia
+AU054,"Jones, Jessica",Thriller,Japan
+AU055,"Clarke, Lewis",Documentary,Austria
+AU056,"Harris, Daniel",Drama,Norway
+AU057,"Evans, Oliver",Documentary,Serbia
+AU058,"Smith, Olivia",Thriller,Croatia
+AU059,"Taylor, Thomas",Romance,South Africa
+AU060,"Hill, Mia",Documentary,Denmark
+AU061,"Martin, Benjamin",Horror,Argentina
+AU062,"King, Oliver",Sci-Fi,Austria
+AU063,"Scott, Evie",Documentary,Poland
+AU064,"AU3, Henry Lewis",Sci-Fi,Norway
+AU065,"Thomas, Lily",Drama,Australia
+AU066,"Martin, Grace",Drama,Netherlands
+AU067,"Johnson, Jack",Comedy,Belgium
+AU068,"Cooper, Evie",Thriller,Croatia
+AU069,"Lee, Sophia",Sci-Fi,Poland
+AU070,"Evans, Amelia",Action,South Africa
+AU071,"King, William",Romance,India
+AU072,"Lee, Lewis",Drama,United Kingdom
+AU073,"Lee, Henry",Drama,Croatia
+AU074,"Scott, Olivia",Drama,Sweden
+AU075,"Scott, Charlotte",Sci-Fi,India
+AU076,"Johnson, Noah",Horror,Netherlands
+AU077,"Wright, Henry",Comedy,Argentina
+AU078,"King, Sophie",Romance,United Kingdom
+AU079,"Johnson, Ava",Drama,Japan
+AU080,"Taylor, Poppy",Horror,Belgium
+AU081,"Green, Noah",Action,Denmark
+AU082,"Johnson, Lewis",Romance,United States
+AU083,"Green, Charlotte",Drama,Serbia
+AU084,"Lee, Olivia",Comedy,Australia
+AU085,"Evans, Samuel",Thriller,India
+AU086,"Scott, Sophia",Documentary,United States
+AU087,"Lewis, Charlotte",Action,Netherlands
+AU088,"Martin, Thomas",Comedy,Denmark
+AU089,"Turner, Grace",Romance,Spain
+AU090,"Lee, Joshua",Thriller,Czech Republic
+AU091,"Davies, Amelia",Comedy,Russia
+AU092,"AU4, Jacob Evans",Documentary,Japan
+AU093,"Hill, Poppy",Comedy,United Kingdom
+AU094,"Cooper, Hannah",Drama,France
+AU095,"Lee, Mia",Drama,Croatia
+AU096,"Davies, Sophie",Horror,Czech Republic
+AU097,"Wright, Lewis",Comedy,Greece
+AU098,"Evans, George",Thriller,India
+AU099,"Williams, Noah",Sci-Fi,Sweden
+AU100,"Scott, Lewis",Drama,China
+AU101,"Brown, Sophia",Comedy,Argentina
+AU102,"Watson, Thomas",Romance,Serbia
+AU103,"Walker, Henry",Action,United Kingdom
+AU104,"Hill, Alfie",Horror,Mexico
+AU105,"Taylor, Samuel",Comedy,Belgium
+AU106,"Wright, Mia",Romance,Netherlands
+AU107,"AU5, Ava Wood",Horror,Brazil
+AU108,"Wilson, Harry",Drama,Serbia
+AU109,"Harris, Freddie",Action,Czech Republic
+AU110,"Smith, Isabella",Action,India
+AU111,"AU6, Ava Wilson",Comedy,Czech Republic
+AU112,"Wood, Ava",Sci-Fi,Croatia
+AU113,"Brown, Emily",Horror,Denmark
+AU114,"Roberts, James",Sci-Fi,Croatia
+AU115,"Smith, Lily",Comedy,Croatia
+AU116,"Clarke, Alice",Sci-Fi,Serbia
+AU117,"Robinson, Grace",Horror,Croatia
+AU118,"Robinson, Isla",Drama,Netherlands
+AU119,"AU7, Jessica Jackson",Horror,Canada
+AU120,"Green, Lewis",Horror,Canada
+AU121,"King, Samuel",Horror,Austria
+AU122,"Cooper, Sophia",Sci-Fi,Serbia
+AU123,"Martin, Joshua",Comedy,United Kingdom
+AU124,"Robinson, Sophia",Documentary,Denmark
+AU125,"Lewis, Joshua",Sci-Fi,Portugal
+AU126,"Johnson, Lily",Drama,Brazil
+AU127,"Lewis, Sophie",Horror,Argentina
+AU128,"Cooper, George",Drama,Brazil
+AU129,"Johnson, Alfie",Documentary,Greece
+AU130,"Martin, Lily",Action,Brazil
+AU131,"Jackson, Sophie",Comedy,Switzerland
+AU132,"Taylor, Alfie",Thriller,Brazil
+AU133,"AU8, Alice Watson",Thriller,China
+AU134,"Taylor, William",Thriller,Denmark
+AU135,"King, Ava",Action,Austria
+AU136,"Cooper, Henry",Documentary,Russia
+AU137,"AU9, Isabella Jackson",Thriller,Norway
+AU138,"Wood, Jack",Action,Netherlands
+AU139,"Thompson, Grace",Romance,India
+AU140,"Williams, Daniel",Action,Croatia
+AU141,"Smith, Amelia",Sci-Fi,Sweden
+AU142,"Watson, Grace",Horror,China
+AU143,"Turner, Jack",Sci-Fi,South Korea
+AU144,"Thompson, Henry",Sci-Fi,Russia
+AU145,"Williams, Freddie",Sci-Fi,Czech Republic
+AU146,"Williams, Henry",Sci-Fi,Netherlands
+AU147,"Jackson, Isabella",Thriller,Belgium
+AU148,"Turner, Sophia",Thriller,Japan
+AU149,"Cooper, Oliver",Horror,Brazil
+AU150,"Robinson, Charlotte",Comedy,Serbia
+AU151,"Walker, Alfie",Thriller,United Kingdom
+AU152,"Harris, Emily",Documentary,Poland
+AU153,"AU10, Sophie Cooper",Comedy,Italy
+AU154,"Johnson, Poppy",Action,Sweden
+AU155,"Jackson, Ava",Drama,Belgium
+AU156,"Robinson, Hannah",Documentary,Croatia
+AU157,"Lee, Freddie",Documentary,Japan
+AU158,"Harris, Sophie",Thriller,India
+AU159,"Scott, William",Thriller,Mexico
+AU160,"Wright, James",Comedy,South Korea
+AU161,"Cooper, Jack",Drama,China
+AU162,"Jackson, Henry",Horror,Norway
+AU163,"Lee, Jacob",Action,Czech Republic
+AU164,"Wright, George",Thriller,France
+AU165,"White, George",Thriller,Brazil
+AU166,"King, Benjamin",Comedy,Brazil
+AU167,"King, Amelia",Horror,Canada
+AU168,"Wilson, Isla",Romance,Sweden
+AU169,"Clarke, Olivia",Documentary,India
+AU170,"AU11, Charlotte King",Action,United States
+AU171,"Johnson, Jacob",Documentary,Austria
+AU172,"Taylor, Noah",Drama,Serbia
+AU173,"Jackson, Lewis",Comedy,South Africa
+AU174,"Martin, Samuel",Comedy,Portugal
+AU175,"Walker, Benjamin",Romance,Czech Republic
+AU176,"Brown, Alice",Drama,United States
+AU177,"Davies, Thomas",Drama,Croatia
+AU178,"Roberts, Charlie",Action,Spain
+AU179,"Davies, Henry",Romance,Greece
+AU180,"Turner, Daniel",Sci-Fi,Brazil
+AU181,"Thompson, Sophia",Action,Serbia
+AU182,"Davies, Noah",Romance,Switzerland
+AU183,"Walker, Sophia",Documentary,Austria
+AU184,"AU12, Henry Green",Comedy,United States
+AU185,"AU13, Grace Lee",Drama,Australia
+AU186,"White, Charlie",Horror,Denmark
+AU187,"Smith, Sophia",Horror,Austria
+AU188,"Watson, Jack",Action,Switzerland
+AU189,"Harris, Jack",Sci-Fi,South Korea
+AU190,"Taylor, Joshua",Thriller,United Kingdom
+AU191,"AU14, Jessica Smith",Comedy,Belgium
+AU192,"Johnson, James",Action,Serbia
+AU193,"Roberts, Samuel",Comedy,Switzerland
+AU194,"Martin, Oliver",Romance,Russia
+AU195,"Scott, Joshua",Documentary,Russia
+AU196,"Davies, George",Drama,Brazil
+AU197,"Green, Isla",Documentary,United Kingdom
+AU198,"Davies, Charlotte",Thriller,Czech Republic
+AU199,"Evans, Sophie",Comedy,Canada
+AU200,"Taylor, Henry",Sci-Fi,Croatia

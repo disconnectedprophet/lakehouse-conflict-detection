@@ -1,0 +1,57 @@
+{
+  "table": "authors_fullname",
+  "columns": {
+    "author_id": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 200,
+      "sample_values": [
+        "AU096",
+        "AU016",
+        "AU031",
+        "AU159",
+        "AU129",
+        "AU116"
+      ]
+    },
+    "full_name": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 200,
+      "sample_values": [
+        "Sophie Davies",
+        "Thomas Turner",
+        "Isabella Clarke",
+        "William Scott",
+        "Alfie Johnson",
+        "Alice Clarke"
+      ]
+    },
+    "genre": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Horror",
+        "Action",
+        "Comedy",
+        "Thriller",
+        "Documentary",
+        "Sci-Fi"
+      ]
+    },
+    "country": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 30,
+      "sample_values": [
+        "Czech Republic",
+        "United States",
+        "France",
+        "Mexico",
+        "Greece",
+        "Serbia"
+      ]
+    }
+  }
+}

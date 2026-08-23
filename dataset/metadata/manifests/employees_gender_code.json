@@ -1,0 +1,48 @@
+{
+  "table": "employees_gender_code",
+  "columns": {
+    "employee_id": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 250,
+      "sample_values": [
+        "EMP0143",
+        "EMP0007",
+        "EMP0098",
+        "EMP0061",
+        "EMP0113",
+        "EMP0182"
+      ]
+    },
+    "department": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Sales",
+        "Engineering",
+        "HR",
+        "Finance",
+        "Marketing",
+        "HR"
+      ]
+    },
+    "gender_code": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 3,
+      "sample_values": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "min": 0.0,
+      "max": 2.0,
+      "mean": 0.592,
+      "std": 0.5611
+    }
+  }
+}

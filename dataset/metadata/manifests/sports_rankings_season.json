@@ -1,0 +1,74 @@
+{
+  "table": "sports_rankings_season",
+  "columns": {
+    "player_id": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 120,
+      "sample_values": [
+        "PLAY045",
+        "PLAY048",
+        "PLAY005",
+        "PLAY056",
+        "PLAY027",
+        "PLAY065"
+      ]
+    },
+    "player_name": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 120,
+      "sample_values": [
+        "Dominic Shapovalov",
+        "Jannik Lendl",
+        "Daniil Berdych",
+        "Holger Zverev",
+        "Nicolas Rossi",
+        "Alexander Djokovic"
+      ]
+    },
+    "sport": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Football",
+        "Basketball",
+        "Judo",
+        "Football",
+        "Swimming",
+        "Judo"
+      ]
+    },
+    "season": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 1,
+      "sample_values": [
+        "2022-2023",
+        "2022-2023",
+        "2022-2023",
+        "2022-2023",
+        "2022-2023",
+        "2022-2023"
+      ]
+    },
+    "season_avg_points": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 119,
+      "sample_values": [
+        "1273",
+        "1777",
+        "1078",
+        "400",
+        "2820",
+        "2293"
+      ],
+      "min": 119.0,
+      "max": 3326.0,
+      "mean": 1563.8167,
+      "std": 829.4345
+    }
+  }
+}

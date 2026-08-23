@@ -1,0 +1,104 @@
+{
+  "table": "employee_salary_usd",
+  "columns": {
+    "employee_id": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 250,
+      "sample_values": [
+        "ES0143",
+        "ES0007",
+        "ES0098",
+        "ES0061",
+        "ES0113",
+        "ES0182"
+      ]
+    },
+    "full_name": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 250,
+      "sample_values": [
+        "Isla Smith",
+        "Samuel Williams",
+        "William Jackson",
+        "Evie Johnson",
+        "Jack Harris",
+        "Isla Harris"
+      ]
+    },
+    "department": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Marketing",
+        "Marketing",
+        "Finance",
+        "Operations",
+        "HR",
+        "Operations"
+      ]
+    },
+    "grade": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "IC1",
+        "M1",
+        "IC2",
+        "IC1",
+        "IC1",
+        "IC2"
+      ]
+    },
+    "level": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "Junior",
+        "Manager",
+        "Mid",
+        "Junior",
+        "Junior",
+        "Mid"
+      ]
+    },
+    "annual_salary_usd": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 250,
+      "sample_values": [
+        "49299",
+        "138927",
+        "66775",
+        "59556",
+        "48840",
+        "84959"
+      ],
+      "min": 45343.0,
+      "max": 361663.0,
+      "mean": 101521.12,
+      "std": 49520.9026
+    },
+    "monthly_salary_usd": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 247,
+      "sample_values": [
+        "4108",
+        "11577",
+        "5564",
+        "4963",
+        "4070",
+        "7079"
+      ],
+      "min": 3778.0,
+      "max": 30138.0,
+      "mean": 8459.64,
+      "std": 4126.7358
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "table": "employees_gender_full",
+  "columns": {
+    "employee_id": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 250,
+      "sample_values": [
+        "EMP0143",
+        "EMP0007",
+        "EMP0098",
+        "EMP0061",
+        "EMP0113",
+        "EMP0182"
+      ]
+    },
+    "department": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Sales",
+        "Engineering",
+        "HR",
+        "Finance",
+        "Marketing",
+        "HR"
+      ]
+    },
+    "gender": {
+      "row_count": 250,
+      "null_count": 0,
+      "distinct_count": 3,
+      "sample_values": [
+        "Male",
+        "Female",
+        "Female",
+        "Female",
+        "Male",
+        "Male"
+      ]
+    }
+  }
+}

@@ -1,0 +1,201 @@
+product_id,product_name,brand,category,annual_sales_chf,units_sold
+PROD001,Smart TV X45,Unilever,Electronics,4970664,64615
+PROD002,Coffee Blend X23,3M,Food & Beverage,7995751,47539
+PROD003,Smartphone N14 Plus,Samsung,Electronics,4896045,36661
+PROD004,Laptop Model H74,Heinz,Electronics,958062,8521
+PROD005,Smartphone G93 Plus,3M,Electronics,8693093,205445
+PROD006,Air Purifier O85,P&G,Home & Garden,5496988,129923
+PROD007,Laptop Model W64,Adidas,Electronics,2059104,76831
+PROD008,Sports Jacket G53,LG,Apparel,6288686,40623
+PROD009,Tablet Pro D55,Puma,Electronics,5065813,44903
+PROD010,Resistance Bands Z15,Zara,Sports Equipment,4721728,36388
+PROD011,Fitness Tracker M20,3M,Sports Equipment,3621334,173596
+PROD012,Training Tee S34,Sony,Apparel,6076301,35485
+PROD013,Laptop Model Y47,Sony,Electronics,1687172,11288
+PROD014,Energy Drink Pack M45,Zara,Food & Beverage,2991523,58388
+PROD015,Sports Jacket L55,Nestlé,Apparel,2174997,46873
+PROD016,Running Shoes T91,Bosch,Apparel,6401006,137209
+PROD017,Yoga Mat Pro F69,IKEA,Sports Equipment,3662428,55666
+PROD018,Sports Jacket V51,Apple,Apparel,2628517,26096
+PROD019,Energy Drink Pack Z50,IKEA,Food & Beverage,1612304,18743
+PROD020,Running Shoes G82,Adidas,Apparel,2722728,42722
+PROD021,Sparkling Water M92,Zara,Food & Beverage,3548735,30988
+PROD022,Protein Bar E41,3M,Food & Beverage,2673129,67340
+PROD023,Resistance Bands X84,H&M,Sports Equipment,12815865,200637
+PROD024,Dumbbells L38kg,Philips,Sports Equipment,9619123,127183
+PROD025,Dumbbells C16kg,LG,Sports Equipment,234841,2613
+PROD026,Coffee Blend Z97,H&M,Food & Beverage,533729,3759
+PROD027,Fitness Tracker M58,Heinz,Sports Equipment,2956296,60052
+PROD028,Smart Thermostat R11,LG,Home & Garden,2309130,23311
+PROD029,Resistance Bands Y92,Adidas,Sports Equipment,4357070,39098
+PROD030,Wireless Headphones N30,Zara,Electronics,4373106,175220
+PROD031,Wireless Headphones Q32,Siemens,Electronics,29174264,256285
+PROD032,Wireless Headphones U74,Heinz,Electronics,1159538,25992
+PROD033,Coffee Blend L30,3M,Food & Beverage,2414260,86519
+PROD034,Fitness Tracker T51,Panasonic,Sports Equipment,27067305,161207
+PROD035,Smart TV L49,Unilever,Electronics,6714329,39367
+PROD036,Laptop Model S20,Sony,Electronics,6824922,46858
+PROD037,Robot Vacuum Y78,Philips,Home & Garden,2106832,31994
+PROD038,Sparkling Water R31,P&G,Food & Beverage,678907,20528
+PROD039,Dumbbells G79kg,Nestlé,Sports Equipment,4160716,33026
+PROD040,Performance Shorts V93,Puma,Apparel,3924817,44947
+PROD041,Cordless Drill D41,Unilever,Home & Garden,1033399,27982
+PROD042,Wireless Headphones A85,3M,Electronics,1779274,18527
+PROD043,Coffee Blend A19,Apple,Food & Beverage,3275660,142128
+PROD044,Energy Drink Pack B52,Sony,Food & Beverage,1370331,8477
+PROD045,Yoga Mat Pro I95,Panasonic,Sports Equipment,3190988,54462
+PROD046,Coffee Blend X83,Colgate,Food & Beverage,3872142,31598
+PROD047,Air Purifier Z70,H&M,Home & Garden,3647334,54458
+PROD048,Energy Drink Pack D94,H&M,Food & Beverage,2123125,21235
+PROD049,Performance Shorts N69,Apple,Apparel,6368502,61118
+PROD050,Smart TV M53,LG,Electronics,8570791,182820
+PROD051,Coffee Blend G78,Zara,Food & Beverage,4849389,28328
+PROD052,Sparkling Water F45,Zara,Food & Beverage,1554873,11076
+PROD053,Energy Drink Pack O80,LG,Food & Beverage,7308751,43918
+PROD054,Smartphone A21 Plus,Unilever,Electronics,2133436,13389
+PROD055,Sparkling Water P71,Nestlé,Food & Beverage,8468648,75405
+PROD056,Robot Vacuum F58,Samsung,Home & Garden,1207072,7377
+PROD057,Smart Thermostat Z68,Nike,Home & Garden,8772547,277461
+PROD058,Cordless Drill E34,Nike,Home & Garden,3450178,70927
+PROD059,Energy Drink Pack S79,Apple,Food & Beverage,1011554,40847
+PROD060,Running Shoes B84,Panasonic,Apparel,2572834,37216
+PROD061,Yoga Mat Pro B75,Sony,Sports Equipment,3715399,46931
+PROD062,Energy Drink Pack T18,Unilever,Food & Beverage,4622169,76296
+PROD063,Robot Vacuum S41,Colgate,Home & Garden,1320050,8867
+PROD064,Fitness Tracker T20,H&M,Sports Equipment,1164932,15719
+PROD065,Resistance Bands I36,Adidas,Sports Equipment,4296331,69184
+PROD066,Protein Bar M26,Nike,Food & Beverage,2208636,21326
+PROD067,Smart Thermostat Y19,Samsung,Home & Garden,4453238,111547
+PROD068,Robot Vacuum C78,Nestlé,Home & Garden,7514992,51946
+PROD069,Resistance Bands E54,Sony,Sports Equipment,678424,23068
+PROD070,Protein Bar J30,Zara,Food & Beverage,4538003,26092
+PROD071,Resistance Bands T93,Siemens,Sports Equipment,11957584,85457
+PROD072,Smartphone J94 Plus,LG,Electronics,2615243,53289
+PROD073,Protein Bar D23,3M,Food & Beverage,1566430,84787
+PROD074,Protein Bar J87,Nestlé,Food & Beverage,7460590,50832
+PROD075,Sports Jacket V91,P&G,Apparel,4533738,34991
+PROD076,Dumbbells I16kg,Sony,Sports Equipment,8611250,64709
+PROD077,Smart Thermostat B10,Adidas,Home & Garden,2493621,17840
+PROD078,Protein Bar F66,3M,Food & Beverage,801516,27328
+PROD079,Robot Vacuum D19,Philips,Home & Garden,3153795,42400
+PROD080,Fitness Tracker L84,3M,Sports Equipment,2255264,62726
+PROD081,Sparkling Water E15,Nike,Food & Beverage,7634533,49473
+PROD082,Running Shoes L36,Unilever,Apparel,4270873,36713
+PROD083,Wireless Headphones Y81,H&M,Electronics,690686,9864
+PROD084,Yoga Mat Pro H30,Bosch,Sports Equipment,1067156,38570
+PROD085,Robot Vacuum F52,H&M,Home & Garden,8507879,127249
+PROD086,Protein Bar F99,LG,Food & Beverage,6939702,100416
+PROD087,Robot Vacuum P38,Nestlé,Home & Garden,1857307,13946
+PROD088,Smart Thermostat J39,Unilever,Home & Garden,3516314,29651
+PROD089,Laptop Model M52,P&G,Electronics,5492593,34733
+PROD090,Wireless Headphones L92,Siemens,Electronics,5619254,60815
+PROD091,Smart Thermostat A24,P&G,Home & Garden,8444003,231065
+PROD092,Protein Bar B23,Heinz,Food & Beverage,4547517,34826
+PROD093,Smart Thermostat X50,H&M,Home & Garden,3201974,23184
+PROD094,Fitness Tracker M83,Nestlé,Sports Equipment,2718230,25521
+PROD095,Running Shoes W65,Samsung,Apparel,10101681,72298
+PROD096,Yoga Mat Pro L65,Sony,Sports Equipment,371876,3881
+PROD097,Training Tee V25,Nike,Apparel,3064863,30526
+PROD098,Resistance Bands V62,Adidas,Sports Equipment,3637927,42637
+PROD099,Smart Thermostat R26,Nestlé,Home & Garden,848012,39211
+PROD100,Cordless Drill V32,Heinz,Home & Garden,4907679,141472
+PROD101,Resistance Bands M80,Samsung,Sports Equipment,1836948,81358
+PROD102,Training Tee G65,Colgate,Apparel,8328462,70337
+PROD103,Resistance Bands O66,Zara,Sports Equipment,3105104,46073
+PROD104,Sparkling Water Z31,Sony,Food & Beverage,6866552,69954
+PROD105,Training Tee C40,Nike,Apparel,11888489,73677
+PROD106,Coffee Blend E13,Apple,Food & Beverage,5159531,90378
+PROD107,Sparkling Water T19,Zara,Food & Beverage,1468124,17772
+PROD108,Air Purifier W99,IKEA,Home & Garden,775921,5652
+PROD109,Cordless Drill H28,Samsung,Home & Garden,20274232,376553
+PROD110,Tablet Pro H32,Siemens,Electronics,3149762,105719
+PROD111,Robot Vacuum R41,LG,Home & Garden,1769815,27872
+PROD112,Air Purifier Z69,Siemens,Home & Garden,4065402,94243
+PROD113,Resistance Bands Y66,Heinz,Sports Equipment,2907581,17636
+PROD114,Dumbbells R67kg,Bosch,Sports Equipment,8243219,56613
+PROD115,Cordless Drill I41,P&G,Home & Garden,3641300,30876
+PROD116,Dumbbells U40kg,P&G,Sports Equipment,3568662,22929
+PROD117,Robot Vacuum W46,Unilever,Home & Garden,1724431,11900
+PROD118,Training Tee K79,Sony,Apparel,5625788,119309
+PROD119,Coffee Blend H59,Philips,Food & Beverage,1253656,7885
+PROD120,Energy Drink Pack N62,Adidas,Food & Beverage,6844210,66428
+PROD121,Dumbbells N17kg,Nestlé,Sports Equipment,16122737,110810
+PROD122,Cordless Drill Y84,Samsung,Home & Garden,767930,4813
+PROD123,Dumbbells P10kg,Puma,Sports Equipment,299913,4412
+PROD124,Performance Shorts N78,3M,Apparel,6517312,186037
+PROD125,Yoga Mat Pro P38,P&G,Sports Equipment,44823574,834626
+PROD126,Cordless Drill A59,Adidas,Home & Garden,1295581,15196
+PROD127,Air Purifier O26,Heinz,Home & Garden,1009589,6859
+PROD128,Fitness Tracker M85,Colgate,Sports Equipment,6338182,41173
+PROD129,Smart TV U64,Philips,Electronics,1520341,81296
+PROD130,Air Purifier B43,IKEA,Home & Garden,2123689,21559
+PROD131,Sports Jacket O51,Adidas,Apparel,2486406,29699
+PROD132,Smart Thermostat Y63,P&G,Home & Garden,5987693,113442
+PROD133,Tablet Pro A79,Apple,Electronics,2348401,64187
+PROD134,Sports Jacket U18,Apple,Apparel,4645729,65360
+PROD135,Laptop Model G12,Heinz,Electronics,2951102,17675
+PROD136,Coffee Blend E70,LG,Food & Beverage,1514357,22012
+PROD137,Yoga Mat Pro O99,P&G,Sports Equipment,2557651,25633
+PROD138,Sports Jacket T87,LG,Apparel,1362625,10566
+PROD139,Protein Bar D84,Samsung,Food & Beverage,3542974,47114
+PROD140,Performance Shorts M35,Sony,Apparel,1145903,6680
+PROD141,Yoga Mat Pro D99,Nike,Sports Equipment,1181897,6950
+PROD142,Fitness Tracker Z82,Apple,Sports Equipment,15079709,262336
+PROD143,Performance Shorts V57,Sony,Apparel,3337935,34638
+PROD144,Resistance Bands A63,Panasonic,Sports Equipment,3335543,51112
+PROD145,Tablet Pro L91,Zara,Electronics,5866566,93537
+PROD146,Sparkling Water F76,P&G,Food & Beverage,2312207,98631
+PROD147,Dumbbells O65kg,Colgate,Sports Equipment,2801767,24543
+PROD148,Training Tee H21,P&G,Apparel,5381702,55353
+PROD149,Air Purifier Y69,Colgate,Home & Garden,4666806,181205
+PROD150,Dumbbells K13kg,Panasonic,Sports Equipment,1106070,17915
+PROD151,Sports Jacket P37,Puma,Apparel,8089913,50101
+PROD152,Training Tee I86,P&G,Apparel,1952022,35142
+PROD153,Fitness Tracker Q34,Sony,Sports Equipment,1226155,30237
+PROD154,Sparkling Water P81,Unilever,Food & Beverage,1432278,15056
+PROD155,Cordless Drill O12,Sony,Home & Garden,2383264,13718
+PROD156,Sports Jacket M98,Unilever,Apparel,17875771,319543
+PROD157,Training Tee P80,Siemens,Apparel,1088278,8771
+PROD158,Performance Shorts X80,Adidas,Apparel,4130130,29876
+PROD159,Performance Shorts I49,P&G,Apparel,416310,7536
+PROD160,Energy Drink Pack X34,Adidas,Food & Beverage,3514496,26434
+PROD161,Smartphone Y98 Plus,Bosch,Electronics,8642981,113938
+PROD162,Coffee Blend X71,P&G,Food & Beverage,2779119,23600
+PROD163,Resistance Bands D34,Nike,Sports Equipment,1877612,15918
+PROD164,Protein Bar F48,Samsung,Food & Beverage,4435509,43287
+PROD165,Yoga Mat Pro I15,Apple,Sports Equipment,7082427,222006
+PROD166,Resistance Bands W26,Panasonic,Sports Equipment,6828973,45553
+PROD167,Smart TV S46,Panasonic,Electronics,25232398,368832
+PROD168,Cordless Drill K33,Apple,Home & Garden,4337641,92007
+PROD169,Performance Shorts D18,IKEA,Apparel,1948175,80975
+PROD170,Robot Vacuum S90,Apple,Home & Garden,3103904,27913
+PROD171,Coffee Blend Z82,Nike,Food & Beverage,3274173,26208
+PROD172,Laptop Model D81,H&M,Electronics,3923733,193980
+PROD173,Yoga Mat Pro Y76,IKEA,Sports Equipment,3416018,34604
+PROD174,Cordless Drill J85,H&M,Home & Garden,4187816,78310
+PROD175,Running Shoes T22,Nestlé,Apparel,663641,5539
+PROD176,Protein Bar V20,Bosch,Food & Beverage,8059968,178240
+PROD177,Coffee Blend R19,Bosch,Food & Beverage,1982857,15607
+PROD178,Tablet Pro O98,Heinz,Electronics,1090864,13833
+PROD179,Smart Thermostat B39,Nike,Home & Garden,6654576,40093
+PROD180,Performance Shorts C97,Unilever,Apparel,13117050,333061
+PROD181,Sports Jacket N24,3M,Apparel,5759137,80406
+PROD182,Coffee Blend I28,Sony,Food & Beverage,4134601,116224
+PROD183,Laptop Model Z49,Heinz,Electronics,1387587,8457
+PROD184,Resistance Bands O25,Zara,Sports Equipment,61926196,395516
+PROD185,Performance Shorts I74,3M,Apparel,8477938,145026
+PROD186,Cordless Drill C86,Apple,Home & Garden,1128384,9238
+PROD187,Smart Thermostat T42,Samsung,Home & Garden,1615964,10989
+PROD188,Laptop Model V83,Colgate,Electronics,3839401,36377
+PROD189,Wireless Headphones S15,Bosch,Electronics,745232,7342
+PROD190,Cordless Drill I33,Colgate,Home & Garden,4165562,74505
+PROD191,Cordless Drill C70,Puma,Home & Garden,2225635,68803
+PROD192,Smart Thermostat K95,LG,Home & Garden,11976987,74987
+PROD193,Protein Bar N98,Panasonic,Food & Beverage,9200399,57421
+PROD194,Performance Shorts Y80,Apple,Apparel,234812,1991
+PROD195,Robot Vacuum K42,Adidas,Home & Garden,3669679,51466
+PROD196,Tablet Pro Q10,3M,Electronics,699978,9599
+PROD197,Cordless Drill B34,Siemens,Home & Garden,10660234,80399
+PROD198,Performance Shorts U66,Apple,Apparel,4163381,26069
+PROD199,Protein Bar R26,Nike,Food & Beverage,6086578,38494
+PROD200,Cordless Drill D13,Heinz,Home & Garden,1215130,8609

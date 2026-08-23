@@ -1,0 +1,1794 @@
+[
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0001"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_products_sales"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-products"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_sales_usd",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, product_name, brand, category, annual_sales_{cur} FROM synthetic_products"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0002"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_products_sales"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-products"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_sales_eur",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, product_name, brand, category, annual_sales_{cur} FROM synthetic_products"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0003"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_products_sales"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-products"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_sales_gbp",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, product_name, brand, category, annual_sales_{cur} FROM synthetic_products"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0004"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_products_sales"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-products"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_sales_jpy",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, product_name, brand, category, annual_sales_{cur} FROM synthetic_products"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0005"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_products_sales"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-products"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_sales_chf",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, product_name, brand, category, annual_sales_{cur} FROM synthetic_products"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0006"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_products_temporal"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_sales_usd"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_monthly_usd",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, product_name, brand, category, {period} AS report_{grain}, ROUND(annual_sales_usd / {divisor}, 0) AS {col} FROM products_sales_usd"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0007"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_products_temporal"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_sales_usd"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_quarterly_usd",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, product_name, brand, category, {period} AS report_{grain}, ROUND(annual_sales_usd / {divisor}, 0) AS {col} FROM products_sales_usd"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0008"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_products_temporal"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_sales_usd"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_weekly_usd",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, product_name, brand, category, {period} AS report_{grain}, ROUND(annual_sales_usd / {divisor}, 0) AS {col} FROM products_sales_usd"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0009"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_brands"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-products"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_brand_abbr",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, product_name, {brand_col} AS {col_alias}, category, annual_sales_usd FROM synthetic_products"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0010"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_brands"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-products"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_brand_full",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, product_name, {brand_col} AS {col_alias}, category, annual_sales_usd FROM synthetic_products"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0011"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_brand_summary"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_brand_abbr"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "brand_category_summary",
+        "facets": {
+          "sql": {
+            "query": "SELECT brand_abbr AS brand, brand_full, COUNT(*) AS total_products, SUM(annual_sales_usd) AS total_sales_usd, AVG(annual_sales_usd) AS avg_sales_usd FROM products_brand_abbr GROUP BY brand_abbr, brand_full"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0012"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_retailers"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-retailers"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "retailers_brand_abbr",
+        "facets": {
+          "sql": {
+            "query": "SELECT store_id, store_name, {brand_col} AS {col_alias}, country, annual_revenue_eur FROM synthetic_retailers"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0013"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_retailers"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-retailers"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "retailers_brand_full",
+        "facets": {
+          "sql": {
+            "query": "SELECT store_id, store_name, {brand_col} AS {col_alias}, country, annual_revenue_eur FROM synthetic_retailers"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0014"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_sports_rankings"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-rankings"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "sports_rankings_pts",
+        "facets": {
+          "sql": {
+            "query": "SELECT player_id, player_name, nationality, sport, {scoring_col} FROM synthetic_rankings"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0015"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_sports_rankings"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-rankings"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "sports_rankings_norm",
+        "facets": {
+          "sql": {
+            "query": "SELECT player_id, player_name, nationality, sport, {scoring_col} FROM synthetic_rankings"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0016"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_sports_rankings"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-rankings"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "sports_rankings_elo",
+        "facets": {
+          "sql": {
+            "query": "SELECT player_id, player_name, nationality, sport, {scoring_col} FROM synthetic_rankings"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0017"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_rankings_temporal"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "sports_rankings_pts"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "sports_rankings_monthly",
+        "facets": {
+          "sql": {
+            "query": "SELECT player_id, player_name, sport, {period}, {agg}(ranking_points) AS {col} FROM sports_rankings_pts GROUP BY player_id, player_name, sport, {period}"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0018"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_rankings_temporal"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "sports_rankings_pts"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "sports_rankings_season",
+        "facets": {
+          "sql": {
+            "query": "SELECT player_id, player_name, sport, {period}, {agg}(ranking_points) AS {col} FROM sports_rankings_pts GROUP BY player_id, player_name, sport, {period}"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0019"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_rankings_temporal"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "sports_rankings_pts"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "sports_rankings_career",
+        "facets": {
+          "sql": {
+            "query": "SELECT player_id, player_name, sport, {period}, {agg}(ranking_points) AS {col} FROM sports_rankings_pts GROUP BY player_id, player_name, sport, {period}"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0020"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_venues"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-venues"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "venues_capacity_exact",
+        "facets": {
+          "sql": {
+            "query": "SELECT venue_id, venue_name, city, country, {cap_col} FROM synthetic_venues"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0021"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_venues"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-venues"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "venues_capacity_thousands",
+        "facets": {
+          "sql": {
+            "query": "SELECT venue_id, venue_name, city, country, {cap_col} FROM synthetic_venues"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0022"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_venue_attendance"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "venues_attendance_match"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "venues_attendance_season",
+        "facets": {
+          "sql": {
+            "query": "SELECT venue_id, venue_name, {period}, {agg}(attendance) AS {col} FROM venues_attendance_match GROUP BY venue_id, venue_name, {period}"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0023"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_venue_attendance"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "venues_attendance_match"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "venues_attendance_annual",
+        "facets": {
+          "sql": {
+            "query": "SELECT venue_id, venue_name, {period}, {agg}(attendance) AS {col} FROM venues_attendance_match GROUP BY venue_id, venue_name, {period}"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0024"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_venue_matches"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-events"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "venues_attendance_match",
+        "facets": {
+          "sql": {
+            "query": "SELECT CONCAT('M', LPAD(ROW_NUMBER() OVER (), 5, '0')) AS match_id, venue_id, venue_name, event_date, attendance FROM synthetic_events"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0025"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_athletes"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-athletes"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "athletes_nat_full",
+        "facets": {
+          "sql": {
+            "query": "SELECT athlete_id, athlete_name, sport, {nat_col} FROM synthetic_athletes"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0026"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_athletes"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-athletes"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "athletes_nat_iso2",
+        "facets": {
+          "sql": {
+            "query": "SELECT athlete_id, athlete_name, sport, {nat_col} FROM synthetic_athletes"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0027"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_athletes"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-athletes"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "athletes_nat_iso3",
+        "facets": {
+          "sql": {
+            "query": "SELECT athlete_id, athlete_name, sport, {nat_col} FROM synthetic_athletes"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0028"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_employees_nationality"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-employees"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "employees_nationality_full",
+        "facets": {
+          "sql": {
+            "query": "SELECT employee_id, full_name, department, {nat_col} FROM synthetic_employees"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0029"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_employees_nationality"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-employees"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "employees_nationality_iso2",
+        "facets": {
+          "sql": {
+            "query": "SELECT employee_id, full_name, department, {nat_col} FROM synthetic_employees"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0030"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_survey_gender"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-survey"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "survey_gender_full",
+        "facets": {
+          "sql": {
+            "query": "SELECT respondent_id, age_group, country, {gender_col} FROM synthetic_survey"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0031"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_survey_gender"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-survey"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "survey_gender_abbr",
+        "facets": {
+          "sql": {
+            "query": "SELECT respondent_id, age_group, country, {gender_col} FROM synthetic_survey"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0032"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_survey_gender"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-survey"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "survey_gender_binary",
+        "facets": {
+          "sql": {
+            "query": "SELECT respondent_id, age_group, country, {gender_col} FROM synthetic_survey"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0033"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_employees_gender"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-employees"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "employees_gender_full",
+        "facets": {
+          "sql": {
+            "query": "SELECT employee_id, department, {gender_col} FROM synthetic_employees"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0034"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_employees_gender"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-employees"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "employees_gender_code",
+        "facets": {
+          "sql": {
+            "query": "SELECT employee_id, department, {gender_col} FROM synthetic_employees"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0035"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_persons"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-persons"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "persons_fullname",
+        "facets": {
+          "sql": {
+            "query": "SELECT person_id, {name_col} AS {col_alias}, department, company FROM synthetic_persons"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0036"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_persons"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-persons"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "persons_lastfirst",
+        "facets": {
+          "sql": {
+            "query": "SELECT person_id, {name_col} AS {col_alias}, department, company FROM synthetic_persons"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0037"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_persons"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-persons"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "persons_initials",
+        "facets": {
+          "sql": {
+            "query": "SELECT person_id, {name_col} AS {col_alias}, department, company FROM synthetic_persons"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0038"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_employees_names"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-employees"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "employees_fullname",
+        "facets": {
+          "sql": {
+            "query": "SELECT employee_id, {name_col} AS {col_alias}, department, company FROM synthetic_employees"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0039"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_employees_names"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-employees"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "employees_lastfirst",
+        "facets": {
+          "sql": {
+            "query": "SELECT employee_id, {name_col} AS {col_alias}, department, company FROM synthetic_employees"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0040"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_authors"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-authors"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "authors_fullname",
+        "facets": {
+          "sql": {
+            "query": "SELECT author_id, {name_col} AS {col_alias}, genre, country FROM synthetic_authors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0041"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_authors"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-authors"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "authors_lastfirst",
+        "facets": {
+          "sql": {
+            "query": "SELECT author_id, {name_col} AS {col_alias}, genre, country FROM synthetic_authors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0042"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_movies_directors"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-movies"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "movies_directors",
+        "facets": {
+          "sql": {
+            "query": "SELECT movie_id, name, {dir_col} AS {col_alias}, year, language, genre FROM synthetic_movies"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0043"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_movies_directors"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-movies"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "movies_director_abbr",
+        "facets": {
+          "sql": {
+            "query": "SELECT movie_id, name, {dir_col} AS {col_alias}, year, language, genre FROM synthetic_movies"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0044"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_movies_directors"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-movies"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "movies_director_lastfirst",
+        "facets": {
+          "sql": {
+            "query": "SELECT movie_id, name, {dir_col} AS {col_alias}, year, language, genre FROM synthetic_movies"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0045"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_movies_cast"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-movies"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "movies_cast",
+        "facets": {
+          "sql": {
+            "query": "SELECT movie_id, name, year, {actor_col} FROM synthetic_movies_cast"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0046"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_movies_cast"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-movies"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "movies_cast_abbr",
+        "facets": {
+          "sql": {
+            "query": "SELECT movie_id, name, year, {actor_col} FROM synthetic_movies_cast"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0047"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_cast_summary"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "movies_cast"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "cast_summary",
+        "facets": {
+          "sql": {
+            "query": "SELECT actor, COUNT(DISTINCT name) AS total_movies FROM movies_cast GROUP BY actor"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0048"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_series_directors"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-series"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "series_directors",
+        "facets": {
+          "sql": {
+            "query": "SELECT series_id, name, {dir_col} AS {col_alias}, year, language, genre FROM synthetic_series"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0049"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_series_directors"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-series"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "series_director_abbr",
+        "facets": {
+          "sql": {
+            "query": "SELECT series_id, name, {dir_col} AS {col_alias}, year, language, genre FROM synthetic_series"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0050"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_salary_bands"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-compensation"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "salary_bands_usd",
+        "facets": {
+          "sql": {
+            "query": "SELECT department, grade, level, {min_col}, {max_col}, {mid_col} FROM synthetic_compensation"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0051"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_salary_bands"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-compensation"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "salary_bands_eur",
+        "facets": {
+          "sql": {
+            "query": "SELECT department, grade, level, {min_col}, {max_col}, {mid_col} FROM synthetic_compensation"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0052"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_age_distribution"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-population"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "age_dist_5yr",
+        "facets": {
+          "sql": {
+            "query": "SELECT age_range, population_count, ROUND(population_count * 100.0 / SUM(population_count) OVER (), 2) AS pct_total FROM synthetic_population GROUP BY {bin_size}, age_range"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0053"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_age_distribution"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-population"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "age_dist_10yr",
+        "facets": {
+          "sql": {
+            "query": "SELECT age_range, population_count, ROUND(population_count * 100.0 / SUM(population_count) OVER (), 2) AS pct_total FROM synthetic_population GROUP BY {bin_size}, age_range"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0054"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_price_tiers"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-products"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "product_price_tiers_usd",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, category, {tier_col} AS {col_alias}, brand FROM synthetic_products"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0055"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_price_tiers"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-products"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "product_price_tiers_eur",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, category, {tier_col} AS {col_alias}, brand FROM synthetic_products"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0056"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_athletes_ioc"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-athletes"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "athletes_nat_ioc",
+        "facets": {
+          "sql": {
+            "query": "SELECT athlete_id, athlete_name, sport, IOC_MAP[nationality] AS nationality_ioc FROM synthetic_athletes"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0057"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_products_temporal_eur"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_sales_eur"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_monthly_eur",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, product_name, brand, category, {period} AS report_{grain}, ROUND(annual_sales_eur / {divisor}, 0) AS {col} FROM products_sales_eur"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0058"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_products_temporal_eur"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_sales_eur"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "products_quarterly_eur",
+        "facets": {
+          "sql": {
+            "query": "SELECT product_id, product_name, brand, category, {period} AS report_{grain}, ROUND(annual_sales_eur / {divisor}, 0) AS {col} FROM products_sales_eur"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0059"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_employee_salaries"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-employees"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "employee_salary_usd",
+        "facets": {
+          "sql": {
+            "query": "SELECT employee_id, full_name, department, grade, level, {annual_col}, {monthly_col} FROM synthetic_employees"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0060"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_employee_salaries"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-employees"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "employee_salary_eur",
+        "facets": {
+          "sql": {
+            "query": "SELECT employee_id, full_name, department, grade, level, {annual_col}, {monthly_col} FROM synthetic_employees"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0061"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_city_climate"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-weather"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "city_climate_celsius",
+        "facets": {
+          "sql": {
+            "query": "SELECT city, country, month, {temp_col} FROM synthetic_weather"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0062"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "ingest_city_climate"
+    },
+    "inputs": [
+      {
+        "namespace": "source",
+        "name": "source/synthetic-weather"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "city_climate_fahrenheit",
+        "facets": {
+          "sql": {
+            "query": "SELECT city, country, month, {temp_col} FROM synthetic_weather"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0063"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_city_climate_annual"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "city_climate_celsius"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "city_climate_annual_celsius",
+        "facets": {
+          "sql": {
+            "query": "SELECT city, country, AVG({temp_col}) AS {annual_col} FROM city_climate_celsius GROUP BY city, country"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2024-06-01T09:00:00Z",
+    "run": {
+      "runId": "dag-run-0064"
+    },
+    "job": {
+      "namespace": "lakehouse",
+      "name": "aggregate_city_climate_annual"
+    },
+    "inputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "city_climate_celsius"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "lakehouse",
+        "name": "city_climate_annual_fahrenheit",
+        "facets": {
+          "sql": {
+            "query": "SELECT city, country, AVG({temp_col}) AS {annual_col} FROM city_climate_celsius GROUP BY city, country"
+          }
+        }
+      }
+    ]
+  }
+]

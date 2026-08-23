@@ -1,0 +1,151 @@
+store_id,store_name,brand_full,country,annual_revenue_eur
+ST001,Store 001,Albert Heijn B.V.,India,61835777
+ST002,Store 002,Jumbo Groep Holding B.V.,Canada,122235184
+ST003,Store 003,Esselunga S.p.A.,Czech Republic,196353867
+ST004,Store 004,Lidl Stiftung & Co. KG,Canada,115058591
+ST005,Store 005,Mercadona S.A.,Austria,68921458
+ST006,Store 006,Conad Società Cooperativa,United Kingdom,184867116
+ST007,Store 007,Jeronimo Martins Polska S.A.,Germany,24987966
+ST008,Store 008,Aldi Einkauf SE,Germany,116430970
+ST009,Store 009,Lidl Stiftung & Co. KG,Denmark,198819041
+ST010,Store 010,Conad Società Cooperativa,Russia,35427601
+ST011,Store 011,Penny GmbH & Co. KG,France,157928020
+ST012,Store 012,Penny GmbH & Co. KG,Sweden,88988668
+ST013,Store 013,Lidl Stiftung & Co. KG,Czech Republic,95418261
+ST014,Store 014,Jumbo Groep Holding B.V.,China,194058252
+ST015,Store 015,Carrefour S.A.,Japan,161671357
+ST016,Store 016,Wm Morrison Supermarkets Ltd,Netherlands,28310064
+ST017,Store 017,Netto Marken-Discount AG,Portugal,57606638
+ST018,Store 018,REWE Group,Austria,129936731
+ST019,Store 019,Coop Genossenschaft,China,29549651
+ST020,Store 020,Conad Società Cooperativa,China,149821376
+ST021,Store 021,Conad Società Cooperativa,Italy,75277585
+ST022,Store 022,Netto Marken-Discount AG,Argentina,115688984
+ST023,Store 023,Penny GmbH & Co. KG,South Korea,167392712
+ST024,Store 024,SPAR International,Austria,173023242
+ST025,Store 025,Penny GmbH & Co. KG,Spain,163975827
+ST026,Store 026,J Sainsbury plc,Spain,48930071
+ST027,Store 027,J Sainsbury plc,Greece,83442444
+ST028,Store 028,Mercadona S.A.,Netherlands,2139010
+ST029,Store 029,EDEKA Zentrale AG,China,38953779
+ST030,Store 030,Netto Marken-Discount AG,Austria,108084729
+ST031,Store 031,Aldi Einkauf SE,United Kingdom,199402367
+ST032,Store 032,Tesco PLC,Germany,142900362
+ST033,Store 033,Migros-Genossenschafts-Bund,Serbia,113197926
+ST034,Store 034,Albert Heijn B.V.,Canada,42754230
+ST035,Store 035,Conad Società Cooperativa,Japan,194201942
+ST036,Store 036,Mercadona S.A.,South Korea,152862234
+ST037,Store 037,SPAR International,Germany,14622074
+ST038,Store 038,REWE Group,United States,166349674
+ST039,Store 039,Carrefour S.A.,Austria,22399374
+ST040,Store 040,J Sainsbury plc,Croatia,178187815
+ST041,Store 041,Jumbo Groep Holding B.V.,Poland,163460724
+ST042,Store 042,Albert Heijn B.V.,Czech Republic,73827666
+ST043,Store 043,Migros-Genossenschafts-Bund,South Korea,138031915
+ST044,Store 044,Lidl Stiftung & Co. KG,Netherlands,115904062
+ST045,Store 045,Lidl Stiftung & Co. KG,Japan,182557728
+ST046,Store 046,Netto Marken-Discount AG,Poland,141947797
+ST047,Store 047,Wm Morrison Supermarkets Ltd,France,59694967
+ST048,Store 048,Esselunga S.p.A.,Norway,15205420
+ST049,Store 049,Tesco PLC,Brazil,81411642
+ST050,Store 050,Migros-Genossenschafts-Bund,South Korea,37338686
+ST051,Store 051,J Sainsbury plc,Japan,88579674
+ST052,Store 052,Lidl Stiftung & Co. KG,Spain,134015857
+ST053,Store 053,Jumbo Groep Holding B.V.,United States,35178023
+ST054,Store 054,Esselunga S.p.A.,Sweden,189390317
+ST055,Store 055,Coop Genossenschaft,Portugal,150481214
+ST056,Store 056,Conad Società Cooperativa,Germany,107087980
+ST057,Store 057,Carrefour S.A.,Czech Republic,5530893
+ST058,Store 058,Albert Heijn B.V.,South Africa,21401084
+ST059,Store 059,Mercadona S.A.,Switzerland,115735123
+ST060,Store 060,Netto Marken-Discount AG,Serbia,190954676
+ST061,Store 061,Jumbo Groep Holding B.V.,Japan,31416617
+ST062,Store 062,Esselunga S.p.A.,Spain,87679295
+ST063,Store 063,EDEKA Zentrale AG,Russia,166426736
+ST064,Store 064,Albert Heijn B.V.,Mexico,185615785
+ST065,Store 065,Conad Società Cooperativa,Germany,117728925
+ST066,Store 066,Lidl Stiftung & Co. KG,Argentina,117451026
+ST067,Store 067,Netto Marken-Discount AG,Serbia,141150125
+ST068,Store 068,Aldi Einkauf SE,Serbia,83788692
+ST069,Store 069,Mercadona S.A.,Argentina,89907427
+ST070,Store 070,EDEKA Zentrale AG,Germany,137531813
+ST071,Store 071,Lidl Stiftung & Co. KG,Portugal,137389214
+ST072,Store 072,Migros-Genossenschafts-Bund,India,94284709
+ST073,Store 073,Conad Società Cooperativa,Denmark,173759778
+ST074,Store 074,REWE Group,Argentina,28096380
+ST075,Store 075,REWE Group,Australia,53454746
+ST076,Store 076,EDEKA Zentrale AG,Norway,41535670
+ST077,Store 077,Aldi Einkauf SE,United States,169063715
+ST078,Store 078,Jeronimo Martins Polska S.A.,Croatia,151826590
+ST079,Store 079,Netto Marken-Discount AG,Croatia,183340374
+ST080,Store 080,Netto Marken-Discount AG,Belgium,171036593
+ST081,Store 081,SPAR International,Canada,168867390
+ST082,Store 082,Mercadona S.A.,United Kingdom,118547933
+ST083,Store 083,Aldi Einkauf SE,Poland,119204322
+ST084,Store 084,Wm Morrison Supermarkets Ltd,Russia,74232150
+ST085,Store 085,Netto Marken-Discount AG,France,94973770
+ST086,Store 086,Kaufland Stiftung & Co. KG,Germany,83824472
+ST087,Store 087,Albert Heijn B.V.,Croatia,10595119
+ST088,Store 088,Carrefour S.A.,Netherlands,77561654
+ST089,Store 089,Aldi Einkauf SE,Belgium,24738783
+ST090,Store 090,SPAR International,Norway,136614981
+ST091,Store 091,Esselunga S.p.A.,Croatia,156280988
+ST092,Store 092,Penny GmbH & Co. KG,Russia,198852606
+ST093,Store 093,Carrefour S.A.,Croatia,153952923
+ST094,Store 094,Migros-Genossenschafts-Bund,Canada,162905017
+ST095,Store 095,Jeronimo Martins Polska S.A.,Portugal,40996460
+ST096,Store 096,Carrefour S.A.,Croatia,28283573
+ST097,Store 097,Mercadona S.A.,Greece,23136928
+ST098,Store 098,Kaufland Stiftung & Co. KG,Belgium,46820930
+ST099,Store 099,Carrefour S.A.,Argentina,190450754
+ST100,Store 100,Albert Heijn B.V.,Croatia,141178581
+ST101,Store 101,Kaufland Stiftung & Co. KG,Norway,43113111
+ST102,Store 102,Conad Società Cooperativa,Netherlands,76438667
+ST103,Store 103,Esselunga S.p.A.,Czech Republic,91329739
+ST104,Store 104,SPAR International,France,169852325
+ST105,Store 105,Mercadona S.A.,Germany,89000689
+ST106,Store 106,Lidl Stiftung & Co. KG,Sweden,182601068
+ST107,Store 107,Esselunga S.p.A.,Japan,68144603
+ST108,Store 108,SPAR International,China,40865532
+ST109,Store 109,Mercadona S.A.,Germany,156927947
+ST110,Store 110,REWE Group,South Africa,94404302
+ST111,Store 111,Wm Morrison Supermarkets Ltd,Belgium,187996786
+ST112,Store 112,Esselunga S.p.A.,United Kingdom,160230162
+ST113,Store 113,Aldi Einkauf SE,Japan,150534500
+ST114,Store 114,Esselunga S.p.A.,Belgium,88674753
+ST115,Store 115,REWE Group,Austria,189164725
+ST116,Store 116,Kaufland Stiftung & Co. KG,Germany,173915966
+ST117,Store 117,Jumbo Groep Holding B.V.,Portugal,97627490
+ST118,Store 118,Tesco PLC,Netherlands,83410605
+ST119,Store 119,EDEKA Zentrale AG,Brazil,92233077
+ST120,Store 120,Jeronimo Martins Polska S.A.,Brazil,61312185
+ST121,Store 121,REWE Group,United Kingdom,21213845
+ST122,Store 122,Wm Morrison Supermarkets Ltd,China,27649766
+ST123,Store 123,Kaufland Stiftung & Co. KG,South Korea,145393609
+ST124,Store 124,Kaufland Stiftung & Co. KG,France,178185277
+ST125,Store 125,Mercadona S.A.,India,166401559
+ST126,Store 126,REWE Group,Norway,101624970
+ST127,Store 127,REWE Group,United States,49045468
+ST128,Store 128,SPAR International,Russia,44936581
+ST129,Store 129,Albert Heijn B.V.,France,110789019
+ST130,Store 130,Conad Società Cooperativa,Austria,193662308
+ST131,Store 131,Coop Genossenschaft,Croatia,164405460
+ST132,Store 132,Wm Morrison Supermarkets Ltd,South Korea,121008182
+ST133,Store 133,Coop Genossenschaft,Sweden,64701304
+ST134,Store 134,Wm Morrison Supermarkets Ltd,Russia,126400416
+ST135,Store 135,Migros-Genossenschafts-Bund,Netherlands,182581601
+ST136,Store 136,Netto Marken-Discount AG,Croatia,124431274
+ST137,Store 137,Wm Morrison Supermarkets Ltd,South Korea,103008101
+ST138,Store 138,Kaufland Stiftung & Co. KG,Portugal,112883408
+ST139,Store 139,EDEKA Zentrale AG,Mexico,54105951
+ST140,Store 140,SPAR International,United Kingdom,67609727
+ST141,Store 141,Carrefour S.A.,Belgium,129507571
+ST142,Store 142,Conad Società Cooperativa,Sweden,28038720
+ST143,Store 143,Kaufland Stiftung & Co. KG,China,33967934
+ST144,Store 144,Wm Morrison Supermarkets Ltd,Germany,43533515
+ST145,Store 145,J Sainsbury plc,Croatia,138302076
+ST146,Store 146,REWE Group,Mexico,117933147
+ST147,Store 147,Aldi Einkauf SE,South Africa,60102873
+ST148,Store 148,Albert Heijn B.V.,India,94341028
+ST149,Store 149,Tesco PLC,Czech Republic,14796037
+ST150,Store 150,Esselunga S.p.A.,Portugal,100884523

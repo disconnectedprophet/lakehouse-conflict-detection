@@ -1,0 +1,87 @@
+{
+  "table": "series_directors",
+  "columns": {
+    "series_id": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 200,
+      "sample_values": [
+        "SR096",
+        "SR016",
+        "SR031",
+        "SR159",
+        "SR129",
+        "SR116"
+      ]
+    },
+    "name": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 200,
+      "sample_values": [
+        "Series Crimson 96",
+        "Series Last 16",
+        "Series Distant 31",
+        "Series Golden 159",
+        "Series Dark 129",
+        "Series Broken 116"
+      ]
+    },
+    "director": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 200,
+      "sample_values": [
+        "Ridley Jacksonov",
+        "James Campionette",
+        "Greta Cuaronez",
+        "Martin Kubricksen SD21",
+        "Alfonso Finchereux",
+        "Steven Kubricksen"
+      ]
+    },
+    "year": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 19,
+      "sample_values": [
+        "2006",
+        "2005",
+        "2009",
+        "2010",
+        "2008",
+        "2022"
+      ],
+      "min": 2005.0,
+      "max": 2023.0,
+      "mean": 2014.275,
+      "std": 5.6158
+    },
+    "language": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "FR",
+        "JA",
+        "ES",
+        "ES",
+        "KO",
+        "JA"
+      ]
+    },
+    "genre": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Drama",
+        "Sci-Fi",
+        "Sci-Fi",
+        "Sci-Fi",
+        "Sci-Fi",
+        "Comedy"
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "table": "movies_cast",
+  "columns": {
+    "movie_id": {
+      "row_count": 1043,
+      "null_count": 0,
+      "distinct_count": 300,
+      "sample_values": [
+        "MV299",
+        "MV083",
+        "MV155",
+        "MV238",
+        "MV186",
+        "MV283"
+      ]
+    },
+    "name": {
+      "row_count": 1043,
+      "null_count": 0,
+      "distinct_count": 300,
+      "sample_values": [
+        "The Burning Tide",
+        "The Hollow Bridge",
+        "Crimson Passage 155",
+        "The Silent Storm",
+        "The Last Mirror",
+        "Broken Shadow 283"
+      ]
+    },
+    "year": {
+      "row_count": 1043,
+      "null_count": 0,
+      "distinct_count": 24,
+      "sample_values": [
+        "2015",
+        "2003",
+        "2001",
+        "2009",
+        "2002",
+        "2018"
+      ],
+      "min": 2000.0,
+      "max": 2023.0,
+      "mean": 2011.0527,
+      "std": 6.8409
+    },
+    "actor": {
+      "row_count": 1043,
+      "null_count": 0,
+      "distinct_count": 80,
+      "sample_values": [
+        "Morgan Davisberg",
+        "Brad Deppley",
+        "Matt DiCapriox",
+        "Matt Hanksen",
+        "Scarlett Damonberg A4",
+        "Natalie Goslingov"
+      ]
+    }
+  }
+}

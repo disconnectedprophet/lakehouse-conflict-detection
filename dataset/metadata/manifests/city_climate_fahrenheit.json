@@ -1,0 +1,61 @@
+{
+  "table": "city_climate_fahrenheit",
+  "columns": {
+    "city": {
+      "row_count": 360,
+      "null_count": 0,
+      "distinct_count": 30,
+      "sample_values": [
+        "Zurich",
+        "Milan",
+        "Rotterdam",
+        "Porto",
+        "London",
+        "Turin"
+      ]
+    },
+    "country": {
+      "row_count": 360,
+      "null_count": 0,
+      "distinct_count": 19,
+      "sample_values": [
+        "Switzerland",
+        "Italy",
+        "Netherlands",
+        "Portugal",
+        "UK",
+        "Italy"
+      ]
+    },
+    "month": {
+      "row_count": 360,
+      "null_count": 0,
+      "distinct_count": 12,
+      "sample_values": [
+        "2023-09",
+        "2023-07",
+        "2023-10",
+        "2023-03",
+        "2023-09",
+        "2023-09"
+      ]
+    },
+    "avg_temp_fahrenheit": {
+      "row_count": 360,
+      "null_count": 0,
+      "distinct_count": 235,
+      "sample_values": [
+        "72.3",
+        "87.8",
+        "53.6",
+        "56.3",
+        "67.6",
+        "75.9"
+      ],
+      "min": 8.6,
+      "max": 93.2,
+      "mean": 56.9522,
+      "std": 21.1709
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "table": "cast_summary",
+  "columns": {
+    "actor": {
+      "row_count": 80,
+      "null_count": 0,
+      "distinct_count": 80,
+      "sample_values": [
+        "Julia Portmanix",
+        "Anne Freemanix",
+        "Jennifer Robertsix",
+        "Julia Washingtonov",
+        "Jennifer Davisberg",
+        "Johnny Johanssonova"
+      ]
+    },
+    "total_movies": {
+      "row_count": 80,
+      "null_count": 0,
+      "distinct_count": 17,
+      "sample_values": [
+        "19",
+        "15",
+        "10",
+        "10",
+        "7",
+        "10"
+      ],
+      "min": 6.0,
+      "max": 28.0,
+      "mean": 13.0375,
+      "std": 4.2529
+    }
+  }
+}

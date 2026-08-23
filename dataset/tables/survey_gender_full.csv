@@ -1,0 +1,501 @@
+respondent_id,age_group,country,gender
+R0001,45-54,United Kingdom,Female
+R0002,65+,Serbia,Female
+R0003,18-24,Italy,Male
+R0004,45-54,Poland,Male
+R0005,65+,Norway,Male
+R0006,65+,Serbia,Male
+R0007,65+,Germany,Non-binary
+R0008,45-54,Serbia,Non-binary
+R0009,65+,Croatia,Male
+R0010,18-24,Italy,Male
+R0011,18-24,Italy,Male
+R0012,65+,Portugal,Female
+R0013,18-24,Switzerland,Male
+R0014,55-64,Poland,Female
+R0015,65+,Italy,Male
+R0016,25-34,Serbia,Female
+R0017,65+,Czech Republic,Female
+R0018,55-64,United Kingdom,Male
+R0019,35-44,Germany,Male
+R0020,55-64,United States,Female
+R0021,65+,Spain,Female
+R0022,55-64,Sweden,Female
+R0023,45-54,Germany,Female
+R0024,55-64,Sweden,Female
+R0025,65+,Italy,Female
+R0026,25-34,Italy,Non-binary
+R0027,55-64,United States,Male
+R0028,55-64,Croatia,Male
+R0029,18-24,France,Male
+R0030,55-64,Brazil,Male
+R0031,25-34,Germany,Female
+R0032,35-44,France,Female
+R0033,18-24,Portugal,Male
+R0034,35-44,Sweden,Male
+R0035,45-54,Spain,Male
+R0036,35-44,France,Male
+R0037,35-44,Sweden,Female
+R0038,25-34,Switzerland,Female
+R0039,65+,Canada,Female
+R0040,35-44,Norway,Female
+R0041,55-64,Brazil,Female
+R0042,18-24,France,Female
+R0043,18-24,Brazil,Male
+R0044,35-44,Brazil,Male
+R0045,55-64,Sweden,Male
+R0046,55-64,Netherlands,Male
+R0047,25-34,Norway,Male
+R0048,18-24,Sweden,Female
+R0049,35-44,Serbia,Male
+R0050,25-34,Serbia,Female
+R0051,18-24,Australia,Female
+R0052,45-54,United Kingdom,Female
+R0053,25-34,Germany,Female
+R0054,65+,Australia,Female
+R0055,65+,Brazil,Female
+R0056,35-44,Switzerland,Female
+R0057,65+,Portugal,Female
+R0058,25-34,Czech Republic,Female
+R0059,35-44,Czech Republic,Male
+R0060,18-24,Norway,Female
+R0061,18-24,Australia,Male
+R0062,55-64,Italy,Male
+R0063,55-64,Czech Republic,Female
+R0064,35-44,Germany,Male
+R0065,35-44,Australia,Male
+R0066,25-34,Australia,Male
+R0067,18-24,Serbia,Male
+R0068,45-54,Italy,Male
+R0069,25-34,Portugal,Male
+R0070,35-44,Switzerland,Female
+R0071,18-24,Portugal,Female
+R0072,65+,Switzerland,Male
+R0073,55-64,Australia,Male
+R0074,18-24,France,Female
+R0075,35-44,Serbia,Male
+R0076,35-44,Sweden,Male
+R0077,55-64,Serbia,Female
+R0078,55-64,United Kingdom,Female
+R0079,18-24,Portugal,Male
+R0080,25-34,United Kingdom,Female
+R0081,45-54,Switzerland,Male
+R0082,35-44,France,Female
+R0083,65+,Netherlands,Female
+R0084,25-34,Norway,Female
+R0085,65+,Croatia,Female
+R0086,45-54,Netherlands,Male
+R0087,55-64,Japan,Female
+R0088,45-54,Portugal,Male
+R0089,25-34,Japan,Female
+R0090,18-24,Japan,Female
+R0091,35-44,Germany,Female
+R0092,18-24,Germany,Female
+R0093,25-34,Germany,Female
+R0094,55-64,France,Male
+R0095,65+,Japan,Male
+R0096,45-54,Spain,Female
+R0097,65+,Portugal,Female
+R0098,25-34,Poland,Female
+R0099,55-64,Sweden,Female
+R0100,18-24,Serbia,Female
+R0101,55-64,Brazil,Male
+R0102,18-24,Czech Republic,Female
+R0103,55-64,Netherlands,Female
+R0104,65+,Portugal,Male
+R0105,55-64,France,Female
+R0106,45-54,United States,Female
+R0107,55-64,Argentina,Female
+R0108,18-24,Netherlands,Male
+R0109,55-64,Netherlands,Male
+R0110,45-54,Poland,Male
+R0111,25-34,Netherlands,Female
+R0112,35-44,Argentina,Male
+R0113,18-24,Japan,Female
+R0114,45-54,Japan,Male
+R0115,25-34,Spain,Male
+R0116,65+,Switzerland,Female
+R0117,25-34,Japan,Female
+R0118,55-64,France,Female
+R0119,55-64,Poland,Female
+R0120,35-44,Spain,Male
+R0121,45-54,Canada,Female
+R0122,35-44,Italy,Male
+R0123,35-44,United States,Male
+R0124,35-44,Spain,Female
+R0125,45-54,Poland,Male
+R0126,18-24,Portugal,Male
+R0127,25-34,Czech Republic,Female
+R0128,45-54,Spain,Male
+R0129,65+,Australia,Male
+R0130,45-54,Serbia,Male
+R0131,35-44,Netherlands,Male
+R0132,25-34,Sweden,Female
+R0133,18-24,Croatia,Male
+R0134,45-54,United States,Female
+R0135,35-44,Czech Republic,Male
+R0136,35-44,Brazil,Male
+R0137,25-34,Japan,Male
+R0138,25-34,Serbia,Male
+R0139,65+,Canada,Female
+R0140,25-34,Brazil,Male
+R0141,65+,Australia,Female
+R0142,45-54,Poland,Male
+R0143,45-54,United Kingdom,Female
+R0144,45-54,Portugal,Male
+R0145,65+,Serbia,Female
+R0146,18-24,Italy,Male
+R0147,25-34,United Kingdom,Male
+R0148,55-64,Spain,Male
+R0149,65+,Argentina,Non-binary
+R0150,65+,Canada,Male
+R0151,55-64,Spain,Female
+R0152,45-54,Japan,Female
+R0153,45-54,Germany,Male
+R0154,45-54,Argentina,Non-binary
+R0155,25-34,Portugal,Female
+R0156,25-34,Australia,Male
+R0157,18-24,Australia,Non-binary
+R0158,25-34,Czech Republic,Female
+R0159,45-54,Italy,Male
+R0160,65+,Portugal,Female
+R0161,25-34,Brazil,Female
+R0162,65+,United Kingdom,Female
+R0163,18-24,United Kingdom,Male
+R0164,18-24,Australia,Female
+R0165,25-34,Czech Republic,Male
+R0166,55-64,Brazil,Male
+R0167,18-24,Serbia,Male
+R0168,55-64,Japan,Female
+R0169,65+,Argentina,Female
+R0170,35-44,Czech Republic,Male
+R0171,18-24,Portugal,Female
+R0172,65+,France,Female
+R0173,18-24,Australia,Male
+R0174,35-44,Netherlands,Male
+R0175,45-54,Argentina,Female
+R0176,18-24,United States,Male
+R0177,18-24,France,Male
+R0178,65+,Canada,Female
+R0179,35-44,Poland,Male
+R0180,55-64,Italy,Male
+R0181,25-34,Australia,Female
+R0182,35-44,Canada,Female
+R0183,18-24,Italy,Male
+R0184,18-24,Sweden,Female
+R0185,25-34,Canada,Non-binary
+R0186,65+,Netherlands,Male
+R0187,55-64,Portugal,Female
+R0188,35-44,Argentina,Female
+R0189,35-44,Brazil,Female
+R0190,45-54,Germany,Female
+R0191,25-34,Norway,Male
+R0192,18-24,Switzerland,Male
+R0193,25-34,Brazil,Female
+R0194,45-54,Italy,Female
+R0195,55-64,Norway,Male
+R0196,35-44,Poland,Male
+R0197,25-34,Sweden,Non-binary
+R0198,25-34,France,Female
+R0199,25-34,Czech Republic,Male
+R0200,65+,Australia,Female
+R0201,55-64,Netherlands,Non-binary
+R0202,45-54,Italy,Male
+R0203,18-24,Poland,Female
+R0204,55-64,Portugal,Female
+R0205,25-34,Norway,Male
+R0206,65+,United Kingdom,Male
+R0207,18-24,Switzerland,Male
+R0208,65+,Brazil,Male
+R0209,45-54,Poland,Female
+R0210,55-64,Portugal,Female
+R0211,25-34,Croatia,Male
+R0212,55-64,Serbia,Non-binary
+R0213,45-54,Serbia,Female
+R0214,35-44,Brazil,Female
+R0215,18-24,United States,Male
+R0216,25-34,Switzerland,Female
+R0217,18-24,Portugal,Female
+R0218,55-64,Portugal,Female
+R0219,35-44,Argentina,Male
+R0220,65+,Australia,Male
+R0221,18-24,United States,Female
+R0222,18-24,Sweden,Male
+R0223,35-44,France,Male
+R0224,25-34,Australia,Female
+R0225,35-44,France,Male
+R0226,25-34,Brazil,Female
+R0227,18-24,Spain,Female
+R0228,35-44,Norway,Female
+R0229,35-44,Germany,Male
+R0230,55-64,Australia,Female
+R0231,25-34,Czech Republic,Female
+R0232,35-44,Canada,Female
+R0233,65+,Spain,Male
+R0234,25-34,Australia,Male
+R0235,35-44,Spain,Male
+R0236,65+,Switzerland,Female
+R0237,65+,Serbia,Male
+R0238,35-44,Norway,Female
+R0239,25-34,Croatia,Female
+R0240,35-44,Australia,Male
+R0241,55-64,Serbia,Male
+R0242,45-54,Argentina,Male
+R0243,65+,Czech Republic,Female
+R0244,25-34,Poland,Male
+R0245,45-54,United States,Male
+R0246,25-34,United States,Female
+R0247,55-64,Poland,Male
+R0248,25-34,Japan,Female
+R0249,35-44,United States,Male
+R0250,45-54,Norway,Male
+R0251,18-24,United Kingdom,Male
+R0252,45-54,Argentina,Male
+R0253,65+,Serbia,Female
+R0254,65+,Portugal,Male
+R0255,65+,Spain,Male
+R0256,18-24,Serbia,Female
+R0257,18-24,Italy,Female
+R0258,65+,France,Male
+R0259,25-34,Germany,Male
+R0260,25-34,Norway,Male
+R0261,18-24,Italy,Male
+R0262,65+,Canada,Female
+R0263,18-24,Brazil,Female
+R0264,45-54,Switzerland,Male
+R0265,25-34,Japan,Female
+R0266,45-54,United Kingdom,Male
+R0267,18-24,Sweden,Male
+R0268,35-44,Sweden,Female
+R0269,18-24,France,Male
+R0270,55-64,Japan,Male
+R0271,55-64,Czech Republic,Male
+R0272,18-24,Argentina,Male
+R0273,25-34,Czech Republic,Male
+R0274,25-34,Netherlands,Female
+R0275,35-44,Argentina,Female
+R0276,45-54,Italy,Female
+R0277,25-34,Italy,Female
+R0278,18-24,Japan,Male
+R0279,18-24,Norway,Male
+R0280,18-24,Netherlands,Male
+R0281,18-24,Norway,Male
+R0282,25-34,Czech Republic,Male
+R0283,35-44,Norway,Female
+R0284,65+,Czech Republic,Male
+R0285,65+,Japan,Male
+R0286,35-44,Netherlands,Female
+R0287,35-44,Poland,Male
+R0288,35-44,Australia,Female
+R0289,18-24,Spain,Female
+R0290,65+,United Kingdom,Male
+R0291,25-34,Serbia,Male
+R0292,65+,Poland,Female
+R0293,18-24,Switzerland,Male
+R0294,65+,Australia,Female
+R0295,18-24,Canada,Male
+R0296,25-34,Serbia,Male
+R0297,35-44,Poland,Male
+R0298,45-54,Czech Republic,Female
+R0299,65+,Canada,Female
+R0300,65+,Argentina,Male
+R0301,45-54,Sweden,Female
+R0302,55-64,Sweden,Female
+R0303,55-64,Sweden,Female
+R0304,45-54,Germany,Male
+R0305,65+,Czech Republic,Female
+R0306,55-64,Argentina,Female
+R0307,18-24,Argentina,Female
+R0308,18-24,Brazil,Male
+R0309,35-44,Sweden,Male
+R0310,25-34,Italy,Female
+R0311,35-44,Netherlands,Male
+R0312,25-34,Japan,Non-binary
+R0313,25-34,Sweden,Female
+R0314,25-34,Brazil,Female
+R0315,18-24,United Kingdom,Male
+R0316,65+,United Kingdom,Male
+R0317,65+,Spain,Female
+R0318,45-54,Netherlands,Female
+R0319,65+,Italy,Male
+R0320,55-64,Germany,Female
+R0321,55-64,United States,Female
+R0322,25-34,Netherlands,Male
+R0323,18-24,Argentina,Male
+R0324,18-24,Switzerland,Male
+R0325,25-34,United States,Female
+R0326,65+,United Kingdom,Female
+R0327,55-64,Japan,Female
+R0328,45-54,Canada,Female
+R0329,65+,Spain,Female
+R0330,18-24,United Kingdom,Male
+R0331,65+,France,Male
+R0332,25-34,Portugal,Female
+R0333,18-24,Serbia,Male
+R0334,65+,Croatia,Female
+R0335,65+,Australia,Female
+R0336,55-64,Japan,Female
+R0337,25-34,Czech Republic,Female
+R0338,35-44,Germany,Male
+R0339,45-54,United Kingdom,Female
+R0340,25-34,Serbia,Female
+R0341,18-24,Argentina,Female
+R0342,25-34,Sweden,Female
+R0343,18-24,Croatia,Female
+R0344,35-44,Serbia,Female
+R0345,25-34,France,Female
+R0346,65+,Czech Republic,Male
+R0347,35-44,Italy,Male
+R0348,18-24,Netherlands,Male
+R0349,35-44,Spain,Female
+R0350,35-44,United States,Male
+R0351,18-24,Germany,Female
+R0352,55-64,Spain,Male
+R0353,35-44,Brazil,Non-binary
+R0354,25-34,France,Female
+R0355,35-44,Germany,Male
+R0356,55-64,France,Female
+R0357,45-54,France,Female
+R0358,35-44,Germany,Male
+R0359,18-24,Netherlands,Male
+R0360,35-44,Serbia,Non-binary
+R0361,25-34,Canada,Female
+R0362,45-54,Netherlands,Non-binary
+R0363,65+,Italy,Male
+R0364,45-54,Portugal,Male
+R0365,55-64,United Kingdom,Male
+R0366,55-64,Serbia,Male
+R0367,55-64,France,Female
+R0368,25-34,United Kingdom,Male
+R0369,45-54,Germany,Female
+R0370,18-24,Argentina,Female
+R0371,65+,United Kingdom,Male
+R0372,65+,United States,Non-binary
+R0373,55-64,Norway,Female
+R0374,55-64,Canada,Female
+R0375,25-34,Canada,Female
+R0376,35-44,Norway,Male
+R0377,18-24,Serbia,Female
+R0378,25-34,Norway,Male
+R0379,18-24,United Kingdom,Female
+R0380,65+,Poland,Female
+R0381,18-24,United Kingdom,Male
+R0382,35-44,Sweden,Non-binary
+R0383,45-54,Italy,Male
+R0384,35-44,United States,Female
+R0385,25-34,Germany,Male
+R0386,55-64,Netherlands,Male
+R0387,18-24,Germany,Male
+R0388,65+,Croatia,Male
+R0389,45-54,Australia,Male
+R0390,45-54,United Kingdom,Non-binary
+R0391,55-64,Poland,Male
+R0392,35-44,Japan,Male
+R0393,45-54,Norway,Female
+R0394,25-34,Croatia,Female
+R0395,55-64,Norway,Male
+R0396,35-44,Germany,Male
+R0397,45-54,Portugal,Female
+R0398,35-44,France,Female
+R0399,65+,France,Female
+R0400,25-34,Sweden,Female
+R0401,25-34,Italy,Male
+R0402,45-54,United States,Male
+R0403,45-54,Germany,Female
+R0404,45-54,Croatia,Male
+R0405,18-24,Netherlands,Female
+R0406,45-54,Sweden,Female
+R0407,18-24,Germany,Female
+R0408,65+,Italy,Male
+R0409,45-54,Brazil,Female
+R0410,35-44,Germany,Female
+R0411,35-44,Norway,Male
+R0412,25-34,Poland,Female
+R0413,35-44,Croatia,Male
+R0414,55-64,United Kingdom,Male
+R0415,25-34,Brazil,Female
+R0416,55-64,France,Male
+R0417,45-54,France,Female
+R0418,45-54,Poland,Male
+R0419,18-24,Brazil,Male
+R0420,65+,Czech Republic,Male
+R0421,35-44,United States,Male
+R0422,25-34,Germany,Male
+R0423,45-54,Germany,Male
+R0424,65+,Croatia,Male
+R0425,55-64,Brazil,Female
+R0426,35-44,United States,Female
+R0427,18-24,Czech Republic,Male
+R0428,35-44,United States,Male
+R0429,35-44,Czech Republic,Male
+R0430,45-54,Sweden,Female
+R0431,25-34,Czech Republic,Female
+R0432,65+,Switzerland,Male
+R0433,18-24,Sweden,Female
+R0434,25-34,Germany,Female
+R0435,65+,Switzerland,Female
+R0436,25-34,Canada,Female
+R0437,65+,Canada,Female
+R0438,25-34,Croatia,Male
+R0439,45-54,Canada,Male
+R0440,65+,Czech Republic,Male
+R0441,55-64,Spain,Male
+R0442,25-34,Croatia,Female
+R0443,55-64,Italy,Female
+R0444,25-34,Brazil,Male
+R0445,65+,Sweden,Female
+R0446,25-34,Norway,Non-binary
+R0447,25-34,Netherlands,Female
+R0448,25-34,Switzerland,Male
+R0449,35-44,Netherlands,Male
+R0450,35-44,Japan,Male
+R0451,18-24,Poland,Female
+R0452,45-54,Czech Republic,Female
+R0453,35-44,Netherlands,Female
+R0454,45-54,Portugal,Female
+R0455,35-44,Italy,Non-binary
+R0456,45-54,Czech Republic,Male
+R0457,25-34,Sweden,Male
+R0458,25-34,Sweden,Female
+R0459,45-54,Japan,Female
+R0460,65+,Czech Republic,Female
+R0461,35-44,Norway,Female
+R0462,18-24,Italy,Male
+R0463,65+,Spain,Male
+R0464,45-54,Italy,Female
+R0465,65+,Norway,Female
+R0466,18-24,Croatia,Female
+R0467,55-64,France,Female
+R0468,35-44,Czech Republic,Female
+R0469,25-34,Croatia,Male
+R0470,45-54,Italy,Female
+R0471,45-54,Italy,Male
+R0472,45-54,Czech Republic,Male
+R0473,65+,Serbia,Female
+R0474,35-44,Argentina,Male
+R0475,35-44,Australia,Female
+R0476,35-44,Japan,Female
+R0477,65+,Argentina,Female
+R0478,45-54,France,Male
+R0479,18-24,United Kingdom,Male
+R0480,55-64,Norway,Male
+R0481,35-44,United States,Male
+R0482,45-54,Argentina,Female
+R0483,45-54,Brazil,Female
+R0484,65+,Serbia,Female
+R0485,55-64,Czech Republic,Male
+R0486,65+,Serbia,Male
+R0487,25-34,Serbia,Female
+R0488,55-64,United States,Male
+R0489,25-34,Italy,Female
+R0490,25-34,Portugal,Female
+R0491,65+,Switzerland,Male
+R0492,65+,Australia,Female
+R0493,25-34,Canada,Female
+R0494,18-24,Germany,Male
+R0495,45-54,Spain,Male
+R0496,55-64,United Kingdom,Female
+R0497,55-64,Sweden,Male
+R0498,55-64,Serbia,Male
+R0499,65+,United Kingdom,Male
+R0500,65+,Netherlands,Female

@@ -1,0 +1,151 @@
+venue_id,venue_name,year,total_annual_attendance,match_count
+VEN001,Rotterdam Heritage Stadium 1,2022,354380,10
+VEN002,Warsaw Riverside Sports Park 2,2022,320946,6
+VEN003,Salzburg Riverside Sports Park 3,2022,95056,8
+VEN004,London Central Arena 4,2022,258855,15
+VEN005,Vienna Apex Stadium 5,2022,246465,9
+VEN006,Vienna Central Arena 6,2022,163908,12
+VEN007,Paris Civic Arena 7,2022,287880,8
+VEN008,Copenhagen Metropolitan Arena 8,2022,529045,11
+VEN009,Hamburg City Sports Complex 9,2022,91860,6
+VEN010,Madrid Championship Grounds 10,2022,297684,12
+VEN011,Prague Phoenix Arena 11,2022,547430,10
+VEN012,Helsinki Heritage Stadium 12,2022,525497,7
+VEN013,Krakow Capital Sports Center 13,2022,286643,7
+VEN014,Stockholm Grand Stadium 14,2022,219810,6
+VEN015,Salzburg Central Arena 15,2022,161832,11
+VEN016,Dublin Grand Stadium 16,2022,441060,15
+VEN017,Salzburg Civic Arena 17,2022,437567,13
+VEN018,Ghent Grand Stadium 18,2022,309960,15
+VEN019,Gothenburg Phoenix Arena 19,2022,145062,9
+VEN020,Amsterdam Grand Stadium 20,2022,108070,10
+VEN021,Madrid Metropolitan Arena 21,2022,63872,8
+VEN022,Salzburg Northern Athletic Center 22,2022,95810,13
+VEN023,Oslo Apex Stadium 23,2022,422170,14
+VEN024,Helsinki Apex Stadium 24,2022,190840,8
+VEN025,Oslo Heritage Stadium 25,2022,133216,8
+VEN026,Porto Capital Sports Center 26,2022,140252,7
+VEN027,Amsterdam Riverside Sports Park 27,2022,290110,10
+VEN028,Turin National Arena 28,2022,318195,15
+VEN029,Rotterdam Northern Athletic Center 29,2022,106330,10
+VEN030,Zurich Championship Grounds 30,2022,238056,6
+VEN031,Barcelona Premier Grounds 31,2022,299893,11
+VEN032,Gothenburg Apex Stadium 32,2022,405780,15
+VEN033,Copenhagen Premier Grounds 33,2022,614610,15
+VEN034,Hamburg Championship Grounds 34,2022,119984,8
+VEN035,London Capital Sports Center 35,2022,558396,12
+VEN036,Salzburg National Arena 36,2022,240669,11
+VEN037,Lisbon Central Arena 37,2022,397910,10
+VEN038,Oslo Riverside Sports Park 38,2022,487487,13
+VEN039,Copenhagen National Arena 39,2022,200025,15
+VEN040,Lisbon Harbor Arena 40,2022,258984,9
+VEN041,Turin Grand Stadium 41,2022,297231,11
+VEN042,Hamburg Unity Sports Center 42,2022,157836,7
+VEN043,Stockholm Premier Grounds 43,2022,162113,7
+VEN044,Hamburg Northern Athletic Center 44,2022,157472,7
+VEN045,Turin Northern Athletic Center 45,2022,446088,12
+VEN046,Brussels Central Arena 46,2022,444366,13
+VEN047,Vienna Phoenix Arena 47,2022,271854,11
+VEN048,London Harbor Arena 48,2022,138572,14
+VEN049,Prague Phoenix Arena 49,2022,244032,8
+VEN050,Krakow Heritage Stadium 50,2022,382340,10
+VEN051,Krakow Olympic Center 51,2022,1138080,15
+VEN052,Athens Apex Stadium 52,2022,538362,11
+VEN053,Turin Olympic Center 53,2022,52185,7
+VEN054,Salzburg Metropolitan Arena 54,2022,230373,9
+VEN055,Paris Apex Stadium 55,2022,952588,14
+VEN056,Warsaw City Sports Complex 56,2022,493980,15
+VEN057,Amsterdam Apex Stadium 57,2022,184764,6
+VEN058,Oslo Heritage Stadium 58,2022,290122,7
+VEN059,Turin Phoenix Arena 59,2022,129519,9
+VEN060,Berlin Unity Sports Center 60,2022,378937,13
+VEN061,Porto Unity Sports Center 61,2022,205190,10
+VEN062,London Civic Arena 62,2022,345405,15
+VEN063,Oslo Unity Sports Center 63,2022,546180,15
+VEN064,Hamburg National Arena 64,2022,108360,8
+VEN065,Budapest National Arena 65,2022,370783,7
+VEN066,Rotterdam Olympic Center 66,2022,262080,14
+VEN067,Paris Harbor Arena 67,2022,267160,10
+VEN068,Turin Grand Stadium 68,2022,84192,8
+VEN069,Salzburg Olympic Center 69,2022,446615,13
+VEN070,Salzburg Grand Stadium 70,2022,853050,15
+VEN071,Stockholm Championship Grounds 71,2022,107604,7
+VEN072,Krakow Civic Arena 72,2022,136532,11
+VEN073,Brussels Unity Sports Center 73,2022,335808,12
+VEN074,Aarhus Premier Grounds 74,2022,325380,6
+VEN075,Berlin Harbor Arena 75,2022,83792,8
+VEN076,Milan Premier Grounds 76,2022,70260,6
+VEN077,Athens Central Arena 77,2022,255750,15
+VEN078,Gothenburg National Arena 78,2022,141270,10
+VEN079,Stockholm Civic Arena 79,2022,100198,7
+VEN080,Dublin Central Arena 80,2022,44400,6
+VEN081,Vienna Harbor Arena 81,2022,398328,12
+VEN082,London Heritage Stadium 82,2022,293180,10
+VEN083,Salzburg Metropolitan Arena 83,2022,81790,10
+VEN084,Paris Civic Arena 84,2022,676056,12
+VEN085,Barcelona National Arena 85,2022,542408,8
+VEN086,Vienna Olympic Center 86,2022,128808,8
+VEN087,Milan Grand Stadium 87,2022,647822,14
+VEN088,Oslo Grand Stadium 88,2022,212979,13
+VEN089,Vienna Premier Grounds 89,2022,172116,7
+VEN090,Oslo Heritage Stadium 90,2022,214200,15
+VEN091,Krakow Grand Stadium 91,2022,826548,12
+VEN092,London Northern Athletic Center 92,2022,146088,8
+VEN093,Vienna Capital Sports Center 93,2022,200920,8
+VEN094,Zurich Capital Sports Center 94,2022,106939,7
+VEN095,Vienna City Sports Complex 95,2022,1074870,15
+VEN096,Hamburg Central Arena 96,2022,458304,6
+VEN097,Prague Riverside Sports Park 97,2022,622490,11
+VEN098,Paris Civic Arena 98,2022,559160,14
+VEN099,Dublin Grand Stadium 99,2022,166936,11
+VEN100,Brussels Apex Stadium 100,2022,481143,13
+VEN101,Copenhagen Civic Arena 101,2022,359070,15
+VEN102,London Premier Grounds 102,2022,611116,11
+VEN103,Amsterdam Phoenix Arena 103,2022,263850,6
+VEN104,Vienna Northern Athletic Center 104,2022,141732,9
+VEN105,Aarhus Unity Sports Center 105,2022,289898,7
+VEN106,Salzburg Civic Arena 106,2022,474994,13
+VEN107,Prague Apex Stadium 107,2022,48367,11
+VEN108,London Central Arena 108,2022,435504,12
+VEN109,Lisbon Capital Sports Center 109,2022,147568,8
+VEN110,Lyon Unity Sports Center 110,2022,184142,14
+VEN111,Aarhus Olympic Center 111,2022,181012,13
+VEN112,Dublin Grand Stadium 112,2022,163520,8
+VEN113,Lisbon Grand Stadium 113,2022,359736,12
+VEN114,Aarhus Heritage Stadium 114,2022,129558,13
+VEN115,Porto Heritage Stadium 115,2022,159588,6
+VEN116,Helsinki Capital Sports Center 116,2022,376248,12
+VEN117,Stockholm National Arena 117,2022,670212,9
+VEN118,Warsaw Metropolitan Arena 118,2022,91248,8
+VEN119,Rotterdam Phoenix Arena 119,2022,103530,6
+VEN120,Salzburg Heritage Stadium 120,2022,385798,14
+VEN121,Budapest Capital Sports Center 121,2022,450080,10
+VEN122,Krakow Premier Grounds 122,2022,193760,10
+VEN123,Oslo Harbor Arena 123,2022,662312,14
+VEN124,Stockholm Harbor Arena 124,2022,52213,7
+VEN125,Athens Unity Sports Center 125,2022,138177,13
+VEN126,Milan Phoenix Arena 126,2022,197736,7
+VEN127,Krakow Heritage Stadium 127,2022,94470,10
+VEN128,Brussels Civic Arena 128,2022,98328,8
+VEN129,Paris Central Arena 129,2022,138336,8
+VEN130,Rotterdam National Arena 130,2022,216750,6
+VEN131,Lisbon Civic Arena 131,2022,103446,14
+VEN132,Stockholm Heritage Stadium 132,2022,261540,10
+VEN133,Copenhagen Premier Grounds 133,2022,499296,12
+VEN134,Zurich Phoenix Arena 134,2022,259129,13
+VEN135,Dublin Capital Sports Center 135,2022,116388,6
+VEN136,Lisbon Phoenix Arena 136,2022,220787,7
+VEN137,Rotterdam Unity Sports Center 137,2022,172890,9
+VEN138,Amsterdam Championship Grounds 138,2022,559460,10
+VEN139,London Phoenix Arena 139,2022,121180,10
+VEN140,Amsterdam Grand Stadium 140,2022,293046,13
+VEN141,Athens Olympic Center 141,2022,384762,14
+VEN142,Gothenburg Grand Stadium 142,2022,123221,7
+VEN143,Krakow Civic Arena 143,2022,33876,9
+VEN144,London Olympic Center 144,2022,249036,12
+VEN145,Turin National Arena 145,2022,252018,6
+VEN146,Warsaw Unity Sports Center 146,2022,198102,6
+VEN147,Brussels Phoenix Arena 147,2022,300820,10
+VEN148,Hamburg National Arena 148,2022,159237,13
+VEN149,Madrid Civic Arena 149,2022,207648,6
+VEN150,Madrid Apex Stadium 150,2022,162050,10

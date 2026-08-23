@@ -1,0 +1,87 @@
+{
+  "table": "movies_director_abbr",
+  "columns": {
+    "movie_id": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 300,
+      "sample_values": [
+        "MV204",
+        "MV267",
+        "MV153",
+        "MV010",
+        "MV234",
+        "MV227"
+      ]
+    },
+    "name": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 300,
+      "sample_values": [
+        "The Distant Light",
+        "Silent Passage 267",
+        "Distant Hour 153",
+        "The Silent Echo",
+        "Hidden Tower 234",
+        "Golden Storm 227"
+      ]
+    },
+    "director_abbr": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 263,
+      "sample_values": [
+        "J. Spielmann",
+        "S. Campionette D72",
+        "D. Coppola Jr D26",
+        "D. Scottbury",
+        "P. Bigelowska",
+        "J. Tarantinov D51"
+      ]
+    },
+    "year": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 24,
+      "sample_values": [
+        "2001",
+        "2022",
+        "2002",
+        "2012",
+        "2019",
+        "2005"
+      ],
+      "min": 2000.0,
+      "max": 2023.0,
+      "mean": 2011.14,
+      "std": 6.8628
+    },
+    "language": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "ZH",
+        "EN",
+        "ES",
+        "DE",
+        "EN",
+        "PT"
+      ]
+    },
+    "genre": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Drama",
+        "Thriller",
+        "Documentary",
+        "Sci-Fi",
+        "Drama",
+        "Comedy"
+      ]
+    }
+  }
+}

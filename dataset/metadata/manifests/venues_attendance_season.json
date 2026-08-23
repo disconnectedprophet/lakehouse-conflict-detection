@@ -1,0 +1,78 @@
+{
+  "table": "venues_attendance_season",
+  "columns": {
+    "venue_id": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 150,
+      "sample_values": [
+        "VEN074",
+        "VEN019",
+        "VEN119",
+        "VEN079",
+        "VEN077",
+        "VEN032"
+      ]
+    },
+    "venue_name": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 150,
+      "sample_values": [
+        "Aarhus Premier Grounds 74",
+        "Gothenburg Phoenix Arena 19",
+        "Rotterdam Phoenix Arena 119",
+        "Stockholm Civic Arena 79",
+        "Athens Central Arena 77",
+        "Gothenburg Apex Stadium 32"
+      ]
+    },
+    "season": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 1,
+      "sample_values": [
+        "2022-23",
+        "2022-23",
+        "2022-23",
+        "2022-23",
+        "2022-23",
+        "2022-23"
+      ]
+    },
+    "avg_season_attendance": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 150,
+      "sample_values": [
+        "54230",
+        "16118",
+        "17255",
+        "14314",
+        "17050",
+        "27052"
+      ],
+      "min": 3764.0,
+      "max": 76384.0,
+      "mean": 28399.8267,
+      "std": 16626.5316
+    },
+    "match_count": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "6",
+        "9",
+        "6",
+        "7",
+        "15",
+        "15"
+      ],
+      "min": 6.0,
+      "max": 15.0,
+      "mean": 10.2533,
+      "std": 2.936
+    }
+  }
+}

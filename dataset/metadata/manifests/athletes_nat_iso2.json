@@ -1,0 +1,57 @@
+{
+  "table": "athletes_nat_iso2",
+  "columns": {
+    "athlete_id": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 300,
+      "sample_values": [
+        "ATH204",
+        "ATH267",
+        "ATH153",
+        "ATH010",
+        "ATH234",
+        "ATH227"
+      ]
+    },
+    "athlete_name": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 300,
+      "sample_values": [
+        "Clara Dupont",
+        "Luis Martinez",
+        "Felix Russo",
+        "Mia Dupont",
+        "Carlos Leclerc",
+        "Katarina Yamamoto"
+      ]
+    },
+    "sport": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Basketball",
+        "Football",
+        "Boxing",
+        "Boxing",
+        "Tennis",
+        "Boxing"
+      ]
+    },
+    "nationality_iso2": {
+      "row_count": 300,
+      "null_count": 0,
+      "distinct_count": 30,
+      "sample_values": [
+        "NL",
+        "HR",
+        "RU",
+        "HR",
+        "CZ",
+        "FR"
+      ]
+    }
+  }
+}

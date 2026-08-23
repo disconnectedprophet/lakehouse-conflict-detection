@@ -1,0 +1,91 @@
+{
+  "table": "sports_rankings_pts",
+  "columns": {
+    "player_id": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 120,
+      "sample_values": [
+        "PLAY045",
+        "PLAY048",
+        "PLAY005",
+        "PLAY056",
+        "PLAY027",
+        "PLAY065"
+      ]
+    },
+    "player_name": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 120,
+      "sample_values": [
+        "Dominic Shapovalov",
+        "Jannik Lendl",
+        "Daniil Berdych",
+        "Holger Zverev",
+        "Nicolas Rossi",
+        "Alexander Djokovic"
+      ]
+    },
+    "nationality": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 30,
+      "sample_values": [
+        "Poland",
+        "Russia",
+        "Belgium",
+        "United States",
+        "South Korea",
+        "Canada"
+      ]
+    },
+    "sport": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Football",
+        "Basketball",
+        "Judo",
+        "Football",
+        "Swimming",
+        "Judo"
+      ]
+    },
+    "ranking_points": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 117,
+      "sample_values": [
+        "1203",
+        "1800",
+        "1026",
+        "468",
+        "2470",
+        "2622"
+      ],
+      "min": 121.0,
+      "max": 2968.0,
+      "mean": 1557.4,
+      "std": 821.753
+    },
+    "world_rank": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 120,
+      "sample_values": [
+        "97",
+        "6",
+        "76",
+        "103",
+        "49",
+        "104"
+      ],
+      "min": 1.0,
+      "max": 120.0,
+      "mean": 60.5,
+      "std": 34.7851
+    }
+  }
+}

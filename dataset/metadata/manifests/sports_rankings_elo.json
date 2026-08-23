@@ -1,0 +1,91 @@
+{
+  "table": "sports_rankings_elo",
+  "columns": {
+    "player_id": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 120,
+      "sample_values": [
+        "PLAY045",
+        "PLAY048",
+        "PLAY005",
+        "PLAY056",
+        "PLAY027",
+        "PLAY065"
+      ]
+    },
+    "player_name": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 120,
+      "sample_values": [
+        "Dominic Shapovalov",
+        "Jannik Lendl",
+        "Daniil Berdych",
+        "Holger Zverev",
+        "Nicolas Rossi",
+        "Alexander Djokovic"
+      ]
+    },
+    "nationality": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 30,
+      "sample_values": [
+        "Poland",
+        "Russia",
+        "Belgium",
+        "United States",
+        "South Korea",
+        "Canada"
+      ]
+    },
+    "sport": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Football",
+        "Basketball",
+        "Judo",
+        "Football",
+        "Swimming",
+        "Judo"
+      ]
+    },
+    "elo_rating": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 114,
+      "sample_values": [
+        "1738",
+        "1992",
+        "1691",
+        "1390",
+        "2330",
+        "2345"
+      ],
+      "min": 1234.0,
+      "max": 2537.0,
+      "mean": 1903.0083,
+      "std": 368.4995
+    },
+    "rank_elo": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 120,
+      "sample_values": [
+        "97",
+        "6",
+        "76",
+        "103",
+        "49",
+        "104"
+      ],
+      "min": 1.0,
+      "max": 120.0,
+      "mean": 60.5,
+      "std": 34.7851
+    }
+  }
+}

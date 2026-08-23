@@ -1,0 +1,95 @@
+{
+  "table": "salary_bands_eur",
+  "columns": {
+    "department": {
+      "row_count": 80,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Sales",
+        "Engineering",
+        "Finance",
+        "Sales",
+        "Marketing",
+        "Finance"
+      ]
+    },
+    "grade": {
+      "row_count": 80,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "IC1",
+        "IC1",
+        "IC3",
+        "IC2",
+        "M4",
+        "M4"
+      ]
+    },
+    "level": {
+      "row_count": 80,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "Junior",
+        "Junior",
+        "Senior",
+        "Mid",
+        "VP",
+        "VP"
+      ]
+    },
+    "min_salary_eur": {
+      "row_count": 80,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "40950",
+        "40950",
+        "81900",
+        "59150",
+        "236600",
+        "236600"
+      ],
+      "min": 40950.0,
+      "max": 318500.0,
+      "mean": 141505.0,
+      "std": 81507.4135
+    },
+    "max_salary_eur": {
+      "row_count": 80,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "59150",
+        "59150",
+        "118300",
+        "81900",
+        "318500",
+        "318500"
+      ],
+      "min": 59150.0,
+      "max": 455000.0,
+      "mean": 194740.0,
+      "std": 113618.377
+    },
+    "midpoint_eur": {
+      "row_count": 80,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "50050",
+        "50050",
+        "100100",
+        "70525",
+        "277550",
+        "277550"
+      ],
+      "min": 50050.0,
+      "max": 386750.0,
+      "mean": 168122.5,
+      "std": 97508.4524
+    }
+  }
+}

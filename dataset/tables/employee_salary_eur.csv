@@ -1,0 +1,251 @@
+employee_id,full_name,department,grade,level,annual_salary_eur,monthly_salary_eur
+ES0001,Olivia Watson,Marketing,IC4,Staff,120747,10061
+ES0002,Henry Lewis,Product,IC2,Mid,77030,6419
+ES0003,Lily Hill,HR,IC1,Junior,52501,4374
+ES0004,Joshua Harris,HR,IC1,Junior,50980,4247
+ES0005,Thomas Brown,Sales,IC3,Senior,110853,9237
+ES0006,Harry Lewis,Finance,IC1,Junior,45388,3781
+ES0007,Samuel Williams,Marketing,M1,Manager,126423,10535
+ES0008,Harry Jones,Operations,IC2,Mid,66758,5562
+ES0009,Benjamin Thompson,Sales,IC5,Principal,207718,17309
+ES0010,James Green,Engineering,IC3,Senior,93499,7791
+ES0011,Oliver Walker,Product,IC2,Mid,67285,5606
+ES0012,Daniel Hill,Legal,IC1,Junior,48050,4004
+ES0013,Jack Williams,Engineering,IC1,Junior,46892,3907
+ES0014,Sophie Walker,Marketing,IC1,Junior,55533,4627
+ES0015,Grace Thompson,Operations,IC2,Mid,63413,5284
+ES0016,Sophia Jones,Finance,IC5,Principal,163794,13649
+ES0017,Lily Thompson,Marketing,M1,Manager,128315,10692
+ES0018,Hannah Thomas,Legal,IC2,Mid,67649,5637
+ES0019,Alfie Cooper,HR,IC1,Junior,44780,3731
+ES0020,Emily Harris,Sales,IC2,Mid,77152,6429
+ES0021,Isla Jackson,HR,IC2,Mid,75747,6311
+ES0022,Mia Roberts,Finance,IC3,Senior,109515,9125
+ES0023,Joshua Scott,Legal,IC2,Mid,75953,6329
+ES0024,Ava Smith,Legal,IC2,Mid,72890,6073
+ES0025,James Walker,Legal,IC1,Junior,58624,4884
+ES0026,Charlotte Wood,Finance,IC1,Junior,43329,3609
+ES0027,Samuel Lee,Engineering,IC4,Staff,149913,12492
+ES0028,Amelia Johnson,Product,IC3,Senior,94998,7916
+ES0029,William Smith,Finance,IC4,Staff,145922,12159
+ES0030,Emily Davies,Legal,IC1,Junior,56798,4732
+ES0031,Henry Clarke,Finance,IC2,Mid,69436,5785
+ES0032,James Williams,Product,IC3,Senior,117504,9791
+ES0033,Charlotte Evans,Product,IC3,Senior,89344,7444
+ES0034,Samuel Johnson,Legal,IC1,Junior,53821,4484
+ES0035,Sophia Brown,HR,IC1,Junior,43538,3628
+ES0036,Lewis Davies,Engineering,IC5,Principal,167301,13941
+ES0037,Mia Taylor,Operations,M1,Manager,92689,7724
+ES0038,Evie Watson,Legal,IC4,Staff,154275,12855
+ES0039,Sophia Davies,Marketing,M1,Manager,98512,8209
+ES0040,Jack Green,Operations,IC1,Junior,43896,3657
+ES0041,Olivia Harris,Engineering,IC2,Mid,69577,5797
+ES0042,Freddie Wilson,Finance,IC1,Junior,47127,3926
+ES0043,Ava Roberts,Finance,IC2,Mid,65040,5419
+ES0044,Thomas Scott,Marketing,IC3,Senior,94757,7896
+ES0045,Charlie Williams,Operations,IC2,Mid,66703,5558
+ES0046,James King,Sales,IC2,Mid,67980,5664
+ES0047,Harry Jackson,Engineering,IC1,Junior,52557,4379
+ES0048,Harry Green,Sales,IC3,Senior,86121,7176
+ES0049,Benjamin Clarke,Marketing,M2,Senior Manager,156924,13076
+ES0050,Lily Smith E1,Sales,IC4,Staff,125896,10491
+ES0051,Sophie Watson,Marketing,IC4,Staff,140829,11735
+ES0052,Benjamin White,Finance,IC2,Mid,76324,6359
+ES0053,Sophia Wilson,Sales,IC5,Principal,176280,14689
+ES0054,James Brown,Product,IC1,Junior,42330,3527
+ES0055,Jacob Williams,Operations,IC3,Senior,116992,9748
+ES0056,Samuel Walker,Product,IC3,Senior,96195,8016
+ES0057,Grace Wilson,Engineering,IC1,Junior,49290,4106
+ES0058,Alfie Wright,Finance,IC3,Senior,82002,6833
+ES0059,James Roberts,Legal,IC3,Senior,118203,9849
+ES0060,Thomas Hill,Operations,IC4,Staff,137203,11433
+ES0061,Evie Johnson,Operations,IC1,Junior,54195,4516
+ES0062,Sophie Wood,Operations,M2,Senior Manager,135901,11324
+ES0063,William Scott,Sales,IC4,Staff,133527,11126
+ES0064,Olivia Williams,Finance,IC5,Principal,160962,13413
+ES0065,Amelia Jackson,Legal,IC1,Junior,53507,4458
+ES0066,Daniel Roberts,Sales,IC1,Junior,55730,4643
+ES0067,Amelia Walker,Finance,IC5,Principal,176053,14671
+ES0068,Harry Wilson,Operations,IC1,Junior,44703,3724
+ES0069,Lily Robinson,Sales,IC4,Staff,120473,10039
+ES0070,Olivia Martin,Sales,IC4,Staff,151518,12626
+ES0071,James Turner,Product,IC1,Junior,58019,4834
+ES0072,Freddie Wood,Operations,IC2,Mid,65255,5437
+ES0073,Joshua Lewis,Legal,M2,Senior Manager,151727,12643
+ES0074,Jessica Davies,Engineering,IC2,Mid,77361,6446
+ES0075,George Thomas,Legal,IC3,Senior,96988,8081
+ES0076,Evie Wood,Finance,IC1,Junior,48993,4082
+ES0077,Oliver Cooper,Legal,IC2,Mid,78033,6501
+ES0078,Alfie Smith,Marketing,IC4,Staff,145769,12146
+ES0079,Grace Taylor,Finance,IC4,Staff,147774,12314
+ES0080,Noah Martin,Sales,IC4,Staff,158197,13182
+ES0081,Amelia Wilson E2,Marketing,IC2,Mid,77577,6464
+ES0082,James Davies,Marketing,IC1,Junior,44725,3726
+ES0083,Isla Robinson,Marketing,IC1,Junior,52618,4384
+ES0084,Amelia Taylor,Sales,IC2,Mid,73507,6125
+ES0085,Amelia Williams,Finance,IC5,Principal,164601,13716
+ES0086,Henry Hill,Legal,IC3,Senior,84924,7077
+ES0087,Jessica Martin,Product,IC3,Senior,108934,9077
+ES0088,Jacob White,HR,M1,Manager,110044,9170
+ES0089,Charlotte King,HR,IC2,Mid,81474,6789
+ES0090,James Harris,Legal,IC4,Staff,124905,10408
+ES0091,Joshua Jackson,Legal,IC1,Junior,52979,4414
+ES0092,Charlie Robinson,Finance,IC4,Staff,149687,12473
+ES0093,Charlie Lee,Sales,IC1,Junior,41262,3437
+ES0094,Daniel Evans E3,Finance,M3,Director,183783,15315
+ES0095,Sophie Lewis,Finance,IC1,Junior,46622,3884
+ES0096,Thomas Watson,Engineering,IC5,Principal,181495,15124
+ES0097,Noah King,HR,IC3,Senior,91700,7641
+ES0098,William Jackson,Finance,IC2,Mid,60765,5063
+ES0099,Evie Cooper,Finance,IC2,Mid,67496,5624
+ES0100,Alice Davies,Finance,IC3,Senior,99077,8256
+ES0101,Charlie Walker,Operations,IC1,Junior,45471,3789
+ES0102,Jessica Jones,Product,IC2,Mid,79322,6610
+ES0103,Jack Lee,Operations,IC1,Junior,58952,4912
+ES0104,Lily Thompson E4,Engineering,IC1,Junior,54956,4579
+ES0105,Sophie Lee,Sales,IC5,Principal,167288,13940
+ES0106,Emily Williams,Legal,IC4,Staff,137714,11476
+ES0107,Samuel Wright,Sales,IC4,Staff,150402,12533
+ES0108,Freddie White,Marketing,IC1,Junior,57714,4809
+ES0109,Alice Turner,HR,IC2,Mid,64407,5367
+ES0110,Hannah Thomas E5,Legal,IC2,Mid,70296,5857
+ES0111,Thomas Turner,Sales,IC2,Mid,59271,4938
+ES0112,Poppy Scott,Operations,IC1,Junior,45652,3803
+ES0113,Jack Harris,HR,IC1,Junior,44444,3703
+ES0114,Charlie White,Operations,IC4,Staff,124113,10342
+ES0115,Alfie Davies,Marketing,IC1,Junior,50073,4172
+ES0116,James Jones E6,Product,IC1,Junior,55833,4651
+ES0117,Emily Wright E7,Engineering,IC1,Junior,51916,4326
+ES0118,Mia Watson,HR,IC2,Mid,62566,5213
+ES0119,Alfie Green,Sales,IC3,Senior,110500,9208
+ES0120,Ava Brown,Legal,IC3,Senior,105504,8791
+ES0121,Freddie Jones,Product,IC3,Senior,114301,9524
+ES0122,Sophia Williams,HR,IC1,Junior,56647,4720
+ES0123,Isabella Thomas,Engineering,IC4,Staff,158107,13174
+ES0124,Charlotte Thomas,HR,IC2,Mid,65048,5419
+ES0125,Emily King,Finance,IC3,Senior,100512,8375
+ES0126,Alfie Hill,Marketing,M1,Manager,121791,10149
+ES0127,Jessica King,Product,IC2,Mid,73364,6113
+ES0128,Benjamin Lewis E8,HR,M2,Senior Manager,137281,11439
+ES0129,Isla Cooper,Operations,IC1,Junior,53483,4456
+ES0130,Alfie King E9,HR,IC2,Mid,59989,4998
+ES0131,Harry Green E10,Marketing,IC1,Junior,57787,4814
+ES0132,Emily Jones,Product,IC3,Senior,106508,8875
+ES0133,Isabella Hill,Sales,IC3,Senior,95368,7947
+ES0134,Alfie Brown E11,Legal,IC3,Senior,97613,8134
+ES0135,Henry Scott E12,Operations,IC2,Mid,81832,6818
+ES0136,Charlie Wilson E13,Engineering,IC4,Staff,157251,13104
+ES0137,Joshua Cooper,Engineering,IC2,Mid,71291,5940
+ES0138,Isla Jones,Engineering,IC4,Staff,156625,13052
+ES0139,Alfie White,Product,IC2,Mid,60217,5017
+ES0140,Noah Robinson,Engineering,M2,Senior Manager,166396,13865
+ES0141,Jack Robinson E14,Legal,IC1,Junior,55851,4653
+ES0142,Sophia Walker,Marketing,IC1,Junior,55189,4599
+ES0143,Isla Smith,Marketing,IC1,Junior,44862,3738
+ES0144,Jack Lewis,Sales,M1,Manager,119006,9917
+ES0145,Ava Hill,Product,IC4,Staff,124539,10377
+ES0146,Grace Wood,Product,IC5,Principal,197177,16430
+ES0147,Evie Lewis,Legal,IC2,Mid,77087,6423
+ES0148,Lewis Turner,Legal,IC2,Mid,66087,5507
+ES0149,Charlie Wright,Finance,IC1,Junior,57573,4797
+ES0150,Sophie Wilson,Legal,IC2,Mid,80933,6744
+ES0151,Alfie Lee,Finance,IC1,Junior,45981,3831
+ES0152,George Harris,Product,IC1,Junior,55245,4603
+ES0153,Oliver Green,Engineering,IC3,Senior,110959,9246
+ES0154,Amelia Wright,Operations,IC2,Mid,78156,6512
+ES0155,George Thompson E15,Legal,IC3,Senior,114001,9499
+ES0156,Poppy Walker,Product,IC3,Senior,83001,6916
+ES0157,Harry Scott,Sales,IC2,Mid,63782,5314
+ES0158,Jessica Evans E16,HR,M1,Manager,100921,8409
+ES0159,Jacob Martin,Marketing,IC1,Junior,54943,4578
+ES0160,Oliver Thomas,Product,IC3,Senior,93423,7785
+ES0161,Lily Clarke,Sales,IC2,Mid,78778,6564
+ES0162,Sophie Clarke,Operations,IC1,Junior,56980,4748
+ES0163,Isabella Williams,Marketing,IC1,Junior,52169,4347
+ES0164,Amelia Brown E17,Finance,IC1,Junior,51037,4252
+ES0165,Isla Taylor E18,Marketing,IC1,Junior,49951,4162
+ES0166,James White E19,Engineering,IC2,Mid,74561,6213
+ES0167,Lewis Watson E20,Legal,IC4,Staff,120811,10067
+ES0168,Joshua Clarke,HR,IC4,Staff,139048,11587
+ES0169,Lewis Wood E21,Legal,M4,VP,283525,23626
+ES0170,Harry Walker,HR,IC4,Staff,137417,11451
+ES0171,Ava Cooper,Engineering,IC2,Mid,78533,6543
+ES0172,Lewis Hill,Product,IC1,Junior,49160,4095
+ES0173,Freddie Williams,Legal,M2,Senior Manager,145104,12092
+ES0174,Hannah Martin,HR,IC2,Mid,71392,5948
+ES0175,Lewis Lewis,Product,IC2,Mid,64516,5376
+ES0176,Joshua Jones,HR,IC2,Mid,78826,6568
+ES0177,Poppy Jackson,Legal,IC3,Senior,90726,7560
+ES0178,Mia Lee,Marketing,M1,Manager,125476,10455
+ES0179,Sophia Roberts,Sales,IC2,Mid,63983,5331
+ES0180,Harry Wood,Operations,IC2,Mid,80490,6706
+ES0181,Daniel Walker,Engineering,IC2,Mid,78820,6568
+ES0182,Isla Harris,Operations,IC2,Mid,77312,6441
+ES0183,Poppy Wright,Product,IC1,Junior,50657,4221
+ES0184,Ava Jackson E22,Operations,IC1,Junior,41859,3488
+ES0185,Benjamin Lewis,Legal,IC3,Senior,105747,8811
+ES0186,Samuel Davies E23,Product,IC1,Junior,46103,3841
+ES0187,Evie Evans,Product,M2,Senior Manager,161241,13436
+ES0188,Alfie Scott,Legal,IC3,Senior,92898,7741
+ES0189,Alfie Robinson E24,Marketing,IC2,Mid,77440,6452
+ES0190,Mia Brown E25,Operations,IC5,Principal,165306,13774
+ES0191,Sophia Evans,Product,IC1,Junior,47303,3941
+ES0192,Benjamin Harris,Sales,IC1,Junior,58569,4880
+ES0193,Thomas Green E26,Operations,IC1,Junior,55047,4587
+ES0194,William Thomas,Engineering,IC3,Senior,112896,9407
+ES0195,Freddie Taylor,Operations,IC1,Junior,43455,3620
+ES0196,Hannah Scott,Finance,IC1,Junior,48825,4068
+ES0197,Hannah Green,Sales,IC2,Mid,64357,5362
+ES0198,Harry Watson,Sales,IC2,Mid,60909,5075
+ES0199,Charlotte Wright,Operations,M3,Director,223585,18631
+ES0200,Charlie King,Operations,IC3,Senior,96103,8008
+ES0201,Benjamin Brown,Operations,IC3,Senior,116655,9720
+ES0202,Lily King,Product,M1,Manager,99357,8279
+ES0203,Poppy Hill,Sales,IC3,Senior,95936,7994
+ES0204,Noah Harris,Operations,IC2,Mid,67829,5652
+ES0205,Samuel Thomas,HR,IC4,Staff,149217,12434
+ES0206,Ava Evans,HR,IC3,Senior,98608,8217
+ES0207,Thomas Martin,Marketing,IC3,Senior,112759,9396
+ES0208,Lily Turner,HR,IC4,Staff,158969,13246
+ES0209,Alfie King,Product,IC3,Senior,90069,7505
+ES0210,Mia Wood,Sales,IC3,Senior,97745,8145
+ES0211,Olivia Turner,Sales,IC4,Staff,129038,10752
+ES0212,Jack Lewis E27,HR,IC4,Staff,120989,10081
+ES0213,Ava Wilson E28,Legal,IC2,Mid,64912,5409
+ES0214,Harry Martin E29,HR,IC2,Mid,67391,5615
+ES0215,Lily Williams,HR,IC5,Principal,191014,15917
+ES0216,Noah Cooper,Finance,IC1,Junior,49472,4122
+ES0217,Jessica Thompson E30,Engineering,IC1,Junior,45550,3795
+ES0218,Lewis Smith,Product,IC3,Senior,93341,7777
+ES0219,Joshua King,Legal,IC1,Junior,41278,3439
+ES0220,Isabella Lewis,Sales,IC3,Senior,85424,7118
+ES0221,Evie Lee,HR,M3,Director,197347,16445
+ES0222,Samuel Hill,Finance,IC1,Junior,58931,4910
+ES0223,Isabella Thompson,Engineering,IC1,Junior,52598,4382
+ES0224,Evie Walker E31,Legal,M5,SVP,329113,27425
+ES0225,Isabella King,Finance,IC1,Junior,54045,4503
+ES0226,Thomas Evans,Legal,IC1,Junior,54246,4519
+ES0227,Joshua Wilson,Legal,IC4,Staff,135832,11318
+ES0228,Daniel Lewis,Operations,IC2,Mid,71556,5962
+ES0229,Alice Scott,Product,IC1,Junior,48759,4063
+ES0230,Isabella Walker,Legal,IC2,Mid,78093,6507
+ES0231,Hannah Walker E32,Finance,IC4,Staff,135826,11318
+ES0232,George Robinson,Finance,IC4,Staff,146105,12174
+ES0233,Emily Turner,Engineering,IC1,Junior,41360,3446
+ES0234,Isabella Brown,HR,IC1,Junior,42127,3509
+ES0235,Noah Davies,HR,IC3,Senior,88450,7370
+ES0236,Thomas Roberts,Marketing,IC2,Mid,59780,4981
+ES0237,Joshua Smith,Sales,IC1,Junior,49716,4142
+ES0238,Sophie Cooper,Engineering,IC3,Senior,85056,7087
+ES0239,James Jackson,Operations,IC1,Junior,52253,4354
+ES0240,Poppy White E33,Marketing,IC1,Junior,53263,4438
+ES0241,Noah Clarke,Legal,IC1,Junior,57774,4813
+ES0242,Thomas Davies,Product,IC2,Mid,62666,5221
+ES0243,Lewis Wright,Product,IC4,Staff,150270,12522
+ES0244,Freddie Johnson,Operations,IC1,Junior,43837,3652
+ES0245,Samuel Walker E34,Legal,IC3,Senior,102171,8513
+ES0246,Grace Davies E35,Product,M2,Senior Manager,149069,12422
+ES0247,Jacob Scott,Marketing,M2,Senior Manager,138000,11499
+ES0248,Lily Smith,Sales,M1,Manager,91851,7654
+ES0249,Evie Scott,HR,M1,Manager,95978,7997
+ES0250,Lily Lewis E36,HR,IC3,Senior,116912,9742

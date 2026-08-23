@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "P0001",
+    "table_a": "products_sales_usd",
+    "col_a": "annual_sales_usd",
+    "table_b": "products_sales_eur",
+    "col_b": "annual_sales_eur",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0002",
+    "table_a": "products_sales_usd",
+    "col_a": "annual_sales_usd",
+    "table_b": "products_sales_gbp",
+    "col_b": "annual_sales_gbp",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0003",
+    "table_a": "products_sales_usd",
+    "col_a": "annual_sales_usd",
+    "table_b": "products_sales_jpy",
+    "col_b": "annual_sales_jpy",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0004",
+    "table_a": "products_sales_usd",
+    "col_a": "annual_sales_usd",
+    "table_b": "products_sales_chf",
+    "col_b": "annual_sales_chf",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0005",
+    "table_a": "products_sales_eur",
+    "col_a": "annual_sales_eur",
+    "table_b": "products_sales_gbp",
+    "col_b": "annual_sales_gbp",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0006",
+    "table_a": "products_sales_eur",
+    "col_a": "annual_sales_eur",
+    "table_b": "products_sales_jpy",
+    "col_b": "annual_sales_jpy",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0007",
+    "table_a": "products_sales_eur",
+    "col_a": "annual_sales_eur",
+    "table_b": "products_sales_chf",
+    "col_b": "annual_sales_chf",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0008",
+    "table_a": "products_sales_gbp",
+    "col_a": "annual_sales_gbp",
+    "table_b": "products_sales_jpy",
+    "col_b": "annual_sales_jpy",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0009",
+    "table_a": "products_sales_gbp",
+    "col_a": "annual_sales_gbp",
+    "table_b": "products_sales_chf",
+    "col_b": "annual_sales_chf",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0010",
+    "table_a": "products_sales_jpy",
+    "col_a": "annual_sales_jpy",
+    "table_b": "products_sales_chf",
+    "col_b": "annual_sales_chf",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0011",
+    "table_a": "salary_bands_usd",
+    "col_a": "min_salary_usd",
+    "table_b": "salary_bands_eur",
+    "col_b": "min_salary_eur",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0012",
+    "table_a": "salary_bands_usd",
+    "col_a": "max_salary_usd",
+    "table_b": "salary_bands_eur",
+    "col_b": "max_salary_eur",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0013",
+    "table_a": "salary_bands_usd",
+    "col_a": "midpoint_usd",
+    "table_b": "salary_bands_eur",
+    "col_b": "midpoint_eur",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0014",
+    "table_a": "sports_rankings_pts",
+    "col_a": "ranking_points",
+    "table_b": "sports_rankings_norm",
+    "col_b": "points_norm",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0015",
+    "table_a": "sports_rankings_pts",
+    "col_a": "ranking_points",
+    "table_b": "sports_rankings_elo",
+    "col_b": "elo_rating",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0016",
+    "table_a": "sports_rankings_norm",
+    "col_a": "points_norm",
+    "table_b": "sports_rankings_elo",
+    "col_b": "elo_rating",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0017",
+    "table_a": "venues_capacity_exact",
+    "col_a": "capacity_seats",
+    "table_b": "venues_capacity_thousands",
+    "col_b": "capacity_thousands",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0018",
+    "table_a": "venues_capacity_exact",
+    "col_a": "standing_capacity",
+    "table_b": "venues_capacity_thousands",
+    "col_b": "standing_thousands",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0019",
+    "table_a": "product_price_tiers_usd",
+    "col_a": "price_tier",
+    "table_b": "product_price_tiers_eur",
+    "col_b": "price_tier_eur",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0020",
+    "table_a": "athletes_nat_full",
+    "col_a": "nationality",
+    "table_b": "athletes_nat_iso2",
+    "col_b": "nationality_iso2",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0021",
+    "table_a": "athletes_nat_full",
+    "col_a": "nationality",
+    "table_b": "athletes_nat_iso3",
+    "col_b": "nationality_iso3",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0022",
+    "table_a": "athletes_nat_iso2",
+    "col_a": "nationality_iso2",
+    "table_b": "athletes_nat_iso3",
+    "col_b": "nationality_iso3",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0023",
+    "table_a": "employees_nationality_full",
+    "col_a": "nationality",
+    "table_b": "employees_nationality_iso2",
+    "col_b": "nationality_iso2",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0024",
+    "table_a": "survey_gender_full",
+    "col_a": "gender",
+    "table_b": "survey_gender_abbr",
+    "col_b": "gender_abbr",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0025",
+    "table_a": "survey_gender_full",
+    "col_a": "gender",
+    "table_b": "survey_gender_binary",
+    "col_b": "gender_code",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0026",
+    "table_a": "survey_gender_abbr",
+    "col_a": "gender_abbr",
+    "table_b": "survey_gender_binary",
+    "col_b": "gender_code",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0027",
+    "table_a": "employees_gender_full",
+    "col_a": "gender",
+    "table_b": "employees_gender_code",
+    "col_b": "gender_code",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0028",
+    "table_a": "persons_fullname",
+    "col_a": "full_name",
+    "table_b": "persons_lastfirst",
+    "col_b": "last_first",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0029",
+    "table_a": "persons_fullname",
+    "col_a": "full_name",
+    "table_b": "persons_initials",
+    "col_b": "initials_name",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0030",
+    "table_a": "persons_lastfirst",
+    "col_a": "last_first",
+    "table_b": "persons_initials",
+    "col_b": "initials_name",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0031",
+    "table_a": "employees_fullname",
+    "col_a": "full_name",
+    "table_b": "employees_lastfirst",
+    "col_b": "last_first",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0032",
+    "table_a": "authors_fullname",
+    "col_a": "full_name",
+    "table_b": "authors_lastfirst",
+    "col_b": "last_first",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0033",
+    "table_a": "movies_directors",
+    "col_a": "director",
+    "table_b": "movies_director_abbr",
+    "col_b": "director_abbr",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0034",
+    "table_a": "movies_directors",
+    "col_a": "director",
+    "table_b": "movies_director_lastfirst",
+    "col_b": "director_lastfirst",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0035",
+    "table_a": "movies_director_abbr",
+    "col_a": "director_abbr",
+    "table_b": "movies_director_lastfirst",
+    "col_b": "director_lastfirst",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0036",
+    "table_a": "series_directors",
+    "col_a": "director",
+    "table_b": "series_director_abbr",
+    "col_b": "director_abbr",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0037",
+    "table_a": "movies_cast",
+    "col_a": "actor",
+    "table_b": "movies_cast_abbr",
+    "col_b": "actor_abbr",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0038",
+    "table_a": "products_brand_abbr",
+    "col_a": "brand_abbr",
+    "table_b": "products_brand_full",
+    "col_b": "brand_full",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0039",
+    "table_a": "retailers_brand_abbr",
+    "col_a": "brand_abbr",
+    "table_b": "retailers_brand_full",
+    "col_b": "brand_full",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0040",
+    "table_a": "products_sales_usd",
+    "col_a": "annual_sales_usd",
+    "table_b": "products_monthly_usd",
+    "col_b": "monthly_sales_usd",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0041",
+    "table_a": "products_sales_usd",
+    "col_a": "annual_sales_usd",
+    "table_b": "products_quarterly_usd",
+    "col_b": "quarterly_sales_usd",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0042",
+    "table_a": "products_sales_usd",
+    "col_a": "annual_sales_usd",
+    "table_b": "products_weekly_usd",
+    "col_b": "weekly_sales_usd",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0043",
+    "table_a": "products_monthly_usd",
+    "col_a": "monthly_sales_usd",
+    "table_b": "products_quarterly_usd",
+    "col_b": "quarterly_sales_usd",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0044",
+    "table_a": "products_monthly_usd",
+    "col_a": "monthly_sales_usd",
+    "table_b": "products_weekly_usd",
+    "col_b": "weekly_sales_usd",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0045",
+    "table_a": "products_quarterly_usd",
+    "col_a": "quarterly_sales_usd",
+    "table_b": "products_weekly_usd",
+    "col_b": "weekly_sales_usd",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0046",
+    "table_a": "sports_rankings_pts",
+    "col_a": "ranking_points",
+    "table_b": "sports_rankings_monthly",
+    "col_b": "monthly_avg_points",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0047",
+    "table_a": "sports_rankings_pts",
+    "col_a": "ranking_points",
+    "table_b": "sports_rankings_season",
+    "col_b": "season_avg_points",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0048",
+    "table_a": "sports_rankings_pts",
+    "col_a": "ranking_points",
+    "table_b": "sports_rankings_career",
+    "col_b": "career_total_points",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0049",
+    "table_a": "sports_rankings_monthly",
+    "col_a": "monthly_avg_points",
+    "table_b": "sports_rankings_season",
+    "col_b": "season_avg_points",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0050",
+    "table_a": "sports_rankings_monthly",
+    "col_a": "monthly_avg_points",
+    "table_b": "sports_rankings_career",
+    "col_b": "career_total_points",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0051",
+    "table_a": "sports_rankings_season",
+    "col_a": "season_avg_points",
+    "table_b": "sports_rankings_career",
+    "col_b": "career_total_points",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0052",
+    "table_a": "venues_attendance_match",
+    "col_a": "attendance",
+    "table_b": "venues_attendance_season",
+    "col_b": "avg_season_attendance",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0053",
+    "table_a": "venues_attendance_match",
+    "col_a": "attendance",
+    "table_b": "venues_attendance_annual",
+    "col_b": "total_annual_attendance",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0054",
+    "table_a": "venues_attendance_season",
+    "col_a": "avg_season_attendance",
+    "table_b": "venues_attendance_annual",
+    "col_b": "total_annual_attendance",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0055",
+    "table_a": "age_dist_5yr",
+    "col_a": "population_count",
+    "table_b": "age_dist_10yr",
+    "col_b": "population_count",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0056",
+    "table_a": "age_dist_5yr",
+    "col_a": "age_range",
+    "table_b": "age_dist_10yr",
+    "col_b": "age_range",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0057",
+    "table_a": "products_brand_abbr",
+    "col_a": "annual_sales_usd",
+    "table_b": "brand_category_summary",
+    "col_b": "total_sales_usd",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0058",
+    "table_a": "products_brand_abbr",
+    "col_a": "annual_sales_usd",
+    "table_b": "brand_category_summary",
+    "col_b": "avg_sales_usd",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0059",
+    "table_a": "movies_cast",
+    "col_a": "actor",
+    "table_b": "cast_summary",
+    "col_b": "actor",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0060",
+    "table_a": "sports_rankings_pts",
+    "col_a": "world_rank",
+    "table_b": "sports_rankings_norm",
+    "col_b": "rank_percentile",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0061",
+    "table_a": "sports_rankings_pts",
+    "col_a": "world_rank",
+    "table_b": "sports_rankings_elo",
+    "col_b": "rank_elo",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0062",
+    "table_a": "products_brand_abbr",
+    "col_a": "annual_sales_usd",
+    "table_b": "brand_category_summary",
+    "col_b": "total_sales_usd",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0063",
+    "table_a": "products_brand_abbr",
+    "col_a": "annual_sales_usd",
+    "table_b": "brand_category_summary",
+    "col_b": "avg_sales_usd",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0064",
+    "table_a": "age_dist_5yr",
+    "col_a": "pct_total",
+    "table_b": "age_dist_10yr",
+    "col_b": "pct_total",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0065",
+    "table_a": "venues_attendance_season",
+    "col_a": "match_count",
+    "table_b": "venues_attendance_annual",
+    "col_b": "match_count",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0066",
+    "table_a": "movies_directors",
+    "col_a": "year",
+    "table_b": "movies_cast",
+    "col_b": "year",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0067",
+    "table_a": "products_sales_usd",
+    "col_a": "product_id",
+    "table_b": "products_sales_eur",
+    "col_b": "product_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0068",
+    "table_a": "products_sales_usd",
+    "col_a": "product_name",
+    "table_b": "products_sales_gbp",
+    "col_b": "product_name",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0069",
+    "table_a": "products_sales_usd",
+    "col_a": "brand",
+    "table_b": "products_sales_jpy",
+    "col_b": "brand",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0070",
+    "table_a": "products_sales_usd",
+    "col_a": "category",
+    "table_b": "products_sales_chf",
+    "col_b": "category",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0071",
+    "table_a": "products_monthly_usd",
+    "col_a": "product_id",
+    "table_b": "products_quarterly_usd",
+    "col_b": "product_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0072",
+    "table_a": "athletes_nat_full",
+    "col_a": "athlete_id",
+    "table_b": "athletes_nat_iso2",
+    "col_b": "athlete_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0073",
+    "table_a": "athletes_nat_full",
+    "col_a": "athlete_name",
+    "table_b": "athletes_nat_iso3",
+    "col_b": "athlete_name",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0074",
+    "table_a": "athletes_nat_full",
+    "col_a": "sport",
+    "table_b": "athletes_nat_iso2",
+    "col_b": "sport",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0075",
+    "table_a": "survey_gender_full",
+    "col_a": "respondent_id",
+    "table_b": "survey_gender_abbr",
+    "col_b": "respondent_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0076",
+    "table_a": "survey_gender_full",
+    "col_a": "age_group",
+    "table_b": "survey_gender_binary",
+    "col_b": "age_group",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0077",
+    "table_a": "survey_gender_full",
+    "col_a": "country",
+    "table_b": "survey_gender_abbr",
+    "col_b": "country",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0078",
+    "table_a": "persons_fullname",
+    "col_a": "person_id",
+    "table_b": "persons_lastfirst",
+    "col_b": "person_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0079",
+    "table_a": "persons_fullname",
+    "col_a": "department",
+    "table_b": "persons_initials",
+    "col_b": "department",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0080",
+    "table_a": "persons_fullname",
+    "col_a": "company",
+    "table_b": "persons_lastfirst",
+    "col_b": "company",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0081",
+    "table_a": "employees_fullname",
+    "col_a": "employee_id",
+    "table_b": "employees_lastfirst",
+    "col_b": "employee_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0082",
+    "table_a": "movies_directors",
+    "col_a": "movie_id",
+    "table_b": "movies_director_abbr",
+    "col_b": "movie_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0083",
+    "table_a": "movies_directors",
+    "col_a": "name",
+    "table_b": "movies_director_lastfirst",
+    "col_b": "name",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0084",
+    "table_a": "movies_directors",
+    "col_a": "year",
+    "table_b": "movies_director_abbr",
+    "col_b": "year",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0085",
+    "table_a": "movies_directors",
+    "col_a": "genre",
+    "table_b": "movies_director_lastfirst",
+    "col_b": "genre",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0086",
+    "table_a": "movies_cast",
+    "col_a": "movie_id",
+    "table_b": "movies_cast_abbr",
+    "col_b": "movie_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0087",
+    "table_a": "movies_cast",
+    "col_a": "name",
+    "table_b": "movies_cast_abbr",
+    "col_b": "name",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0088",
+    "table_a": "movies_cast",
+    "col_a": "year",
+    "table_b": "movies_cast_abbr",
+    "col_b": "year",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0089",
+    "table_a": "venues_capacity_exact",
+    "col_a": "venue_id",
+    "table_b": "venues_capacity_thousands",
+    "col_b": "venue_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0090",
+    "table_a": "venues_capacity_exact",
+    "col_a": "city",
+    "table_b": "venues_capacity_thousands",
+    "col_b": "city",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0091",
+    "table_a": "venues_capacity_exact",
+    "col_a": "country",
+    "table_b": "venues_capacity_thousands",
+    "col_b": "country",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0092",
+    "table_a": "venues_attendance_season",
+    "col_a": "venue_id",
+    "table_b": "venues_attendance_annual",
+    "col_b": "venue_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0093",
+    "table_a": "salary_bands_usd",
+    "col_a": "grade",
+    "table_b": "salary_bands_eur",
+    "col_b": "grade",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0094",
+    "table_a": "salary_bands_usd",
+    "col_a": "level",
+    "table_b": "salary_bands_eur",
+    "col_b": "level",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0095",
+    "table_a": "salary_bands_usd",
+    "col_a": "department",
+    "table_b": "salary_bands_eur",
+    "col_b": "department",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0096",
+    "table_a": "product_price_tiers_usd",
+    "col_a": "product_id",
+    "table_b": "product_price_tiers_eur",
+    "col_b": "product_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0097",
+    "table_a": "product_price_tiers_usd",
+    "col_a": "category",
+    "table_b": "product_price_tiers_eur",
+    "col_b": "category",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0098",
+    "table_a": "products_brand_abbr",
+    "col_a": "product_id",
+    "table_b": "products_brand_full",
+    "col_b": "product_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0099",
+    "table_a": "products_brand_abbr",
+    "col_a": "category",
+    "table_b": "products_brand_full",
+    "col_b": "category",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0100",
+    "table_a": "retailers_brand_abbr",
+    "col_a": "store_id",
+    "table_b": "retailers_brand_full",
+    "col_b": "store_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0101",
+    "table_a": "sports_rankings_pts",
+    "col_a": "player_id",
+    "table_b": "sports_rankings_norm",
+    "col_b": "player_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0102",
+    "table_a": "sports_rankings_pts",
+    "col_a": "player_name",
+    "table_b": "sports_rankings_elo",
+    "col_b": "player_name",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0103",
+    "table_a": "sports_rankings_pts",
+    "col_a": "sport",
+    "table_b": "sports_rankings_monthly",
+    "col_b": "sport",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0104",
+    "table_a": "authors_fullname",
+    "col_a": "author_id",
+    "table_b": "authors_lastfirst",
+    "col_b": "author_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0105",
+    "table_a": "authors_fullname",
+    "col_a": "genre",
+    "table_b": "authors_lastfirst",
+    "col_b": "genre",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0106",
+    "table_a": "employees_nationality_full",
+    "col_a": "employee_id",
+    "table_b": "employees_nationality_iso2",
+    "col_b": "employee_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0107",
+    "table_a": "products_sales_usd",
+    "col_a": "annual_sales_usd",
+    "table_b": "venues_attendance_season",
+    "col_b": "avg_season_attendance",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0108",
+    "table_a": "products_sales_usd",
+    "col_a": "annual_sales_usd",
+    "table_b": "sports_rankings_pts",
+    "col_b": "ranking_points",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0109",
+    "table_a": "products_sales_eur",
+    "col_a": "annual_sales_eur",
+    "table_b": "salary_bands_eur",
+    "col_b": "min_salary_eur",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0110",
+    "table_a": "venues_capacity_exact",
+    "col_a": "capacity_seats",
+    "table_b": "sports_rankings_pts",
+    "col_b": "ranking_points",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0111",
+    "table_a": "venues_capacity_exact",
+    "col_a": "capacity_seats",
+    "table_b": "products_sales_usd",
+    "col_b": "annual_sales_usd",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0112",
+    "table_a": "movies_directors",
+    "col_a": "director",
+    "table_b": "athletes_nat_full",
+    "col_b": "athlete_name",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0113",
+    "table_a": "movies_directors",
+    "col_a": "director",
+    "table_b": "authors_fullname",
+    "col_b": "full_name",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0114",
+    "table_a": "series_directors",
+    "col_a": "director",
+    "table_b": "movies_directors",
+    "col_b": "director",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0115",
+    "table_a": "movies_cast",
+    "col_a": "actor",
+    "table_b": "athletes_nat_full",
+    "col_b": "athlete_name",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0116",
+    "table_a": "movies_cast",
+    "col_a": "actor",
+    "table_b": "persons_fullname",
+    "col_b": "full_name",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0117",
+    "table_a": "athletes_nat_full",
+    "col_a": "nationality",
+    "table_b": "employees_nationality_full",
+    "col_b": "nationality",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0118",
+    "table_a": "survey_gender_full",
+    "col_a": "gender",
+    "table_b": "employees_gender_full",
+    "col_b": "gender",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0119",
+    "table_a": "salary_bands_usd",
+    "col_a": "min_salary_usd",
+    "table_b": "venues_capacity_exact",
+    "col_b": "capacity_seats",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0120",
+    "table_a": "age_dist_5yr",
+    "col_a": "population_count",
+    "table_b": "venues_attendance_annual",
+    "col_b": "total_annual_attendance",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0121",
+    "table_a": "product_price_tiers_usd",
+    "col_a": "price_tier",
+    "table_b": "age_dist_5yr",
+    "col_b": "age_range",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0122",
+    "table_a": "products_brand_abbr",
+    "col_a": "brand_abbr",
+    "table_b": "movies_directors",
+    "col_b": "director",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0123",
+    "table_a": "retailers_brand_full",
+    "col_a": "brand_full",
+    "table_b": "movies_director_abbr",
+    "col_b": "director_abbr",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0124",
+    "table_a": "authors_fullname",
+    "col_a": "full_name",
+    "table_b": "persons_fullname",
+    "col_b": "full_name",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0125",
+    "table_a": "employees_fullname",
+    "col_a": "full_name",
+    "table_b": "athletes_nat_full",
+    "col_b": "athlete_name",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0126",
+    "table_a": "sports_rankings_career",
+    "col_a": "career_total_points",
+    "table_b": "venues_attendance_annual",
+    "col_b": "total_annual_attendance",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0127",
+    "table_a": "salary_bands_usd",
+    "col_a": "grade",
+    "table_b": "product_price_tiers_usd",
+    "col_b": "price_tier",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0128",
+    "table_a": "movies_directors",
+    "col_a": "genre",
+    "table_b": "series_directors",
+    "col_b": "genre",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0129",
+    "table_a": "venues_capacity_exact",
+    "col_a": "city",
+    "table_b": "athletes_nat_full",
+    "col_b": "nationality",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0130",
+    "table_a": "survey_gender_full",
+    "col_a": "age_group",
+    "table_b": "age_dist_5yr",
+    "col_b": "age_range",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0131",
+    "table_a": "persons_fullname",
+    "col_a": "company",
+    "table_b": "products_brand_full",
+    "col_b": "brand_full",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0132",
+    "table_a": "athletes_nat_full",
+    "col_a": "nationality",
+    "table_b": "athletes_nat_ioc",
+    "col_b": "nationality_ioc",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0133",
+    "table_a": "athletes_nat_iso2",
+    "col_a": "nationality_iso2",
+    "table_b": "athletes_nat_ioc",
+    "col_b": "nationality_ioc",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0134",
+    "table_a": "athletes_nat_iso3",
+    "col_a": "nationality_iso3",
+    "table_b": "athletes_nat_ioc",
+    "col_b": "nationality_ioc",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0135",
+    "table_a": "products_monthly_usd",
+    "col_a": "monthly_sales_usd",
+    "table_b": "products_monthly_eur",
+    "col_b": "monthly_sales_eur",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0136",
+    "table_a": "products_quarterly_usd",
+    "col_a": "quarterly_sales_usd",
+    "table_b": "products_quarterly_eur",
+    "col_b": "quarterly_sales_eur",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0137",
+    "table_a": "employee_salary_usd",
+    "col_a": "annual_salary_usd",
+    "table_b": "employee_salary_eur",
+    "col_b": "annual_salary_eur",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0138",
+    "table_a": "employee_salary_usd",
+    "col_a": "monthly_salary_usd",
+    "table_b": "employee_salary_eur",
+    "col_b": "monthly_salary_eur",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0139",
+    "table_a": "city_climate_celsius",
+    "col_a": "avg_temp_celsius",
+    "table_b": "city_climate_fahrenheit",
+    "col_b": "avg_temp_fahrenheit",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0140",
+    "table_a": "city_climate_annual_celsius",
+    "col_a": "annual_avg_celsius",
+    "table_b": "city_climate_annual_fahrenheit",
+    "col_b": "annual_avg_fahrenheit",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0141",
+    "table_a": "sports_rankings_pts",
+    "col_a": "ranking_points",
+    "table_b": "sports_rankings_pts",
+    "col_b": "world_rank",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0142",
+    "table_a": "sports_rankings_norm",
+    "col_a": "points_norm",
+    "table_b": "sports_rankings_norm",
+    "col_b": "rank_percentile",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0143",
+    "table_a": "salary_bands_usd",
+    "col_a": "min_salary_usd",
+    "table_b": "salary_bands_usd",
+    "col_b": "max_salary_usd",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0144",
+    "table_a": "salary_bands_usd",
+    "col_a": "min_salary_usd",
+    "table_b": "salary_bands_usd",
+    "col_b": "midpoint_usd",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0145",
+    "table_a": "salary_bands_usd",
+    "col_a": "max_salary_usd",
+    "table_b": "salary_bands_usd",
+    "col_b": "midpoint_usd",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0146",
+    "table_a": "salary_bands_eur",
+    "col_a": "min_salary_eur",
+    "table_b": "salary_bands_eur",
+    "col_b": "max_salary_eur",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0147",
+    "table_a": "salary_bands_eur",
+    "col_a": "min_salary_eur",
+    "table_b": "salary_bands_eur",
+    "col_b": "midpoint_eur",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0148",
+    "table_a": "salary_bands_eur",
+    "col_a": "max_salary_eur",
+    "table_b": "salary_bands_eur",
+    "col_b": "midpoint_eur",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0149",
+    "table_a": "brand_category_summary",
+    "col_a": "brand",
+    "table_b": "brand_category_summary",
+    "col_b": "brand_full",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0150",
+    "table_a": "venues_capacity_exact",
+    "col_a": "capacity_seats",
+    "table_b": "venues_capacity_exact",
+    "col_b": "standing_capacity",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0151",
+    "table_a": "venues_capacity_thousands",
+    "col_a": "capacity_thousands",
+    "table_b": "venues_capacity_thousands",
+    "col_b": "standing_thousands",
+    "label": "TYPE1_MEASURE"
+  },
+  {
+    "id": "P0152",
+    "table_a": "products_sales_eur",
+    "col_a": "annual_sales_eur",
+    "table_b": "products_monthly_eur",
+    "col_b": "monthly_sales_eur",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0153",
+    "table_a": "products_sales_eur",
+    "col_a": "annual_sales_eur",
+    "table_b": "products_quarterly_eur",
+    "col_b": "quarterly_sales_eur",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0154",
+    "table_a": "products_monthly_eur",
+    "col_a": "monthly_sales_eur",
+    "table_b": "products_quarterly_eur",
+    "col_b": "quarterly_sales_eur",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0155",
+    "table_a": "employee_salary_usd",
+    "col_a": "annual_salary_usd",
+    "table_b": "employee_salary_usd",
+    "col_b": "monthly_salary_usd",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0156",
+    "table_a": "employee_salary_eur",
+    "col_a": "annual_salary_eur",
+    "table_b": "employee_salary_eur",
+    "col_b": "monthly_salary_eur",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0157",
+    "table_a": "employee_salary_usd",
+    "col_a": "annual_salary_usd",
+    "table_b": "salary_bands_usd",
+    "col_b": "midpoint_usd",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0158",
+    "table_a": "employee_salary_eur",
+    "col_a": "annual_salary_eur",
+    "table_b": "salary_bands_eur",
+    "col_b": "midpoint_eur",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0159",
+    "table_a": "city_climate_celsius",
+    "col_a": "avg_temp_celsius",
+    "table_b": "city_climate_annual_celsius",
+    "col_b": "annual_avg_celsius",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0160",
+    "table_a": "city_climate_fahrenheit",
+    "col_a": "avg_temp_fahrenheit",
+    "table_b": "city_climate_annual_fahrenheit",
+    "col_b": "annual_avg_fahrenheit",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0161",
+    "table_a": "brand_category_summary",
+    "col_a": "total_sales_usd",
+    "table_b": "brand_category_summary",
+    "col_b": "avg_sales_usd",
+    "label": "TYPE2_GRANULARITY"
+  },
+  {
+    "id": "P0162",
+    "table_a": "athletes_nat_full",
+    "col_a": "athlete_id",
+    "table_b": "athletes_nat_ioc",
+    "col_b": "athlete_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0163",
+    "table_a": "athletes_nat_full",
+    "col_a": "athlete_name",
+    "table_b": "athletes_nat_ioc",
+    "col_b": "athlete_name",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0164",
+    "table_a": "athletes_nat_full",
+    "col_a": "sport",
+    "table_b": "athletes_nat_ioc",
+    "col_b": "sport",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0165",
+    "table_a": "athletes_nat_iso2",
+    "col_a": "athlete_id",
+    "table_b": "athletes_nat_ioc",
+    "col_b": "athlete_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0166",
+    "table_a": "products_monthly_eur",
+    "col_a": "product_id",
+    "table_b": "products_quarterly_eur",
+    "col_b": "product_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0167",
+    "table_a": "products_monthly_eur",
+    "col_a": "product_name",
+    "table_b": "products_quarterly_eur",
+    "col_b": "product_name",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0168",
+    "table_a": "products_monthly_eur",
+    "col_a": "brand",
+    "table_b": "products_quarterly_eur",
+    "col_b": "brand",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0169",
+    "table_a": "products_monthly_eur",
+    "col_a": "product_id",
+    "table_b": "products_monthly_usd",
+    "col_b": "product_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0170",
+    "table_a": "products_quarterly_eur",
+    "col_a": "product_id",
+    "table_b": "products_quarterly_usd",
+    "col_b": "product_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0171",
+    "table_a": "products_monthly_eur",
+    "col_a": "category",
+    "table_b": "products_sales_eur",
+    "col_b": "category",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0172",
+    "table_a": "employee_salary_usd",
+    "col_a": "employee_id",
+    "table_b": "employee_salary_eur",
+    "col_b": "employee_id",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0173",
+    "table_a": "employee_salary_usd",
+    "col_a": "full_name",
+    "table_b": "employee_salary_eur",
+    "col_b": "full_name",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0174",
+    "table_a": "employee_salary_usd",
+    "col_a": "department",
+    "table_b": "employee_salary_eur",
+    "col_b": "department",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0175",
+    "table_a": "employee_salary_usd",
+    "col_a": "grade",
+    "table_b": "employee_salary_eur",
+    "col_b": "grade",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0176",
+    "table_a": "employee_salary_usd",
+    "col_a": "level",
+    "table_b": "employee_salary_eur",
+    "col_b": "level",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0177",
+    "table_a": "city_climate_celsius",
+    "col_a": "city",
+    "table_b": "city_climate_fahrenheit",
+    "col_b": "city",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0178",
+    "table_a": "city_climate_celsius",
+    "col_a": "country",
+    "table_b": "city_climate_fahrenheit",
+    "col_b": "country",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0179",
+    "table_a": "city_climate_celsius",
+    "col_a": "month",
+    "table_b": "city_climate_fahrenheit",
+    "col_b": "month",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0180",
+    "table_a": "city_climate_celsius",
+    "col_a": "city",
+    "table_b": "city_climate_annual_celsius",
+    "col_b": "city",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0181",
+    "table_a": "city_climate_annual_celsius",
+    "col_a": "city",
+    "table_b": "city_climate_annual_fahrenheit",
+    "col_b": "city",
+    "label": "NO_CONFLICT_DUPLICATE"
+  },
+  {
+    "id": "P0182",
+    "table_a": "employee_salary_usd",
+    "col_a": "annual_salary_usd",
+    "table_b": "products_sales_usd",
+    "col_b": "annual_sales_usd",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0183",
+    "table_a": "employee_salary_usd",
+    "col_a": "annual_salary_usd",
+    "table_b": "sports_rankings_pts",
+    "col_b": "ranking_points",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0184",
+    "table_a": "employee_salary_usd",
+    "col_a": "annual_salary_usd",
+    "table_b": "venues_capacity_exact",
+    "col_b": "capacity_seats",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0185",
+    "table_a": "city_climate_celsius",
+    "col_a": "avg_temp_celsius",
+    "table_b": "venues_attendance_season",
+    "col_b": "avg_season_attendance",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0186",
+    "table_a": "city_climate_celsius",
+    "col_a": "avg_temp_celsius",
+    "table_b": "products_sales_usd",
+    "col_b": "annual_sales_usd",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0187",
+    "table_a": "city_climate_annual_celsius",
+    "col_a": "annual_avg_celsius",
+    "table_b": "salary_bands_usd",
+    "col_b": "midpoint_usd",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0188",
+    "table_a": "city_climate_fahrenheit",
+    "col_a": "avg_temp_fahrenheit",
+    "table_b": "sports_rankings_pts",
+    "col_b": "ranking_points",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0189",
+    "table_a": "employee_salary_usd",
+    "col_a": "full_name",
+    "table_b": "series_directors",
+    "col_b": "director",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  },
+  {
+    "id": "P0190",
+    "table_a": "employee_salary_usd",
+    "col_a": "grade",
+    "table_b": "product_price_tiers_usd",
+    "col_b": "price_tier",
+    "label": "NO_CONFLICT_DIFF_ENTITY"
+  }
+]

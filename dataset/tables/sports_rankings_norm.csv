@@ -1,0 +1,121 @@
+player_id,player_name,nationality,sport,points_norm,rank_percentile
+PLAY001,Matteo Fritz,Norway,Football,85.5,0.9
+PLAY002,Novak Auger-Aliassime,Sweden,Tennis,88.2,0.92
+PLAY003,Matteo Alcaraz,Germany,Tennis,38.6,1.0
+PLAY004,Holger Humbert,Portugal,Boxing,5.0,0.95
+PLAY005,Daniil Berdych,Belgium,Judo,34.4,0.38
+PLAY006,Viktor Bublik,United States,Judo,75.4,0.94
+PLAY007,Holger Edberg,Switzerland,Boxing,88.1,0.17
+PLAY008,Alexander Zverev,Switzerland,Tennis,23.1,0.65
+PLAY009,Rafael Musetti,United Kingdom,Athletics,71.3,0.27
+PLAY010,David Berdych,United States,Basketball,52.8,0.52
+PLAY011,Denis Becker,Austria,Swimming,28.8,0.73
+PLAY012,Tomas Zverev,Norway,Boxing,21.3,0.62
+PLAY013,Sebastian Becker,Denmark,Football,71.1,0.02
+PLAY014,Denis Tiafoe,India,Basketball,86.0,0.5
+PLAY015,Diego Alcaraz,Norway,Football,5.3,0.98
+PLAY016,Casper Djokovic,Canada,Tennis,33.8,0.64
+PLAY017,Carlos Sinner,Mexico,Basketball,99.5,0.32
+PLAY018,Andrey Berdych,South Africa,Tennis,78.0,0.56
+PLAY019,Alexander Schwartzman,Switzerland,Cycling,40.9,0.82
+PLAY020,Boris Rossi,France,Football,65.2,0.18
+PLAY021,Grigor Paul,Mexico,Boxing,61.4,0.33
+PLAY022,Daniil Wilander,China,Athletics,36.7,0.87
+PLAY023,Lorenzo Berrettini,Spain,Basketball,56.4,0.89
+PLAY024,Lorenzo Medvedev,Germany,Judo,97.8,0.51
+PLAY025,Rafael Berrettini,France,Boxing,37.2,0.06
+PLAY026,Tommy Bublik,Belgium,Athletics,4.7,0.85
+PLAY027,Nicolas Rossi,South Korea,Swimming,82.9,0.6
+PLAY028,Francis Djokovic,Switzerland,Athletics,33.2,0.32
+PLAY029,Casper Shapovalov,Australia,Basketball,6.8,0.8
+PLAY030,Diego Schwartzman,Belgium,Football,60.5,0.37
+PLAY031,Carlos Bublik,Brazil,Football,70.3,0.72
+PLAY032,Grigor Klein,South Korea,Football,51.3,0.22
+PLAY033,Matteo Becker,Switzerland,Swimming,55.4,0.43
+PLAY034,Alexander Musetti,Czech Republic,Cycling,23.1,0.57
+PLAY035,Tommy Alcaraz,Norway,Basketball,35.3,0.21
+PLAY036,Diego Auger-Aliassime,Belgium,Tennis,70.5,0.09
+PLAY037,Matteo Klein,Spain,Tennis,66.3,0.4
+PLAY038,Tommy Tsitsipas,Poland,Tennis,30.6,0.18
+PLAY039,Marco Troicki,India,Swimming,30.6,0.11
+PLAY040,Novak Dimitrov,Belgium,Football,64.7,0.55
+PLAY041,Felix Djokovic,Sweden,Judo,47.4,0.66
+PLAY042,Grigor Schwartzman,Japan,Judo,89.2,0.78
+PLAY043,Grigor Edberg,Belgium,Swimming,79.7,0.25
+PLAY044,Carlos Fritz,Japan,Swimming,58.0,0.75
+PLAY045,Dominic Shapovalov,Poland,Football,40.4,0.2
+PLAY046,Rafael Bublik,Argentina,Football,87.1,0.02
+PLAY047,Taylor Auger-Aliassime,Russia,Swimming,37.0,0.01
+PLAY048,Jannik Lendl,Russia,Basketball,60.4,0.96
+PLAY049,Carlos Auger-Aliassime,Austria,Boxing,21.4,0.68
+PLAY050,Nicolas Djokovic,Serbia,Football,23.8,0.49
+PLAY051,Felix Berrettini,Japan,Judo,39.3,0.54
+PLAY052,Boris Troicki,Croatia,Boxing,61.4,0.57
+PLAY053,Lucas Medvedev,Germany,Judo,72.3,0.76
+PLAY054,Sebastian Klein,Greece,Tennis,79.4,0.28
+PLAY055,Boris Wilander,France,Football,85.7,0.03
+PLAY056,Holger Zverev,United States,Football,15.7,0.15
+PLAY057,Rafael Auger-Aliassime,Croatia,Athletics,36.2,0.08
+PLAY058,Pablo Rune,Czech Republic,Basketball,69.9,0.99
+PLAY059,Tomas Bublik,Poland,Boxing,27.2,0.16
+PLAY060,Stefanos Berdych,Croatia,Tennis,56.3,0.29
+PLAY061,Sebastian Troicki,Brazil,Judo,16.7,0.47
+PLAY062,Francis Becker,Canada,Boxing,21.7,0.38
+PLAY063,Denis Bublik,Norway,Cycling,97.3,0.12
+PLAY064,Stefanos Edberg,United Kingdom,Tennis,79.6,0.3
+PLAY065,Alexander Djokovic,Canada,Judo,88.0,0.14
+PLAY066,Viktor Wilander,China,Swimming,46.3,0.77
+PLAY067,Francis Nadal,Greece,Basketball,66.9,0.46
+PLAY068,Lorenzo Rublev,Canada,Swimming,63.2,0.12
+PLAY069,Rafael Edberg,Denmark,Cycling,21.5,0.34
+PLAY070,Andrey Wawrinka,China,Tennis,61.1,0.83
+PLAY071,Rafael Rune,Netherlands,Athletics,38.1,0.68
+PLAY072,David Musetti,Serbia,Cycling,97.1,0.69
+PLAY073,Grigor Fritz,United Kingdom,Tennis,38.0,0.42
+PLAY074,Tomas Schwartzman,South Korea,Judo,89.5,0.42
+PLAY075,Denis Sinner,Netherlands,Football,7.9,0.93
+PLAY076,Rafael Wilander,Portugal,Basketball,85.7,0.63
+PLAY077,Lucas Rublev,Sweden,Swimming,49.9,0.13
+PLAY078,Lorenzo Auger-Aliassime,Italy,Basketball,23.6,0.91
+PLAY079,Dominic Wilander,Canada,Cycling,17.2,0.07
+PLAY080,Rafael Thiem,Argentina,Basketball,40.5,0.82
+PLAY081,Lucas Rune,Croatia,Judo,96.9,0.26
+PLAY082,Jannik Medvedev,Italy,Tennis,6.4,0.08
+PLAY083,Nicolas Auger-Aliassime,Australia,Swimming,13.2,0.1
+PLAY084,Tommy Wawrinka,Croatia,Cycling,71.6,0.23
+PLAY085,Taylor Lendl,Argentina,Football,49.1,0.79
+PLAY086,Francis Wawrinka,United Kingdom,Judo,15.3,0.48
+PLAY087,Taylor Rune,Italy,Basketball,50.6,0.7
+PLAY088,Stefanos Shapovalov,France,Football,24.4,0.35
+PLAY089,Viktor Shapovalov,Japan,Swimming,9.6,0.78
+PLAY090,Felix Humbert,Serbia,Judo,56.6,0.04
+PLAY091,Nicolas Dimitrov,China,Football,73.1,0.24
+PLAY092,Jannik Edberg,Norway,Football,48.5,0.72
+PLAY093,Novak Lendl,Czech Republic,Boxing,28.5,0.88
+PLAY094,Tommy Djokovic,Argentina,Judo,99.6,0.41
+PLAY095,Tommy Rossi,China,Cycling,72.6,0.59
+PLAY096,Tomas Tsitsipas,India,Cycling,7.4,0.45
+PLAY097,Pablo Musetti,United States,Boxing,51.5,0.48
+PLAY098,Holger Medvedev,Mexico,Boxing,30.1,0.81
+PLAY099,Novak Rune,Canada,Cycling,11.2,0.22
+PLAY100,Marco Musetti,South Africa,Boxing,41.3,0.98
+PLAY101,Lorenzo Tiafoe,Switzerland,Boxing,56.9,0.88
+PLAY102,Diego Becker,Denmark,Cycling,86.2,0.74
+PLAY103,Viktor Tiafoe,Canada,Judo,92.4,0.71
+PLAY104,Felix Tiafoe,Brazil,Football,60.9,0.31
+PLAY105,Rafael Lendl,South Korea,Judo,23.9,0.67
+PLAY106,Dominic Humbert,United States,Football,48.8,0.58
+PLAY107,Felix Rossi,Poland,Boxing,41.2,0.62
+PLAY108,Tommy Sinner,Portugal,Boxing,75.8,0.44
+PLAY109,Lucas Edberg,Croatia,Athletics,95.3,0.86
+PLAY110,Rafael Djokovic,Poland,Basketball,28.0,0.39
+PLAY111,Marco Bublik,India,Basketball,35.4,0.92
+PLAY112,Stefanos Alcaraz,Japan,Football,69.5,0.19
+PLAY113,Alexander Thiem,Poland,Swimming,12.1,0.53
+PLAY114,Diego Troicki,Spain,Boxing,72.6,0.05
+PLAY115,Nicolas Tiafoe,Germany,Tennis,4.1,0.61
+PLAY116,Rafael Zverev,Serbia,Boxing,80.3,0.52
+PLAY117,Novak Berrettini,Portugal,Athletics,99.6,0.28
+PLAY118,Sebastian Bublik,Croatia,Football,63.4,0.84
+PLAY119,Felix Auger-Aliassime,Argentina,Judo,69.4,0.36
+PLAY120,Taylor Klein,Brazil,Boxing,92.5,0.97

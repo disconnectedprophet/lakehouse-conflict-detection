@@ -1,0 +1,87 @@
+{
+  "table": "products_quarterly_usd",
+  "columns": {
+    "product_id": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 200,
+      "sample_values": [
+        "PROD096",
+        "PROD016",
+        "PROD031",
+        "PROD159",
+        "PROD129",
+        "PROD116"
+      ]
+    },
+    "product_name": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 200,
+      "sample_values": [
+        "Yoga Mat Pro L65",
+        "Running Shoes T91",
+        "Wireless Headphones Q32",
+        "Performance Shorts I49",
+        "Smart TV U64",
+        "Dumbbells U40kg"
+      ]
+    },
+    "brand": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 20,
+      "sample_values": [
+        "Sony",
+        "Bosch",
+        "Siemens",
+        "P&G",
+        "Philips",
+        "P&G"
+      ]
+    },
+    "category": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 5,
+      "sample_values": [
+        "Sports Equipment",
+        "Apparel",
+        "Electronics",
+        "Apparel",
+        "Electronics",
+        "Sports Equipment"
+      ]
+    },
+    "report_quarter": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 1,
+      "sample_values": [
+        "Q1-2023",
+        "Q1-2023",
+        "Q1-2023",
+        "Q1-2023",
+        "Q1-2023",
+        "Q1-2023"
+      ]
+    },
+    "quarterly_sales_usd": {
+      "row_count": 200,
+      "null_count": 0,
+      "distinct_count": 200,
+      "sample_values": [
+        "90787",
+        "1587051",
+        "6876947",
+        "108326",
+        "353106",
+        "824556"
+      ],
+      "min": 54554.0,
+      "max": 15057358.0,
+      "mean": 1264767.69,
+      "std": 1634684.7013
+    }
+  }
+}

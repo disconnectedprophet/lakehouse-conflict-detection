@@ -1,0 +1,501 @@
+respondent_id,age_group,country,gender_code
+R0001,45-54,United Kingdom,0
+R0002,65+,Serbia,0
+R0003,18-24,Italy,1
+R0004,45-54,Poland,1
+R0005,65+,Norway,1
+R0006,65+,Serbia,1
+R0007,65+,Germany,2
+R0008,45-54,Serbia,2
+R0009,65+,Croatia,1
+R0010,18-24,Italy,1
+R0011,18-24,Italy,1
+R0012,65+,Portugal,0
+R0013,18-24,Switzerland,1
+R0014,55-64,Poland,0
+R0015,65+,Italy,1
+R0016,25-34,Serbia,0
+R0017,65+,Czech Republic,0
+R0018,55-64,United Kingdom,1
+R0019,35-44,Germany,1
+R0020,55-64,United States,0
+R0021,65+,Spain,0
+R0022,55-64,Sweden,0
+R0023,45-54,Germany,0
+R0024,55-64,Sweden,0
+R0025,65+,Italy,0
+R0026,25-34,Italy,2
+R0027,55-64,United States,1
+R0028,55-64,Croatia,1
+R0029,18-24,France,1
+R0030,55-64,Brazil,1
+R0031,25-34,Germany,0
+R0032,35-44,France,0
+R0033,18-24,Portugal,1
+R0034,35-44,Sweden,1
+R0035,45-54,Spain,1
+R0036,35-44,France,1
+R0037,35-44,Sweden,0
+R0038,25-34,Switzerland,0
+R0039,65+,Canada,0
+R0040,35-44,Norway,0
+R0041,55-64,Brazil,0
+R0042,18-24,France,0
+R0043,18-24,Brazil,1
+R0044,35-44,Brazil,1
+R0045,55-64,Sweden,1
+R0046,55-64,Netherlands,1
+R0047,25-34,Norway,1
+R0048,18-24,Sweden,0
+R0049,35-44,Serbia,1
+R0050,25-34,Serbia,0
+R0051,18-24,Australia,0
+R0052,45-54,United Kingdom,0
+R0053,25-34,Germany,0
+R0054,65+,Australia,0
+R0055,65+,Brazil,0
+R0056,35-44,Switzerland,0
+R0057,65+,Portugal,0
+R0058,25-34,Czech Republic,0
+R0059,35-44,Czech Republic,1
+R0060,18-24,Norway,0
+R0061,18-24,Australia,1
+R0062,55-64,Italy,1
+R0063,55-64,Czech Republic,0
+R0064,35-44,Germany,1
+R0065,35-44,Australia,1
+R0066,25-34,Australia,1
+R0067,18-24,Serbia,1
+R0068,45-54,Italy,1
+R0069,25-34,Portugal,1
+R0070,35-44,Switzerland,0
+R0071,18-24,Portugal,0
+R0072,65+,Switzerland,1
+R0073,55-64,Australia,1
+R0074,18-24,France,0
+R0075,35-44,Serbia,1
+R0076,35-44,Sweden,1
+R0077,55-64,Serbia,0
+R0078,55-64,United Kingdom,0
+R0079,18-24,Portugal,1
+R0080,25-34,United Kingdom,0
+R0081,45-54,Switzerland,1
+R0082,35-44,France,0
+R0083,65+,Netherlands,0
+R0084,25-34,Norway,0
+R0085,65+,Croatia,0
+R0086,45-54,Netherlands,1
+R0087,55-64,Japan,0
+R0088,45-54,Portugal,1
+R0089,25-34,Japan,0
+R0090,18-24,Japan,0
+R0091,35-44,Germany,0
+R0092,18-24,Germany,0
+R0093,25-34,Germany,0
+R0094,55-64,France,1
+R0095,65+,Japan,1
+R0096,45-54,Spain,0
+R0097,65+,Portugal,0
+R0098,25-34,Poland,0
+R0099,55-64,Sweden,0
+R0100,18-24,Serbia,0
+R0101,55-64,Brazil,1
+R0102,18-24,Czech Republic,0
+R0103,55-64,Netherlands,0
+R0104,65+,Portugal,1
+R0105,55-64,France,0
+R0106,45-54,United States,0
+R0107,55-64,Argentina,0
+R0108,18-24,Netherlands,1
+R0109,55-64,Netherlands,1
+R0110,45-54,Poland,1
+R0111,25-34,Netherlands,0
+R0112,35-44,Argentina,1
+R0113,18-24,Japan,0
+R0114,45-54,Japan,1
+R0115,25-34,Spain,1
+R0116,65+,Switzerland,0
+R0117,25-34,Japan,0
+R0118,55-64,France,0
+R0119,55-64,Poland,0
+R0120,35-44,Spain,1
+R0121,45-54,Canada,0
+R0122,35-44,Italy,1
+R0123,35-44,United States,1
+R0124,35-44,Spain,0
+R0125,45-54,Poland,1
+R0126,18-24,Portugal,1
+R0127,25-34,Czech Republic,0
+R0128,45-54,Spain,1
+R0129,65+,Australia,1
+R0130,45-54,Serbia,1
+R0131,35-44,Netherlands,1
+R0132,25-34,Sweden,0
+R0133,18-24,Croatia,1
+R0134,45-54,United States,0
+R0135,35-44,Czech Republic,1
+R0136,35-44,Brazil,1
+R0137,25-34,Japan,1
+R0138,25-34,Serbia,1
+R0139,65+,Canada,0
+R0140,25-34,Brazil,1
+R0141,65+,Australia,0
+R0142,45-54,Poland,1
+R0143,45-54,United Kingdom,0
+R0144,45-54,Portugal,1
+R0145,65+,Serbia,0
+R0146,18-24,Italy,1
+R0147,25-34,United Kingdom,1
+R0148,55-64,Spain,1
+R0149,65+,Argentina,2
+R0150,65+,Canada,1
+R0151,55-64,Spain,0
+R0152,45-54,Japan,0
+R0153,45-54,Germany,1
+R0154,45-54,Argentina,2
+R0155,25-34,Portugal,0
+R0156,25-34,Australia,1
+R0157,18-24,Australia,2
+R0158,25-34,Czech Republic,0
+R0159,45-54,Italy,1
+R0160,65+,Portugal,0
+R0161,25-34,Brazil,0
+R0162,65+,United Kingdom,0
+R0163,18-24,United Kingdom,1
+R0164,18-24,Australia,0
+R0165,25-34,Czech Republic,1
+R0166,55-64,Brazil,1
+R0167,18-24,Serbia,1
+R0168,55-64,Japan,0
+R0169,65+,Argentina,0
+R0170,35-44,Czech Republic,1
+R0171,18-24,Portugal,0
+R0172,65+,France,0
+R0173,18-24,Australia,1
+R0174,35-44,Netherlands,1
+R0175,45-54,Argentina,0
+R0176,18-24,United States,1
+R0177,18-24,France,1
+R0178,65+,Canada,0
+R0179,35-44,Poland,1
+R0180,55-64,Italy,1
+R0181,25-34,Australia,0
+R0182,35-44,Canada,0
+R0183,18-24,Italy,1
+R0184,18-24,Sweden,0
+R0185,25-34,Canada,2
+R0186,65+,Netherlands,1
+R0187,55-64,Portugal,0
+R0188,35-44,Argentina,0
+R0189,35-44,Brazil,0
+R0190,45-54,Germany,0
+R0191,25-34,Norway,1
+R0192,18-24,Switzerland,1
+R0193,25-34,Brazil,0
+R0194,45-54,Italy,0
+R0195,55-64,Norway,1
+R0196,35-44,Poland,1
+R0197,25-34,Sweden,2
+R0198,25-34,France,0
+R0199,25-34,Czech Republic,1
+R0200,65+,Australia,0
+R0201,55-64,Netherlands,2
+R0202,45-54,Italy,1
+R0203,18-24,Poland,0
+R0204,55-64,Portugal,0
+R0205,25-34,Norway,1
+R0206,65+,United Kingdom,1
+R0207,18-24,Switzerland,1
+R0208,65+,Brazil,1
+R0209,45-54,Poland,0
+R0210,55-64,Portugal,0
+R0211,25-34,Croatia,1
+R0212,55-64,Serbia,2
+R0213,45-54,Serbia,0
+R0214,35-44,Brazil,0
+R0215,18-24,United States,1
+R0216,25-34,Switzerland,0
+R0217,18-24,Portugal,0
+R0218,55-64,Portugal,0
+R0219,35-44,Argentina,1
+R0220,65+,Australia,1
+R0221,18-24,United States,0
+R0222,18-24,Sweden,1
+R0223,35-44,France,1
+R0224,25-34,Australia,0
+R0225,35-44,France,1
+R0226,25-34,Brazil,0
+R0227,18-24,Spain,0
+R0228,35-44,Norway,0
+R0229,35-44,Germany,1
+R0230,55-64,Australia,0
+R0231,25-34,Czech Republic,0
+R0232,35-44,Canada,0
+R0233,65+,Spain,1
+R0234,25-34,Australia,1
+R0235,35-44,Spain,1
+R0236,65+,Switzerland,0
+R0237,65+,Serbia,1
+R0238,35-44,Norway,0
+R0239,25-34,Croatia,0
+R0240,35-44,Australia,1
+R0241,55-64,Serbia,1
+R0242,45-54,Argentina,1
+R0243,65+,Czech Republic,0
+R0244,25-34,Poland,1
+R0245,45-54,United States,1
+R0246,25-34,United States,0
+R0247,55-64,Poland,1
+R0248,25-34,Japan,0
+R0249,35-44,United States,1
+R0250,45-54,Norway,1
+R0251,18-24,United Kingdom,1
+R0252,45-54,Argentina,1
+R0253,65+,Serbia,0
+R0254,65+,Portugal,1
+R0255,65+,Spain,1
+R0256,18-24,Serbia,0
+R0257,18-24,Italy,0
+R0258,65+,France,1
+R0259,25-34,Germany,1
+R0260,25-34,Norway,1
+R0261,18-24,Italy,1
+R0262,65+,Canada,0
+R0263,18-24,Brazil,0
+R0264,45-54,Switzerland,1
+R0265,25-34,Japan,0
+R0266,45-54,United Kingdom,1
+R0267,18-24,Sweden,1
+R0268,35-44,Sweden,0
+R0269,18-24,France,1
+R0270,55-64,Japan,1
+R0271,55-64,Czech Republic,1
+R0272,18-24,Argentina,1
+R0273,25-34,Czech Republic,1
+R0274,25-34,Netherlands,0
+R0275,35-44,Argentina,0
+R0276,45-54,Italy,0
+R0277,25-34,Italy,0
+R0278,18-24,Japan,1
+R0279,18-24,Norway,1
+R0280,18-24,Netherlands,1
+R0281,18-24,Norway,1
+R0282,25-34,Czech Republic,1
+R0283,35-44,Norway,0
+R0284,65+,Czech Republic,1
+R0285,65+,Japan,1
+R0286,35-44,Netherlands,0
+R0287,35-44,Poland,1
+R0288,35-44,Australia,0
+R0289,18-24,Spain,0
+R0290,65+,United Kingdom,1
+R0291,25-34,Serbia,1
+R0292,65+,Poland,0
+R0293,18-24,Switzerland,1
+R0294,65+,Australia,0
+R0295,18-24,Canada,1
+R0296,25-34,Serbia,1
+R0297,35-44,Poland,1
+R0298,45-54,Czech Republic,0
+R0299,65+,Canada,0
+R0300,65+,Argentina,1
+R0301,45-54,Sweden,0
+R0302,55-64,Sweden,0
+R0303,55-64,Sweden,0
+R0304,45-54,Germany,1
+R0305,65+,Czech Republic,0
+R0306,55-64,Argentina,0
+R0307,18-24,Argentina,0
+R0308,18-24,Brazil,1
+R0309,35-44,Sweden,1
+R0310,25-34,Italy,0
+R0311,35-44,Netherlands,1
+R0312,25-34,Japan,2
+R0313,25-34,Sweden,0
+R0314,25-34,Brazil,0
+R0315,18-24,United Kingdom,1
+R0316,65+,United Kingdom,1
+R0317,65+,Spain,0
+R0318,45-54,Netherlands,0
+R0319,65+,Italy,1
+R0320,55-64,Germany,0
+R0321,55-64,United States,0
+R0322,25-34,Netherlands,1
+R0323,18-24,Argentina,1
+R0324,18-24,Switzerland,1
+R0325,25-34,United States,0
+R0326,65+,United Kingdom,0
+R0327,55-64,Japan,0
+R0328,45-54,Canada,0
+R0329,65+,Spain,0
+R0330,18-24,United Kingdom,1
+R0331,65+,France,1
+R0332,25-34,Portugal,0
+R0333,18-24,Serbia,1
+R0334,65+,Croatia,0
+R0335,65+,Australia,0
+R0336,55-64,Japan,0
+R0337,25-34,Czech Republic,0
+R0338,35-44,Germany,1
+R0339,45-54,United Kingdom,0
+R0340,25-34,Serbia,0
+R0341,18-24,Argentina,0
+R0342,25-34,Sweden,0
+R0343,18-24,Croatia,0
+R0344,35-44,Serbia,0
+R0345,25-34,France,0
+R0346,65+,Czech Republic,1
+R0347,35-44,Italy,1
+R0348,18-24,Netherlands,1
+R0349,35-44,Spain,0
+R0350,35-44,United States,1
+R0351,18-24,Germany,0
+R0352,55-64,Spain,1
+R0353,35-44,Brazil,2
+R0354,25-34,France,0
+R0355,35-44,Germany,1
+R0356,55-64,France,0
+R0357,45-54,France,0
+R0358,35-44,Germany,1
+R0359,18-24,Netherlands,1
+R0360,35-44,Serbia,2
+R0361,25-34,Canada,0
+R0362,45-54,Netherlands,2
+R0363,65+,Italy,1
+R0364,45-54,Portugal,1
+R0365,55-64,United Kingdom,1
+R0366,55-64,Serbia,1
+R0367,55-64,France,0
+R0368,25-34,United Kingdom,1
+R0369,45-54,Germany,0
+R0370,18-24,Argentina,0
+R0371,65+,United Kingdom,1
+R0372,65+,United States,2
+R0373,55-64,Norway,0
+R0374,55-64,Canada,0
+R0375,25-34,Canada,0
+R0376,35-44,Norway,1
+R0377,18-24,Serbia,0
+R0378,25-34,Norway,1
+R0379,18-24,United Kingdom,0
+R0380,65+,Poland,0
+R0381,18-24,United Kingdom,1
+R0382,35-44,Sweden,2
+R0383,45-54,Italy,1
+R0384,35-44,United States,0
+R0385,25-34,Germany,1
+R0386,55-64,Netherlands,1
+R0387,18-24,Germany,1
+R0388,65+,Croatia,1
+R0389,45-54,Australia,1
+R0390,45-54,United Kingdom,2
+R0391,55-64,Poland,1
+R0392,35-44,Japan,1
+R0393,45-54,Norway,0
+R0394,25-34,Croatia,0
+R0395,55-64,Norway,1
+R0396,35-44,Germany,1
+R0397,45-54,Portugal,0
+R0398,35-44,France,0
+R0399,65+,France,0
+R0400,25-34,Sweden,0
+R0401,25-34,Italy,1
+R0402,45-54,United States,1
+R0403,45-54,Germany,0
+R0404,45-54,Croatia,1
+R0405,18-24,Netherlands,0
+R0406,45-54,Sweden,0
+R0407,18-24,Germany,0
+R0408,65+,Italy,1
+R0409,45-54,Brazil,0
+R0410,35-44,Germany,0
+R0411,35-44,Norway,1
+R0412,25-34,Poland,0
+R0413,35-44,Croatia,1
+R0414,55-64,United Kingdom,1
+R0415,25-34,Brazil,0
+R0416,55-64,France,1
+R0417,45-54,France,0
+R0418,45-54,Poland,1
+R0419,18-24,Brazil,1
+R0420,65+,Czech Republic,1
+R0421,35-44,United States,1
+R0422,25-34,Germany,1
+R0423,45-54,Germany,1
+R0424,65+,Croatia,1
+R0425,55-64,Brazil,0
+R0426,35-44,United States,0
+R0427,18-24,Czech Republic,1
+R0428,35-44,United States,1
+R0429,35-44,Czech Republic,1
+R0430,45-54,Sweden,0
+R0431,25-34,Czech Republic,0
+R0432,65+,Switzerland,1
+R0433,18-24,Sweden,0
+R0434,25-34,Germany,0
+R0435,65+,Switzerland,0
+R0436,25-34,Canada,0
+R0437,65+,Canada,0
+R0438,25-34,Croatia,1
+R0439,45-54,Canada,1
+R0440,65+,Czech Republic,1
+R0441,55-64,Spain,1
+R0442,25-34,Croatia,0
+R0443,55-64,Italy,0
+R0444,25-34,Brazil,1
+R0445,65+,Sweden,0
+R0446,25-34,Norway,2
+R0447,25-34,Netherlands,0
+R0448,25-34,Switzerland,1
+R0449,35-44,Netherlands,1
+R0450,35-44,Japan,1
+R0451,18-24,Poland,0
+R0452,45-54,Czech Republic,0
+R0453,35-44,Netherlands,0
+R0454,45-54,Portugal,0
+R0455,35-44,Italy,2
+R0456,45-54,Czech Republic,1
+R0457,25-34,Sweden,1
+R0458,25-34,Sweden,0
+R0459,45-54,Japan,0
+R0460,65+,Czech Republic,0
+R0461,35-44,Norway,0
+R0462,18-24,Italy,1
+R0463,65+,Spain,1
+R0464,45-54,Italy,0
+R0465,65+,Norway,0
+R0466,18-24,Croatia,0
+R0467,55-64,France,0
+R0468,35-44,Czech Republic,0
+R0469,25-34,Croatia,1
+R0470,45-54,Italy,0
+R0471,45-54,Italy,1
+R0472,45-54,Czech Republic,1
+R0473,65+,Serbia,0
+R0474,35-44,Argentina,1
+R0475,35-44,Australia,0
+R0476,35-44,Japan,0
+R0477,65+,Argentina,0
+R0478,45-54,France,1
+R0479,18-24,United Kingdom,1
+R0480,55-64,Norway,1
+R0481,35-44,United States,1
+R0482,45-54,Argentina,0
+R0483,45-54,Brazil,0
+R0484,65+,Serbia,0
+R0485,55-64,Czech Republic,1
+R0486,65+,Serbia,1
+R0487,25-34,Serbia,0
+R0488,55-64,United States,1
+R0489,25-34,Italy,0
+R0490,25-34,Portugal,0
+R0491,65+,Switzerland,1
+R0492,65+,Australia,0
+R0493,25-34,Canada,0
+R0494,18-24,Germany,1
+R0495,45-54,Spain,1
+R0496,55-64,United Kingdom,0
+R0497,55-64,Sweden,1
+R0498,55-64,Serbia,1
+R0499,65+,United Kingdom,1
+R0500,65+,Netherlands,0

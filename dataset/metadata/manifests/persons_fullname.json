@@ -1,0 +1,57 @@
+{
+  "table": "persons_fullname",
+  "columns": {
+    "person_id": {
+      "row_count": 400,
+      "null_count": 0,
+      "distinct_count": 400,
+      "sample_values": [
+        "PER0210",
+        "PER0281",
+        "PER0034",
+        "PER0211",
+        "PER0094",
+        "PER0085"
+      ]
+    },
+    "full_name": {
+      "row_count": 400,
+      "null_count": 0,
+      "distinct_count": 400,
+      "sample_values": [
+        "Hannah King 210",
+        "Mia Robinson",
+        "Sophie Turner",
+        "Ava Roberts",
+        "Sophie Johnson",
+        "Harry Martin"
+      ]
+    },
+    "department": {
+      "row_count": 400,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "HR",
+        "Marketing",
+        "HR",
+        "Legal",
+        "Engineering",
+        "Finance"
+      ]
+    },
+    "company": {
+      "row_count": 400,
+      "null_count": 0,
+      "distinct_count": 10,
+      "sample_values": [
+        "Globex",
+        "Umbrella Ltd",
+        "Acme Corp",
+        "Massive Dynamics",
+        "Umbrella Ltd",
+        "Acme Corp"
+      ]
+    }
+  }
+}

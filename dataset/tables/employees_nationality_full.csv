@@ -1,0 +1,251 @@
+employee_id,full_name,department,nationality
+EMP0001,Charlotte White,Finance,Croatia
+EMP0002,William Cooper,Legal,Netherlands
+EMP0003,Charlotte Thompson,Product,Australia
+EMP0004,Harry Evans,Sales,Argentina
+EMP0005,Grace Scott,Product,Argentina
+EMP0006,Emily Roberts,Product,Czech Republic
+EMP0007,Amelia Hill,Operations,Mexico
+EMP0008,Sophia Watson,Finance,Germany
+EMP0009,Noah Roberts,Operations,Croatia
+EMP0010,Ava Jackson,Legal,France
+EMP0011,Hannah Wright,Product,Canada
+EMP0012,Grace Wood,Product,Czech Republic
+EMP0013,Joshua Martin,Operations,Poland
+EMP0014,Isabella Walker,Finance,Spain
+EMP0015,Grace Wilson,Marketing,Australia
+EMP0016,Henry Turner,HR,Germany
+EMP0017,Hannah White,Marketing,Sweden
+EMP0018,Isabella Hill,Marketing,Argentina
+EMP0019,Jacob Williams,Engineering,Netherlands
+EMP0020,Sophie Evans,Sales,Canada
+EMP0021,Thomas Thomas,HR,Japan
+EMP0022,Isla Cooper,Finance,Norway
+EMP0023,Sophie Hill,Engineering,Australia
+EMP0024,Poppy Roberts,Operations,Mexico
+EMP0025,Lewis Walker,Engineering,Mexico
+EMP0026,Alice Green,Finance,Portugal
+EMP0027,Lewis Wilson,Sales,Argentina
+EMP0028,Alice Wilson,Legal,Portugal
+EMP0029,Evie Johnson,Marketing,Russia
+EMP0030,William Scott,Product,Brazil
+EMP0031,Benjamin Evans,Legal,Croatia
+EMP0032,Oliver Lewis,Finance,United Kingdom
+EMP0033,Poppy King,Legal,Spain
+EMP0034,Henry Johnson,Product,Argentina
+EMP0035,Daniel Harris,Product,South Korea
+EMP0036,Sophie Roberts,Engineering,Canada
+EMP0037,Harry Hill,Finance,United Kingdom
+EMP0038,Thomas Jackson,Product,Belgium
+EMP0039,Samuel Evans,Marketing,Serbia
+EMP0040,Sophie Walker,Legal,Brazil
+EMP0041,Charlie Johnson,Legal,Switzerland
+EMP0042,Poppy Williams,Marketing,United States
+EMP0043,Olivia Jones,Legal,Mexico
+EMP0044,Oliver Davies,Marketing,Brazil
+EMP0045,Samuel Roberts,Sales,Brazil
+EMP0046,Mia Harris,Marketing,Portugal
+EMP0047,Evie Jones,Engineering,Netherlands
+EMP0048,Amelia Johnson,Product,China
+EMP0049,Lewis Davies,Finance,Italy
+EMP0050,Sophie Robinson,Marketing,Poland
+EMP0051,Samuel Turner,Sales,China
+EMP0052,Alfie Scott,HR,Brazil
+EMP0053,Daniel Clarke,Legal,Greece
+EMP0054,Amelia Wright,HR,Switzerland
+EMP0055,Isla White,Legal,Greece
+EMP0056,Isabella Evans,Finance,Spain
+EMP0057,Grace Williams,Product,Mexico
+EMP0058,Lily White,Legal,Canada
+EMP0059,Evie Wood,Engineering,Switzerland
+EMP0060,Noah Roberts 60,Legal,Belgium
+EMP0061,Henry Cooper,HR,Mexico
+EMP0062,Lewis Wright,Finance,Mexico
+EMP0063,Benjamin Wilson,Product,United States
+EMP0064,Evie Walker,Finance,South Africa
+EMP0065,Charlie Walker,Engineering,Greece
+EMP0066,Lily Turner,Finance,China
+EMP0067,Isabella Turner,HR,Belgium
+EMP0068,George Cooper,Sales,Denmark
+EMP0069,Charlotte Robinson,Marketing,South Korea
+EMP0070,Joshua Williams,Marketing,South Korea
+EMP0071,Hannah Lee,Operations,South Korea
+EMP0072,Benjamin Wood,HR,United States
+EMP0073,Emily White,Legal,France
+EMP0074,Oliver Williams,Legal,Belgium
+EMP0075,Samuel Johnson,Product,Denmark
+EMP0076,Isla Walker,Engineering,France
+EMP0077,Sophia Taylor,Finance,Greece
+EMP0078,William Harris,Legal,Denmark
+EMP0079,Charlotte Wood,Marketing,Germany
+EMP0080,Lily Cooper,Finance,Croatia
+EMP0081,Alice Clarke,Finance,Australia
+EMP0082,Amelia Clarke,Marketing,Spain
+EMP0083,Olivia Roberts,Product,Italy
+EMP0084,Amelia Williams,Engineering,Austria
+EMP0085,Isabella Brown,Operations,Croatia
+EMP0086,Olivia Evans,Engineering,Greece
+EMP0087,Sophie Evans 87,Engineering,Croatia
+EMP0088,Jessica Green,Marketing,Austria
+EMP0089,Samuel Cooper,Legal,Japan
+EMP0090,Jack Wright,Engineering,Spain
+EMP0091,Samuel Lee,Sales,Brazil
+EMP0092,Joshua Hill,Sales,Argentina
+EMP0093,Noah Smith,Engineering,Czech Republic
+EMP0094,James Johnson,Sales,Mexico
+EMP0095,George Wilson,Marketing,India
+EMP0096,Amelia King,Engineering,United States
+EMP0097,Benjamin White,Operations,Italy
+EMP0098,William Watson,Sales,Belgium
+EMP0099,Emily Hill,Product,Sweden
+EMP0100,Daniel Taylor,Sales,Argentina
+EMP0101,Charlie Lewis,Finance,Canada
+EMP0102,James Walker,Operations,Belgium
+EMP0103,James Walker 103,Legal,Brazil
+EMP0104,Ava Williams,HR,Austria
+EMP0105,Joshua Jones,Sales,Germany
+EMP0106,Benjamin Roberts,Legal,South Korea
+EMP0107,Charlie Cooper,Finance,Sweden
+EMP0108,Sophia Taylor 108,Operations,Norway
+EMP0109,Samuel Harris,Finance,South Africa
+EMP0110,Thomas Davies,Operations,Belgium
+EMP0111,Alice Williams,Engineering,Canada
+EMP0112,Grace Walker,Sales,Portugal
+EMP0113,Hannah Jackson,Engineering,Greece
+EMP0114,Ava Smith,Marketing,Norway
+EMP0115,Poppy Wilson,Product,Denmark
+EMP0116,Lily Wright,Engineering,Germany
+EMP0117,Alfie Lewis,HR,Poland
+EMP0118,Isla Brown,Sales,Serbia
+EMP0119,Harry Wilson,Legal,South Africa
+EMP0120,Thomas Brown,Operations,Australia
+EMP0121,Harry White,Product,Russia
+EMP0122,Mia Lee,Sales,Spain
+EMP0123,Thomas Johnson,Sales,Argentina
+EMP0124,Sophie Jones,Sales,South Africa
+EMP0125,Ava Wright,Product,China
+EMP0126,Jessica Johnson,Legal,United States
+EMP0127,James Williams,Legal,China
+EMP0128,George Evans,Finance,France
+EMP0129,Emily Brown,Finance,Germany
+EMP0130,Emily Wilson,Marketing,Portugal
+EMP0131,Daniel King,HR,Croatia
+EMP0132,Amelia King 132,Sales,Brazil
+EMP0133,Daniel Davies,Sales,Norway
+EMP0134,Poppy Roberts 134,Legal,Switzerland
+EMP0135,Isla Thomas,Legal,China
+EMP0136,Noah Lewis,Product,Serbia
+EMP0137,Amelia Thompson,Product,Croatia
+EMP0138,Hannah Wright 138,Product,Denmark
+EMP0139,Freddie Clarke,Legal,Russia
+EMP0140,Oliver Lee,Product,Serbia
+EMP0141,Noah Lee,HR,South Africa
+EMP0142,Sophie Brown,Finance,Sweden
+EMP0143,Sophia Walker,HR,Croatia
+EMP0144,Evie Roberts,Legal,Serbia
+EMP0145,George Johnson,Legal,United Kingdom
+EMP0146,Isla Brown 146,Sales,South Africa
+EMP0147,James Smith,Operations,China
+EMP0148,Charlotte Walker,Product,South Africa
+EMP0149,Lewis King,Product,Netherlands
+EMP0150,Charlotte Roberts,Marketing,Belgium
+EMP0151,Benjamin Turner,Marketing,France
+EMP0152,Samuel Hill,Finance,Switzerland
+EMP0153,Isla Lee,HR,Czech Republic
+EMP0154,Henry White,Legal,Greece
+EMP0155,Joshua Cooper,Product,France
+EMP0156,Daniel King 156,Sales,Argentina
+EMP0157,Alice Jones,Operations,South Africa
+EMP0158,Oliver Cooper,Finance,Austria
+EMP0159,Sophia Wright,Finance,Croatia
+EMP0160,Sophia Wilson,Finance,Norway
+EMP0161,James Taylor,Marketing,South Korea
+EMP0162,Samuel Walker,Marketing,Greece
+EMP0163,Jessica Hill,Product,Brazil
+EMP0164,Amelia Clarke 164,HR,Czech Republic
+EMP0165,Poppy White,Product,Sweden
+EMP0166,Poppy King 166,Marketing,Czech Republic
+EMP0167,Charlie Green,Operations,Switzerland
+EMP0168,Freddie Thomas,Sales,Denmark
+EMP0169,Lewis Cooper,Engineering,Japan
+EMP0170,Amelia Clarke 170,Engineering,Poland
+EMP0171,Charlie Williams,Product,South Korea
+EMP0172,Jessica Robinson,HR,Belgium
+EMP0173,Daniel Davies 173,Operations,United States
+EMP0174,Olivia Cooper,Sales,United Kingdom
+EMP0175,Charlotte Davies,Marketing,Portugal
+EMP0176,Grace Jackson,Sales,Mexico
+EMP0177,Olivia Evans 177,Finance,France
+EMP0178,Isla Thomas 178,Product,India
+EMP0179,Grace Green,Marketing,South Africa
+EMP0180,Amelia Williams 180,Marketing,Japan
+EMP0181,Samuel Taylor,Marketing,Australia
+EMP0182,Thomas Smith,Sales,Switzerland
+EMP0183,Alice Thompson,Marketing,Austria
+EMP0184,James Jones,Engineering,Australia
+EMP0185,Harry Taylor,Engineering,Brazil
+EMP0186,Samuel Wright,HR,Portugal
+EMP0187,Charlotte Thompson 187,Operations,South Korea
+EMP0188,Daniel Johnson,Operations,Netherlands
+EMP0189,William Clarke,Operations,Argentina
+EMP0190,Lewis Walker 190,Engineering,Norway
+EMP0191,Henry Scott,Marketing,Canada
+EMP0192,James Wood,Product,China
+EMP0193,Alfie Smith,Marketing,Norway
+EMP0194,Jessica Thomas,Sales,Greece
+EMP0195,Joshua Wood,Legal,Norway
+EMP0196,Hannah Robinson,Sales,Austria
+EMP0197,James Green,Operations,Mexico
+EMP0198,Oliver Green,Engineering,Netherlands
+EMP0199,William Harris 199,Sales,Croatia
+EMP0200,Charlotte Walker 200,Marketing,Denmark
+EMP0201,Henry Robinson,Legal,South Africa
+EMP0202,Charlie King,HR,Serbia
+EMP0203,Isla Cooper 203,Engineering,United Kingdom
+EMP0204,Alfie Thompson,Marketing,Russia
+EMP0205,Poppy Clarke,Legal,Austria
+EMP0206,Amelia Turner,Marketing,Croatia
+EMP0207,Alice Harris,Sales,Sweden
+EMP0208,Lily Evans,Marketing,United States
+EMP0209,Charlie Robinson,Engineering,Greece
+EMP0210,Amelia Hill 210,Operations,South Africa
+EMP0211,Samuel Lee 211,Sales,Australia
+EMP0212,Sophia Harris,Marketing,Poland
+EMP0213,Alfie Hill,Legal,Sweden
+EMP0214,Noah Martin,Operations,Greece
+EMP0215,Ava Hill,Marketing,Switzerland
+EMP0216,Thomas Walker,Product,South Africa
+EMP0217,Daniel Martin,Sales,Argentina
+EMP0218,Sophia Taylor 218,Marketing,Japan
+EMP0219,Jacob Williams 219,Sales,Canada
+EMP0220,Jacob Jackson,Finance,Netherlands
+EMP0221,William Walker,Engineering,Switzerland
+EMP0222,Poppy Jones,Sales,Switzerland
+EMP0223,Samuel Robinson,Operations,Canada
+EMP0224,Alfie White,Sales,Austria
+EMP0225,Charlie Walker 225,Legal,Spain
+EMP0226,William Brown,HR,Mexico
+EMP0227,Ava Thompson,Legal,Austria
+EMP0228,Freddie Wright,Finance,Japan
+EMP0229,Harry Wright,HR,Canada
+EMP0230,Hannah Cooper,HR,Italy
+EMP0231,Alice Green 231,Sales,Mexico
+EMP0232,Charlotte Roberts 232,Product,Greece
+EMP0233,Jack Martin,Finance,Canada
+EMP0234,Emily Scott,Sales,Denmark
+EMP0235,Jack Hill,Finance,China
+EMP0236,Charlotte King,HR,Serbia
+EMP0237,Amelia Smith,Product,Sweden
+EMP0238,Thomas Robinson,Legal,Austria
+EMP0239,Henry Lee,Product,Serbia
+EMP0240,George White,HR,Denmark
+EMP0241,Mia Cooper,Sales,South Africa
+EMP0242,Lewis Taylor,Operations,United Kingdom
+EMP0243,Jack Scott,HR,South Africa
+EMP0244,Evie Green,Finance,United States
+EMP0245,Grace Cooper,HR,Poland
+EMP0246,Freddie Evans,Sales,Brazil
+EMP0247,James Lewis,Marketing,Denmark
+EMP0248,Freddie Walker,Finance,Czech Republic
+EMP0249,Jack Taylor,Legal,Netherlands
+EMP0250,Olivia Jones 250,Operations,Italy

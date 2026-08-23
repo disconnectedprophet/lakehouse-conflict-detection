@@ -1,0 +1,74 @@
+{
+  "table": "sports_rankings_monthly",
+  "columns": {
+    "player_id": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 120,
+      "sample_values": [
+        "PLAY045",
+        "PLAY048",
+        "PLAY005",
+        "PLAY056",
+        "PLAY027",
+        "PLAY065"
+      ]
+    },
+    "player_name": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 120,
+      "sample_values": [
+        "Dominic Shapovalov",
+        "Jannik Lendl",
+        "Daniil Berdych",
+        "Holger Zverev",
+        "Nicolas Rossi",
+        "Alexander Djokovic"
+      ]
+    },
+    "sport": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 8,
+      "sample_values": [
+        "Football",
+        "Basketball",
+        "Judo",
+        "Football",
+        "Swimming",
+        "Judo"
+      ]
+    },
+    "report_month": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 1,
+      "sample_values": [
+        "2023-06",
+        "2023-06",
+        "2023-06",
+        "2023-06",
+        "2023-06",
+        "2023-06"
+      ]
+    },
+    "monthly_avg_points": {
+      "row_count": 120,
+      "null_count": 0,
+      "distinct_count": 113,
+      "sample_values": [
+        "1192",
+        "1808",
+        "1069",
+        "480",
+        "2431",
+        "2872"
+      ],
+      "min": 109.0,
+      "max": 3185.0,
+      "mean": 1562.1333,
+      "std": 828.0635
+    }
+  }
+}

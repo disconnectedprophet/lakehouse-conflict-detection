@@ -1,0 +1,74 @@
+{
+  "table": "retailers_brand_full",
+  "columns": {
+    "store_id": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 150,
+      "sample_values": [
+        "ST074",
+        "ST019",
+        "ST119",
+        "ST079",
+        "ST077",
+        "ST032"
+      ]
+    },
+    "store_name": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 150,
+      "sample_values": [
+        "Store 074",
+        "Store 019",
+        "Store 119",
+        "Store 079",
+        "Store 077",
+        "Store 032"
+      ]
+    },
+    "brand_full": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 20,
+      "sample_values": [
+        "REWE Group",
+        "Coop Genossenschaft",
+        "EDEKA Zentrale AG",
+        "Netto Marken-Discount AG",
+        "Aldi Einkauf SE",
+        "Tesco PLC"
+      ]
+    },
+    "country": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 30,
+      "sample_values": [
+        "Argentina",
+        "China",
+        "Brazil",
+        "Croatia",
+        "United States",
+        "Germany"
+      ]
+    },
+    "annual_revenue_eur": {
+      "row_count": 150,
+      "null_count": 0,
+      "distinct_count": 150,
+      "sample_values": [
+        "28096380",
+        "29549651",
+        "92233077",
+        "183340374",
+        "169063715",
+        "142900362"
+      ],
+      "min": 2139010.0,
+      "max": 199402367.0,
+      "mean": 107356502.96,
+      "std": 56275419.9513
+    }
+  }
+}

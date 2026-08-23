@@ -1,0 +1,65 @@
+{
+  "table": "city_climate_annual_fahrenheit",
+  "columns": {
+    "city": {
+      "row_count": 30,
+      "null_count": 0,
+      "distinct_count": 30,
+      "sample_values": [
+        "Aarhus",
+        "Helsinki",
+        "Rotterdam",
+        "Dublin",
+        "Lisbon",
+        "Stockholm"
+      ]
+    },
+    "country": {
+      "row_count": 30,
+      "null_count": 0,
+      "distinct_count": 19,
+      "sample_values": [
+        "Denmark",
+        "Finland",
+        "Netherlands",
+        "Ireland",
+        "Portugal",
+        "Sweden"
+      ]
+    },
+    "year": {
+      "row_count": 30,
+      "null_count": 0,
+      "distinct_count": 1,
+      "sample_values": [
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023"
+      ],
+      "min": 2023.0,
+      "max": 2023.0,
+      "mean": 2023.0,
+      "std": 0.0
+    },
+    "annual_avg_fahrenheit": {
+      "row_count": 30,
+      "null_count": 0,
+      "distinct_count": 27,
+      "sample_values": [
+        "48.2",
+        "43.2",
+        "54.1",
+        "51.8",
+        "72.0",
+        "44.2"
+      ],
+      "min": 43.2,
+      "max": 73.0,
+      "mean": 56.9467,
+      "std": 8.1912
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "table": "age_dist_10yr",
+  "columns": {
+    "age_range": {
+      "row_count": 9,
+      "null_count": 0,
+      "distinct_count": 9,
+      "sample_values": [
+        "70-79",
+        "10-19",
+        "50-59",
+        "0-9",
+        "80+",
+        "20-29"
+      ]
+    },
+    "population_count": {
+      "row_count": 9,
+      "null_count": 0,
+      "distinct_count": 9,
+      "sample_values": [
+        "1515648",
+        "1648503",
+        "3056344",
+        "2966767",
+        "1406148",
+        "1006516"
+      ],
+      "min": 493672.0,
+      "max": 3056344.0,
+      "mean": 1938213.0,
+      "std": 933519.5331
+    },
+    "pct_total": {
+      "row_count": 9,
+      "null_count": 0,
+      "distinct_count": 9,
+      "sample_values": [
+        "8.69",
+        "9.45",
+        "17.52",
+        "17.01",
+        "8.06",
+        "5.77"
+      ],
+      "min": 2.83,
+      "max": 17.52,
+      "mean": 11.1111,
+      "std": 5.3516
+    }
+  }
+}
