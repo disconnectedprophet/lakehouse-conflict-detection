@@ -15,26 +15,44 @@ Multi-size evaluation: metrics are computed on stratified subsets of
 SIZES pairs to show that the source-combination trend is stable across
 dataset sizes.
 
-Results written to results/:
-  run_{combo}.json raw predictions for all 190 pairs
-  summary_full.json metrics on all 190 pairs for all 15 combos
-  summary_dev.json metrics on dev subset (~70% of 190)
-  summary_test.json metrics on test subset (~30% of 190)
-  summary_sizes.json metrics for each combo x size combination
+Multi-model evaluation (--model): the same protocol against Haiku 4.5,
+Sonnet 5, or Opus 5, to check whether the source-ranking findings hold as
+capability scales. Haiku is the default and writes to the original flat
+results/ layout for backward compatibility; Sonnet and Opus write to
+results/<model>/ subdirectories.
+
+Reproducibility check (--repeats): repeats one source combination N times
+against one model to measure run-to-run variance, since the API is called
+with thinking disabled but default (non-zero) sampling temperature.
+
+Results written to results/ (or results/<model>/ for non-default models):
+  run_{combo}.json         raw predictions for all 190 pairs
+  summary_full.json        metrics on all 190 pairs for all 15 combos
+  summary_dev.json         metrics on dev subset (~70% of 190)
+  summary_test.json        metrics on test subset (~30% of 190)
+  summary_sizes.json       metrics for each combo x size combination
+  multirun/<model>_<combo>_run{k}.json   raw predictions per repeat
+  multirun/<model>_<combo>_summary.json  mean/std across repeats
 
 Run via:
-  python3 experiments.py
+  python3 experiments.py                        # Haiku 4.5, all 15 combos (original behavior)
+  python3 experiments.py --model sonnet          # Sonnet 5, all 15 combos
+  python3 experiments.py --model all             # Haiku + Sonnet + Opus
+  python3 experiments.py --repeats 5 --combo DLS # reproducibility check on one combo
 """
 
+import argparse
 import json
 import os
 import random
 import re
 import time
 from collections import Counter, defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from itertools import combinations as icombs
 
 import anthropic
+import numpy as np
 import pandas as pd
 from sklearn.metrics import classification_report
 
@@ -46,10 +64,19 @@ DDL_FILE = os.path.join(SCRIPT_DIR, "dataset", "metadata", "ddl.sql")
 LINEAGE_FILE = os.path.join(SCRIPT_DIR, "dataset", "metadata", "lineage.json")
 RESULTS_DIR = os.path.join(SCRIPT_DIR, "results")
 
-MODEL = "claude-haiku-4-5-20251001"
+MODELS = {
+    "haiku": "claude-haiku-4-5-20251001",
+    "sonnet": "claude-sonnet-5",
+    "opus": "claude-opus-5",
+}
+DEFAULT_MODEL = "haiku"
+
 MAX_SAMPLES = 10
-RETRY_SLEEP = 10
+MAX_TOKENS = 32  # covers the longest label ("NO_CONFLICT_DIFF_ENTITY") across all
+# three models' tokenizers; Haiku needs <16, Sonnet/Opus need up to 22.
 MAX_RETRIES = 3
+RETRY_SLEEP = 10
+MAX_WORKERS = 8
 SIZES = [70, 120, 190]
 SPLIT_SEED = 42
 TEST_FRAC = 0.30
@@ -68,13 +95,26 @@ LABEL_DESCRIPTIONS = """\
   NO_CONFLICT_DIFF_ENTITY — different real-world concepts, no conflict"""
 
 
-def _read_key_from_bashrc() -> str:
-    with open(os.path.expanduser("~/.bashrc")) as f:
-        for line in f:
-            m = re.search(r'ANTHROPIC(?:_API)?_KEY=["\']?(sk-ant-[^\s"\']+)', line)
-            if m:
-                return m.group(1)
-    raise RuntimeError("ANTHROPIC_KEY / ANTHROPIC_API_KEY not found in ~/.bashrc")
+def read_api_key() -> str:
+    """Look for the Anthropic API key: env vars first, then shell rc files
+    (some setups use ~/.bashrc, others ~/.zshrc depending on the shell)."""
+    for var in ("ANTHROPIC_API_KEY", "ANTHROPIC_KEY"):
+        val = os.environ.get(var)
+        if val:
+            return val
+    for rc in ("~/.zshrc", "~/.bashrc", "~/.zshenv", "~/.profile"):
+        path = os.path.expanduser(rc)
+        if not os.path.exists(path):
+            continue
+        with open(path) as f:
+            for line in f:
+                m = re.search(r'ANTHROPIC(?:_API)?_KEY=["\']?(sk-ant-[^\s"\']+)', line)
+                if m:
+                    return m.group(1)
+    raise RuntimeError(
+        "No Anthropic API key found. Set ANTHROPIC_API_KEY in the environment, "
+        "or add an ANTHROPIC_API_KEY=sk-ant-... line to ~/.zshrc or ~/.bashrc."
+    )
 
 
 def load_pairs() -> list[dict]:
@@ -248,15 +288,24 @@ def parse_prediction(text: str) -> str:
     return "UNKNOWN"
 
 
-def call_llm(client: anthropic.Anthropic, prompt: str) -> str:
+def call_llm(client: anthropic.Anthropic, model_id: str, prompt: str) -> str:
     for attempt in range(MAX_RETRIES):
         try:
             msg = client.messages.create(
-                model=MODEL,
-                max_tokens=16,
+                model=model_id,
+                max_tokens=MAX_TOKENS,
+                thinking={"type": "disabled"},
                 messages=[{"role": "user", "content": prompt}],
             )
-            return parse_prediction(msg.content[0].text)
+            text_blocks = [b.text for b in msg.content if getattr(b, "type", None) == "text"]
+            if not text_blocks:
+                raise ValueError(f"no text block in response content: {[type(b).__name__ for b in msg.content]}")
+            return parse_prediction("".join(text_blocks))
+        except anthropic.BadRequestError as e:
+            # 400-class errors (invalid request, insufficient credit balance, etc.)
+            # won't be fixed by retrying identical requests. Abort immediately
+            # instead of quietly degrading every remaining pair to "UNKNOWN".
+            raise RuntimeError(f"Fatal (non-retryable) API error, aborting: {e}") from e
         except Exception as e:
             print(f"    API error (attempt {attempt + 1}): {e}")
             if attempt < MAX_RETRIES - 1:
@@ -295,45 +344,98 @@ def compute_metrics_for_split(pairs: list[dict], predictions: dict) -> dict:
     )
 
 
-def combo_label(combo: tuple) -> str:
+def combo_label(combo) -> str:
     return "".join(sorted(combo))
 
 
-def run_combo(
-    combo: tuple,
-    all_pairs: list[dict],
+def results_dir_for(model_key: str) -> str:
+    # Haiku keeps the original flat results/ layout for backward compatibility
+    # with the published benchmark; other models get their own subdirectory.
+    return RESULTS_DIR if model_key == DEFAULT_MODEL else os.path.join(RESULTS_DIR, model_key)
+
+
+def run_predictions(
     client: anthropic.Anthropic,
+    model_id: str,
+    pairs: list[dict],
+    sources: set[str],
     manifests: dict[str, dict],
     ddl_blocks: dict[str, str],
     lineage: dict[str, dict],
+    checkpoint_path: str,
+    tag: str,
+    max_workers: int = MAX_WORKERS,
+) -> dict:
+    """Classify every pair under one model + one source subset. Checkpointed
+    (resumable) and lightly concurrent to keep wall time down; aborts and
+    saves partial progress immediately on a fatal (non-retryable) error
+    instead of burning through the rest of the batch's retries."""
+    predictions: dict = {}
+    if os.path.exists(checkpoint_path):
+        with open(checkpoint_path) as f:
+            predictions = json.load(f)
+        print(f"  [{tag}] resuming from checkpoint ({len(predictions)}/{len(pairs)} done)")
+
+    todo = [p for p in pairs if p["id"] not in predictions]
+    if not todo:
+        return predictions
+
+    def work(pair):
+        prompt = build_prompt(pair, sources, manifests, ddl_blocks, lineage)
+        return pair["id"], call_llm(client, model_id, prompt), pair["label"]
+
+    done_count = len(predictions)
+    with ThreadPoolExecutor(max_workers=max_workers) as pool:
+        futures = [pool.submit(work, p) for p in todo]
+        try:
+            for i, fut in enumerate(as_completed(futures), 1):
+                pid, pred, true_label = fut.result()
+                predictions[pid] = pred
+                done_count += 1
+                print(f"  [{tag}] {done_count}/{len(pairs)}  {pid}: {pred:<28} (true: {true_label})")
+                if i % 20 == 0:
+                    with open(checkpoint_path, "w") as f:
+                        json.dump(predictions, f)
+        except Exception:
+            for f in futures:
+                f.cancel()
+            with open(checkpoint_path, "w") as f:
+                json.dump(predictions, f)
+            print(f"  [{tag}] aborted — {done_count}/{len(pairs)} saved to checkpoint")
+            raise
+
+    with open(checkpoint_path, "w") as f:
+        json.dump(predictions, f)
+    return predictions
+
+
+def run_combo(
+    combo,
+    all_pairs: list[dict],
+    client: anthropic.Anthropic,
+    model_key: str,
+    model_id: str,
+    manifests: dict[str, dict],
+    ddl_blocks: dict[str, str],
+    lineage: dict[str, dict],
+    results_dir: str,
 ) -> dict:
     label = combo_label(combo)
     sources = set(combo)
-    result_file = os.path.join(RESULTS_DIR, f"run_{label}.json")
-    ckpt_file = os.path.join(RESULTS_DIR, f"ckpt_{label}.json")
+    result_file = os.path.join(results_dir, f"run_{label}.json")
+    ckpt_file = os.path.join(results_dir, f"ckpt_{label}.json")
 
     if os.path.exists(result_file):
         print(f"  [{label}] already done — skipping")
         with open(result_file) as f:
             return json.load(f)
 
-    predictions: dict = {}
-    if os.path.exists(ckpt_file):
-        with open(ckpt_file) as f:
-            predictions = json.load(f)
-        print(f"  [{label}] resuming from checkpoint ({len(predictions)}/{len(all_pairs)} done)")
+    predictions = run_predictions(
+        client, model_id, all_pairs, sources, manifests, ddl_blocks, lineage,
+        checkpoint_path=ckpt_file, tag=f"{model_key}-{label}",
+    )
 
-    for i, pair in enumerate(all_pairs, 1):
-        pid = pair["id"]
-        if pid in predictions:
-            continue
-        predictions[pid] = call_llm(client, build_prompt(pair, sources, manifests, ddl_blocks, lineage))
-        print(f"  [{label}] {i}/{len(all_pairs)}  {pid}: {predictions[pid]:<30} (true: {pair['label']})")
-        if i % 10 == 0:
-            with open(ckpt_file, "w") as f:
-                json.dump(predictions, f)
-
-    result = {"combo": label, "sources": sorted(sources), "predictions": predictions}
+    result = {"combo": label, "sources": sorted(sources), "model": model_id, "predictions": predictions}
     with open(result_file, "w") as f:
         json.dump(result, f, indent=2)
     if os.path.exists(ckpt_file):
@@ -360,19 +462,19 @@ def build_summary_row(r: dict, split_pairs: list[dict]) -> dict:
 
 
 def build_summary(
-    all_results: list[dict], split_pairs: list[dict], split_name: str
+    all_results: list[dict], split_pairs: list[dict], split_name: str, model_id: str, results_dir: str
 ) -> dict:
     rows = [
         build_summary_row(r, split_pairs)
         for r in sorted(all_results, key=lambda x: (len(x["combo"]), x["combo"]))
     ]
-    summary = {"model": MODEL, "split": split_name, "n_pairs": len(split_pairs), "combinations": rows}
-    with open(os.path.join(RESULTS_DIR, f"summary_{split_name}.json"), "w") as f:
+    summary = {"model": model_id, "split": split_name, "n_pairs": len(split_pairs), "combinations": rows}
+    with open(os.path.join(results_dir, f"summary_{split_name}.json"), "w") as f:
         json.dump(summary, f, indent=2)
     return summary
 
 
-def build_summary_sizes(all_results: list[dict], all_pairs: list[dict]) -> dict:
+def build_summary_sizes(all_results: list[dict], all_pairs: list[dict], model_id: str, results_dir: str) -> dict:
     rows = []
     for size in SIZES:
         subset = stratified_sample(all_pairs, size)
@@ -380,8 +482,8 @@ def build_summary_sizes(all_results: list[dict], all_pairs: list[dict]) -> dict:
             row = build_summary_row(r, subset)
             row["size"] = size
             rows.append(row)
-    summary = {"model": MODEL, "sizes": SIZES, "combinations": rows}
-    with open(os.path.join(RESULTS_DIR, "summary_sizes.json"), "w") as f:
+    summary = {"model": model_id, "sizes": SIZES, "combinations": rows}
+    with open(os.path.join(results_dir, "summary_sizes.json"), "w") as f:
         json.dump(summary, f, indent=2)
     return summary
 
@@ -399,41 +501,129 @@ def print_summary_table(summary: dict, label: str = "") -> None:
         )
 
 
-def main() -> None:
+def run_model(model_key: str, all_pairs: list[dict], client: anthropic.Anthropic,
+              manifests: dict, ddl_blocks: dict, lineage: dict) -> None:
+    model_id = MODELS[model_key]
+    results_dir = results_dir_for(model_key)
+    os.makedirs(results_dir, exist_ok=True)
+
     all_combos = [combo for r in range(1, 5) for combo in icombs(["V", "S", "D", "L"], r)]
+    dev_pairs, test_pairs = stratified_split(all_pairs)
+
+    print(f"\n=== {model_key} ({model_id}) — full factorial, 15 combos ===")
+    all_results = []
+    for i, combo in enumerate(all_combos, 1):
+        print(f"[{i}/{len(all_combos)}] Sources: {set(combo)}")
+        all_results.append(run_combo(combo, all_pairs, client, model_key, model_id, manifests, ddl_blocks, lineage, results_dir))
+
+    summary_full = build_summary(all_results, all_pairs, "full", model_id, results_dir)
+    summary_dev = build_summary(all_results, dev_pairs, "dev", model_id, results_dir)
+    summary_test = build_summary(all_results, test_pairs, "test", model_id, results_dir)
+    build_summary_sizes(all_results, all_pairs, model_id, results_dir)
+
+    print_summary_table(summary_full, f"{model_key} full")
+    print_summary_table(summary_dev, f"{model_key} dev")
+    print_summary_table(summary_test, f"{model_key} test")
+    print(f"\n{model_key}: summary_{{full,dev,test,sizes}}.json written to {results_dir}/")
+
+
+def run_repeats(model_key: str, combo_str: str, n_repeats: int, all_pairs: list[dict],
+                 client: anthropic.Anthropic, manifests: dict, ddl_blocks: dict, lineage: dict) -> None:
+    """Reproducibility check: repeat one source combination N times against
+    one model and report mean/std, since the API samples at a non-zero
+    default temperature."""
+    model_id = MODELS[model_key]
+    sources = set(combo_str.upper())
+    label = combo_label(sources)
+    multirun_dir = os.path.join(RESULTS_DIR, "multirun")
+    os.makedirs(multirun_dir, exist_ok=True)
+
+    runs = []
+    for k in range(1, n_repeats + 1):
+        tag = f"{model_key}-{label}-run{k}"
+        result_file = os.path.join(multirun_dir, f"{model_key}_{label}_run{k}.json")
+        ckpt_file = os.path.join(multirun_dir, f"ckpt_{tag}.json")
+
+        if os.path.exists(result_file):
+            with open(result_file) as f:
+                predictions = json.load(f)["predictions"]
+            print(f"[{tag}] already done — skipping API calls")
+        else:
+            predictions = run_predictions(
+                client, model_id, all_pairs, sources, manifests, ddl_blocks, lineage,
+                checkpoint_path=ckpt_file, tag=tag,
+            )
+            with open(result_file, "w") as f:
+                json.dump({"combo": label, "model": model_id, "run": k, "predictions": predictions}, f, indent=2)
+            if os.path.exists(ckpt_file):
+                os.remove(ckpt_file)
+
+        metrics = compute_metrics_for_split(all_pairs, predictions)
+        row = {
+            "run": k,
+            "accuracy": metrics["accuracy"],
+            "macro_precision": metrics["macro"]["precision"],
+            "macro_recall": metrics["macro"]["recall"],
+            "macro_f1": metrics["macro"]["f1"],
+        }
+        runs.append(row)
+        print(f"[{tag}] acc={row['accuracy']:.4f}  macro-F1={row['macro_f1']:.4f}")
+
+    def mean_std(key):
+        vals = [r[key] for r in runs]
+        return float(np.mean(vals)), float(np.std(vals))
+
+    acc_m, acc_s = mean_std("accuracy")
+    p_m, p_s = mean_std("macro_precision")
+    r_m, r_s = mean_std("macro_recall")
+    f1_m, f1_s = mean_std("macro_f1")
+
+    summary = {
+        "combo": label, "model": model_id, "n_runs": n_repeats, "n_pairs": len(all_pairs), "runs": runs,
+        "accuracy_mean": round(acc_m, 4), "accuracy_std": round(acc_s, 4),
+        "macro_precision_mean": round(p_m, 4), "macro_precision_std": round(p_s, 4),
+        "macro_recall_mean": round(r_m, 4), "macro_recall_std": round(r_s, 4),
+        "macro_f1_mean": round(f1_m, 4), "macro_f1_std": round(f1_s, 4),
+    }
+    out_path = os.path.join(multirun_dir, f"{model_key}_{label}_summary.json")
+    with open(out_path, "w") as f:
+        json.dump(summary, f, indent=2)
+    print(f"\nmacro-F1 = {f1_m:.4f} ± {f1_s:.4f}  across {n_repeats} runs of {model_key}/{label}")
+    print(f"Written to {out_path}")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--model", choices=list(MODELS) + ["all"], default=DEFAULT_MODEL,
+                         help="which model to evaluate (default: haiku, matching the published benchmark)")
+    parser.add_argument("--repeats", type=int, default=1,
+                         help="repeat --combo N times against --model to measure run-to-run variance")
+    parser.add_argument("--combo", type=str, default="DLS",
+                         help="source combo to repeat when --repeats > 1, e.g. 'DLS' (default: DLS, the published best config)")
+    args = parser.parse_args()
+
     all_pairs = load_pairs()
     dev_pairs, test_pairs = stratified_split(all_pairs)
 
-    print(f"Full factorial experiment — model: {MODEL}")
-    print(f"  Total: {len(all_pairs)}  dev: {len(dev_pairs)}  test: {len(test_pairs)}")
+    print(f"Dataset: {len(all_pairs)} pairs  dev: {len(dev_pairs)}  test: {len(test_pairs)}")
     for split_name, split in [("full", all_pairs), ("dev", dev_pairs), ("test", test_pairs)]:
         dist = Counter(p["label"] for p in split)
         print(f"  {split_name}: " + "  ".join(f"{k}={v}" for k, v in sorted(dist.items())))
-    print(f"  multi-size subsets: {SIZES}")
 
-    os.makedirs(RESULTS_DIR, exist_ok=True)
-
-    client = anthropic.Anthropic(api_key=_read_key_from_bashrc())
+    client = anthropic.Anthropic(api_key=read_api_key())
     manifests = load_manifests()
     ddl_blocks = load_ddl_blocks()
     lineage = load_lineage()
 
-    all_results = []
-    for i, combo in enumerate(all_combos, 1):
-        print(f"\n[{i}/{len(all_combos)}] Sources: {set(combo)}")
-        all_results.append(run_combo(combo, all_pairs, client, manifests, ddl_blocks, lineage))
+    if args.repeats > 1:
+        run_repeats(args.model if args.model != "all" else DEFAULT_MODEL, args.combo, args.repeats,
+                    all_pairs, client, manifests, ddl_blocks, lineage)
+        return
 
-    summary_full = build_summary(all_results, all_pairs, "full")
-    summary_dev = build_summary(all_results, dev_pairs, "dev")
-    summary_test = build_summary(all_results, test_pairs, "test")
-    build_summary_sizes(all_results, all_pairs)
-
-    print_summary_table(summary_full, "full")
-    print_summary_table(summary_dev, "dev")
-    print_summary_table(summary_test, "test")
-    print("\nsummary_full.json  summary_dev.json  summary_test.json  summary_sizes.json written.")
+    models_to_run = list(MODELS) if args.model == "all" else [args.model]
+    for model_key in models_to_run:
+        run_model(model_key, all_pairs, client, manifests, ddl_blocks, lineage)
 
 
-# Main guard
 if __name__ == "__main__":
     main()

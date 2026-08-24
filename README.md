@@ -1,6 +1,6 @@
 # Lakehouse Conflict Detection
 
-Dataset and full factorial LLM experiment for detecting semantic integration conflicts in data lakehouse column pairs.
+Dataset and full factorial LLM experiment for detecting semantic integration conflicts in data lakehouse column pairs, with a non-LLM baseline, a multi-model comparison, and a reproducibility check.
 
 ## Problem
 
@@ -34,7 +34,7 @@ dataset/
 | NO_CONFLICT_DUPLICATE | 60 | 31.6 |
 | NO_CONFLICT_DIFF_ENTITY | 34 | 17.9 |
 
-## Experiment
+## LLM experiment (`experiments.py`)
 
 Full factorial evaluation across all 15 non-empty subsets of four evidence sources:
 
@@ -43,7 +43,7 @@ Full factorial evaluation across all 15 non-empty subsets of four evidence sourc
 - S: Statistics (row count, null count, distinct count, min/max/mean/std from manifest)
 - V: Values (up to 10 sample values from CSV)
 
-Model: claude-haiku-4-5-20251001. Metrics: precision, recall, F1 per class and macro-averaged.
+Metrics: precision, recall, F1 per class and macro-averaged.
 
 ### Prompt freeze design
 
@@ -53,6 +53,27 @@ The model is called once per pair on the full 190-pair dataset with no split-awa
 
 Metrics are additionally computed on stratified subsets of 70, 119, and 190 pairs to verify that the source-combination ranking is stable across dataset sizes.
 
+### Multi-model comparison
+
+The identical frozen prompt and protocol is run against three models — Haiku 4.5 (`claude-haiku-4-5-20251001`), Sonnet 5 (`claude-sonnet-5`), and Opus 5 (`claude-opus-5`) — keeping model family, API, and prompt template fixed so capability tier is the only variable. This checks whether the source-ranking findings (declarative sources beating extensional ones, the full 4-source stack never being optimal, measure conflicts being the hardest class) hold as capability scales, or are specific to the originally benchmarked model.
+
+```
+python experiments.py --model haiku    # default — writes to results/ (original layout)
+python experiments.py --model sonnet   # writes to results/sonnet/
+python experiments.py --model opus     # writes to results/opus/
+python experiments.py --model all      # all three in sequence
+```
+
+### Reproducibility check
+
+The API is called with extended thinking disabled but a non-zero default sampling temperature, so repeated calls are not deterministic. `--repeats` reruns one source combination N times against one model to establish the run-to-run noise floor, which the split-invariance and benchmark-size robustness checks above should be read against:
+
+```
+python experiments.py --repeats 5 --combo DLS   # default model: haiku
+```
+
+Writes `results/multirun/<model>_<combo>_run{1..N}.json` and an aggregated `results/multirun/<model>_<combo>_summary.json` with mean ± std.
+
 ### Running the experiment
 
 ```
@@ -60,18 +81,29 @@ pip install -r requirements.txt
 python experiments.py
 ```
 
-The API key is read from `ANTHROPIC_KEY` or `ANTHROPIC_API_KEY` in the author's `~/.bashrc`.
+The API key is read from the `ANTHROPIC_API_KEY` or `ANTHROPIC_KEY` environment variable, or from an `ANTHROPIC_API_KEY=sk-ant-...` line in `~/.zshrc` or `~/.bashrc`.
 
-Intermediate predictions are saved to `results/run_{combo}.json` after each combination and support resumption if interrupted.
+Intermediate predictions are checkpointed and support resumption if interrupted; a non-retryable API error (e.g. insufficient credit balance) aborts the run immediately with whatever was completed saved, rather than silently degrading the rest of the batch to `UNKNOWN` predictions.
+
+## Non-LLM baseline (`baseline.py`)
+
+TF-IDF + Logistic Regression over the same evidence text the LLM prompt is built from, evaluated on all 15 source subsets. With only 190 pairs, a single train/test split starves a 4-class model, so this uses stratified 5-fold cross-validation and reports mean ± std across folds instead. No API calls.
+
+```
+python baseline.py
+```
+
+Writes `results/baseline/summary.json`. This establishes how much of the task a bag-of-words model can already solve without an LLM, as a lower bound the LLM results should be read against.
 
 ## Results
 
 Pre-computed results are in `results/`:
 
-- `summary_full.json` - metrics on all 190 pairs for all 15 combinations
-- `summary_dev.json` - metrics on dev subset (~133 pairs)
-- `summary_test.json` - metrics on test subset (~57 pairs)
-- `summary_sizes.json` - metrics for each combination across subset sizes 70/119/190
+- `summary_full.json` / `summary_dev.json` / `summary_test.json` — Haiku 4.5, all 15 combinations, on the full benchmark / dev subset (~133 pairs) / test subset (~57 pairs)
+- `summary_sizes.json` — Haiku 4.5, all 15 combinations across subset sizes 70/119/190
+- `sonnet/`, `opus/` — the same four summary files for Sonnet 5 and Opus 5
+- `baseline/summary.json` — TF-IDF + Logistic Regression, all 15 combinations, 5-fold CV
+- `multirun/` — repeated-run predictions and mean/std summaries for the reproducibility check
 
 ## Scripts
 
