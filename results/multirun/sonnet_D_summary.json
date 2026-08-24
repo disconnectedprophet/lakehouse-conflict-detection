@@ -1,0 +1,56 @@
+{
+  "combo": "D",
+  "model": "claude-sonnet-5",
+  "n_runs": 5,
+  "n_pairs": 190,
+  "runs": [
+    {
+      "run": 1,
+      "source": "reused from results/sonnet/summary_full.json (original benchmark pass)",
+      "accuracy": 0.8579,
+      "macro_precision": 0.8667,
+      "macro_recall": 0.8682,
+      "macro_f1": 0.8577
+    },
+    {
+      "run": 2,
+      "source": "fresh API call",
+      "accuracy": 0.8684,
+      "macro_precision": 0.877,
+      "macro_recall": 0.8766,
+      "macro_f1": 0.8677
+    },
+    {
+      "run": 3,
+      "source": "fresh API call",
+      "accuracy": 0.8474,
+      "macro_precision": 0.8556,
+      "macro_recall": 0.8572,
+      "macro_f1": 0.8464
+    },
+    {
+      "run": 4,
+      "source": "fresh API call",
+      "accuracy": 0.8526,
+      "macro_precision": 0.8618,
+      "macro_recall": 0.8639,
+      "macro_f1": 0.8519
+    },
+    {
+      "run": 5,
+      "source": "fresh API call",
+      "accuracy": 0.8632,
+      "macro_precision": 0.8682,
+      "macro_recall": 0.8724,
+      "macro_f1": 0.8614
+    }
+  ],
+  "accuracy_mean": 0.8579,
+  "accuracy_std": 0.0074,
+  "macro_precision_mean": 0.8659,
+  "macro_precision_std": 0.0071,
+  "macro_recall_mean": 0.8677,
+  "macro_recall_std": 0.0067,
+  "macro_f1_mean": 0.857,
+  "macro_f1_std": 0.0074
+}
