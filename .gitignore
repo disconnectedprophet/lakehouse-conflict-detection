@@ -1,3 +1,11 @@
 __pycache__/
 *.pyc
 .DS_Store
+.gitignore
+
+# Raw per-pair predictions and checkpoints are working files experiments.py
+# produces locally; only the aggregated summary_*.json files are committed.
+results/*/run_*.json
+results/*/ckpt_*.json
+results/multirun/*_run[0-9]*.json
+results/multirun/ckpt_*.json

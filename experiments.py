@@ -17,30 +17,35 @@ dataset sizes.
 
 Multi-model evaluation (--model): the same protocol against Haiku 4.5,
 Sonnet 5, or Opus 5, to check whether the source-ranking findings hold as
-capability scales. Haiku is the default and writes to the original flat
-results/ layout for backward compatibility; Sonnet and Opus write to
-results/<model>/ subdirectories.
+capability scales. Every model writes to its own results/<model>/
+subdirectory (results/haiku/, results/sonnet/, results/opus/).
 
 Reproducibility check (--repeats): repeats one source combination N times
 against one model to measure run-to-run variance, since the API is called
 with thinking disabled but default (non-zero) sampling temperature.
 
-Results written to results/ (or results/<model>/ for non-default models):
-  run_{combo}.json         raw predictions for all 190 pairs
+Only aggregated metrics are committed to this repository (see below); raw
+per-pair predictions (run_{combo}.json, multirun run{k}.json) are working
+files this script produces locally but the repo does not keep, since they
+are regenerable by re-running the identical frozen prompt.
+
+Results written to results/<model>/:
+  run_{combo}.json         raw predictions for all 190 pairs (not committed)
   summary_full.json        metrics on all 190 pairs for all 15 combos
   summary_dev.json         metrics on dev subset (~70% of 190)
   summary_test.json        metrics on test subset (~30% of 190)
   summary_sizes.json       metrics for each combo x size combination
-  multirun/<model>_<combo>_run{k}.json   raw predictions per repeat
+  multirun/<model>_<combo>_run{k}.json   raw predictions per repeat (not committed)
   multirun/<model>_<combo>_summary.json  mean/std across repeats
 
 Run via:
-  python3 experiments.py                        # Haiku 4.5, all 15 combos (original behavior)
-  python3 experiments.py --model sonnet          # Sonnet 5, all 15 combos
-  python3 experiments.py --model all             # Haiku + Sonnet + Opus
+  python3 experiments.py # Haiku 4.5, all 15 combos (original behavior)
+  python3 experiments.py --model sonnet # Sonnet 5, all 15 combos
+  python3 experiments.py --model all # Haiku + Sonnet + Opus
   python3 experiments.py --repeats 5 --combo DLS # reproducibility check on one combo
 """
 
+# Libraries
 import argparse
 import json
 import os
@@ -50,12 +55,12 @@ import time
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from itertools import combinations as icombs
-
 import anthropic
 import numpy as np
 import pandas as pd
 from sklearn.metrics import classification_report
 
+# Config
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PAIRS_FILE = os.path.join(SCRIPT_DIR, "dataset", "pairs.json")
 TABLES_DIR = os.path.join(SCRIPT_DIR, "dataset", "tables")
@@ -89,8 +94,8 @@ LABELS: list[str] = [
 ]
 
 LABEL_DESCRIPTIONS = """\
-  TYPE1_MEASURE — same semantic concept, different measurement unit (e.g. USD vs EUR, seats vs thousands, raw pts vs normalised)
-  TYPE2_GRANULARITY — same semantic concept, different aggregation level (e.g. daily vs monthly, per-row vs per-group aggregate)
+  TYPE1_MEASURE - same semantic concept, different measurement unit (e.g. USD vs EUR, seats vs thousands, raw pts vs normalised)
+  TYPE2_GRANULARITY - same semantic concept, different aggregation level (e.g. daily vs monthly, per-row vs per-group aggregate)
   NO_CONFLICT_DUPLICATE — same data, no semantic conflict
   NO_CONFLICT_DIFF_ENTITY — different real-world concepts, no conflict"""
 
@@ -349,9 +354,7 @@ def combo_label(combo) -> str:
 
 
 def results_dir_for(model_key: str) -> str:
-    # Haiku keeps the original flat results/ layout for backward compatibility
-    # with the published benchmark; other models get their own subdirectory.
-    return RESULTS_DIR if model_key == DEFAULT_MODEL else os.path.join(RESULTS_DIR, model_key)
+    return os.path.join(RESULTS_DIR, model_key)
 
 
 def run_predictions(
@@ -624,6 +627,6 @@ def main() -> None:
     for model_key in models_to_run:
         run_model(model_key, all_pairs, client, manifests, ddl_blocks, lineage)
 
-
+# Main guard
 if __name__ == "__main__":
     main()

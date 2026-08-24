@@ -58,7 +58,7 @@ Metrics are additionally computed on stratified subsets of 70, 119, and 190 pair
 The identical frozen prompt and protocol is run against three models — Haiku 4.5 (`claude-haiku-4-5-20251001`), Sonnet 5 (`claude-sonnet-5`), and Opus 5 (`claude-opus-5`) — keeping model family, API, and prompt template fixed so capability tier is the only variable. This checks whether the source-ranking findings (declarative sources beating extensional ones, the full 4-source stack never being optimal, measure conflicts being the hardest class) hold as capability scales, or are specific to the originally benchmarked model.
 
 ```
-python experiments.py --model haiku    # default — writes to results/ (original layout)
+python experiments.py --model haiku    # default — writes to results/haiku/
 python experiments.py --model sonnet   # writes to results/sonnet/
 python experiments.py --model opus     # writes to results/opus/
 python experiments.py --model all      # all three in sequence
@@ -72,7 +72,7 @@ The API is called with extended thinking disabled but a non-zero default samplin
 python experiments.py --repeats 5 --combo DLS   # default model: haiku
 ```
 
-Writes `results/multirun/<model>_<combo>_run{1..N}.json` and an aggregated `results/multirun/<model>_<combo>_summary.json` with mean ± std.
+Writes `results/multirun/<model>_<combo>_run{1..N}.json` (raw, not committed — see "What's committed" below) and an aggregated `results/multirun/<model>_<combo>_summary.json` with mean ± std, including each individual run's metrics.
 
 ### Running the experiment
 
@@ -97,13 +97,25 @@ Writes `results/baseline/summary.json`. This establishes how much of the task a 
 
 ## Results
 
-Pre-computed results are in `results/`:
+Pre-computed results are in `results/`, one subdirectory per model:
 
-- `summary_full.json` / `summary_dev.json` / `summary_test.json` — Haiku 4.5, all 15 combinations, on the full benchmark / dev subset (~133 pairs) / test subset (~57 pairs)
-- `summary_sizes.json` — Haiku 4.5, all 15 combinations across subset sizes 70/119/190
-- `sonnet/`, `opus/` — the same four summary files for Sonnet 5 and Opus 5
-- `baseline/summary.json` — TF-IDF + Logistic Regression, all 15 combinations, 5-fold CV
-- `multirun/` — repeated-run predictions and mean/std summaries for the reproducibility check
+```
+results/
+    haiku/    summary_full.json, summary_dev.json, summary_test.json, summary_sizes.json
+    sonnet/   the same four files
+    opus/     the same four files
+    baseline/summary.json          TF-IDF + Logistic Regression, all 15 combinations, 5-fold CV
+    multirun/haiku_DLS_summary.json   5 repeats of Haiku's best config, mean ± std
+    multillm_comparison.json       Haiku / Sonnet / Opus side by side, all 15 combinations
+```
+
+Each `summary_*.json` reports accuracy and macro-averaged precision/recall/F1, plus per-class precision/recall/F1, for every one of the 15 evidence-source combinations.
+
+### What's committed
+
+This repository keeps only **aggregated metrics** — the `summary_*.json` files above. It does not commit the raw per-pair predictions (`run_{combo}.json`, or the individual `run{k}.json` files inside `multirun/`) that those aggregates are computed from; `experiments.py` still writes them locally when run, they're just not part of the repo. This keeps the repository to the citable numbers rather than working files.
+
+If you need the underlying per-pair predictions — e.g. to audit which specific pairs a model got wrong — regenerate them with `python experiments.py --model <haiku|sonnet|opus>`. This reproduces the same frozen prompt and protocol, so results land very close to what's published here (the reproducibility check above puts the run-to-run noise floor at ±0.0075 macro-F1), but not bit-for-bit identical, since the API samples at a non-zero default temperature.
 
 ## Scripts
 
