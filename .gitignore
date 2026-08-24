@@ -9,3 +9,4 @@ results/*/run_*.json
 results/*/ckpt_*.json
 results/multirun/*_run[0-9]*.json
 results/multirun/ckpt_*.json
+logs/
