@@ -18,16 +18,17 @@ Run via:
   python3 generate_pairs.py
 """
 
+# Libraries
 import json
 import os
 import random
 import re
 import pandas as pd
 import numpy as np
-
 random.seed(42)
 np.random.seed(42)
 
+# Configuration variables
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 TABLES_DIR = os.path.join(SCRIPT_DIR, "..", "dataset", "tables")
 META_DIR = os.path.join(SCRIPT_DIR, "..", "dataset", "metadata")
