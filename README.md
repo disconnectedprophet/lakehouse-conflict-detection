@@ -4,16 +4,16 @@ Dataset and full factorial LLM experiment for detecting semantic integration con
 
 ## Problem
 
-When integrating tables from a data lakehouse (open table format), two classes of semantic conflict arise that are invisible to schema-level (entity match) checks:
+When integrating tables from a data lakehouse (open table format), two classes of semantic conflict arise that are invisible to schema-level checks and to entity-level matching alike:
 
 - TYPE1 (measure mismatch): the same concept is expressed in different units (e.g. annual revenue in USD versus EUR, venue capacity in seats versus thousands).
 - TYPE2 (granularity mismatch): the same concept is aggregated at different levels (e.g. monthly versus annual sales, per-employee versus per-grade salary).
 
-Standard column type classifiers (e.g. Sherlock) have low recall on the entity types where these conflicts are most common, making them unsuitable as a first-pass filter. This repository targets those entity types directly.
+Standard column type classifiers (e.g. Sherlock) have low recall on exactly these entity types and they miss many of the relevant columns. Hence, it cannot serve as a reliable first-pass filter that groups candidate pairs for comparison. This layer therefore operates on candidate pairs directly.
 
 ## Dataset
 
-The dataset covers the ten Sherlock entity types with the lowest per-type recall in our evaluation of the publicly released Sherlock model, i.e. the ten types that fall furthest below the macro-averaged recall of 0.866 measured across all 78 types: ranking (0.312), sales (0.528), director (0.547), person (0.618), brand (0.671), nationality (0.691), gender (0.721), capacity (0.721), range (0.759), name (0.759).
+The dataset covers the ten Sherlock entity types with the lowest per-type recall in our evaluation of the publicly released Sherlock model. More precisely, the dataset comprises ten types that fall furthest below the macro-averaged recall of 0.866 measured across all 78 types: ranking (0.312), sales (0.528), director (0.547), person (0.618), brand (0.671), nationality (0.691), gender (0.721), capacity (0.721), range (0.759), name (0.759).
 
 ```
 dataset/
@@ -38,8 +38,8 @@ dataset/
 
 Full factorial evaluation across all 15 non-empty subsets of four evidence sources:
 
-- D: DDL (CREATE TABLE block with column comments and TBLPROPERTIES)
-- L: Lineage (OpenLineage SQL query that produced the table)
+- D: DDL (CREATE TABLE definition - declared types, column comments, and TBLPROPERTIES)
+- L: Lineage (OpenLineage event with the SQL transformation that derived the table's rows from upstream tables)
 - S: Statistics (row count, null count, distinct count, min/max/mean/std from manifest)
 - V: Values (up to 10 sample values from CSV)
 
@@ -47,7 +47,7 @@ Metrics: precision, recall, F1 per class and macro-averaged.
 
 ### Prompt freeze design
 
-The prompt and decision rules were developed on a small pilot predecessor of the benchmark and frozen before any evaluation; the model is then called once per pair on the full 190-pair dataset in a single pass. Because no prompt or rule was adjusted using these 190 pairs, the full benchmark serves as the primary untuned evaluation for each pre-specified source combination.
+The prompt and decision rules were developed on a small pilot predecessor of the benchmark and frozen before any evaluation. The model is then called once per pair on the full 190-pair dataset in a single pass. Because no prompt or rule was adjusted using these 190 pairs, the full benchmark serves as the primary untuned evaluation for each pre-specified source combination.
 
 ### Multi-size evaluation
 
@@ -55,7 +55,7 @@ Metrics are additionally computed on stratified subsets of 70, 119, and 190 pair
 
 ### Multi-model comparison
 
-The identical frozen prompt and protocol is run against three models — Haiku 4.5 (`claude-haiku-4-5-20251001`), Sonnet 5 (`claude-sonnet-5`), and Opus 5 (`claude-opus-5`) — keeping model family, API, and prompt template fixed so capability tier is the only variable. This checks whether the source-ranking findings (declarative sources beating extensional ones, the full 4-source stack never ranking first, measure conflicts being the hardest class) hold as capability scales, or are specific to the originally benchmarked model.
+The identical frozen prompt and protocol is run against three models — Haiku 4.5 (`claude-haiku-4-5-20251001`), Sonnet 5 (`claude-sonnet-5`), and Opus 5 (`claude-opus-5`) — keeping model family, API, and prompt template fixed so capability tier is the only variable. This checks whether the source-ranking findings (declarative sources beating extensional ones, the full 4-source stack never ranking first, measure conflicts being the hardest class) hold as capability scales, or are specific to the originally benchmarked model (i.e. Haiku 4.5).
 
 ```
 python experiments.py --model haiku    # default — writes to results/haiku/
@@ -81,9 +81,9 @@ pip install -r requirements.txt
 python experiments.py
 ```
 
-The API key is read from the `ANTHROPIC_API_KEY` or `ANTHROPIC_KEY` environment variable, or from an `ANTHROPIC_API_KEY=sk-ant-...` line in `~/.zshrc` or `~/.bashrc`.
+The API key is read from the `ANTHROPIC_API_KEY` environment variable, or from an `ANTHROPIC_API_KEY=sk-ant-...` line in `~/.zshrc` or `~/.bashrc`.
 
-Intermediate predictions are checkpointed and support resumption if interrupted; a non-retryable API error (e.g. insufficient credit balance) aborts the run immediately with whatever was completed saved, rather than silently degrading the rest of the batch to `UNKNOWN` predictions.
+Intermediate predictions are checkpointed and support resumption if interrupted. A non-retryable API error (e.g. insufficient credit balance) aborts the run immediately with whatever was completed saved, rather than silently degrading the rest of the batch to `UNKNOWN` predictions.
 
 ## Non-LLM baseline (`baseline.py`)
 
@@ -93,7 +93,7 @@ TF-IDF + Logistic Regression over the same evidence text the LLM prompt is built
 python baseline.py
 ```
 
-Writes `results/baseline/summary.json`. This provides a shallow non-LLM reference point - how much of the task a bag-of-words model over the same evidence text can already solve - against which the LLM results should be read.
+Writes `results/baseline/summary.json`. This provides a shallow non-LLM reference point - the baseline - against which the LLM results should be read.
 
 ## Results
 
@@ -109,11 +109,11 @@ results/
     multillm_comparison.json       Haiku / Sonnet / Opus side by side, all 15 combinations
 ```
 
-Each `summary_*.json` reports accuracy and macro-averaged precision/recall/F1, plus per-class precision/recall/F1, for every one of the 15 evidence-source combinations. The `summary_dev.json` / `summary_test.json` files are retroactive views of the same single-pass predictions, kept for completeness; the paper reports the full-benchmark (`summary_full.json`) numbers.
+Each `summary_*.json` reports accuracy and macro-averaged precision/recall/F1, plus per-class precision/recall/F1, for every one of the 15 evidence-source combinations. The `summary_dev.json` / `summary_test.json` files are retroactive views of the same single-pass predictions, kept for completeness. The paper reports the full-benchmark (`summary_full.json`) numbers.
 
 ### What's committed
 
-This repository keeps only **aggregated metrics** — the `summary_*.json` files above. It does not commit the raw per-pair predictions (`run_{combo}.json`, or the individual `run{k}.json` files inside `multirun/`) that those aggregates are computed from; `experiments.py` still writes them locally when run, they're just not part of the repo. This keeps the repository to the citable numbers rather than working files.
+This repository keeps only **aggregated metrics** — the `summary_*.json` files above. It does not commit the raw per-pair predictions (`run_{combo}.json`, or the individual `run{k}.json` files inside `multirun/`) that those aggregates are computed from. However, `experiments.py` still writes them locally when run, they're just not part of the repository. This keeps the repository to the citable numbers rather than working files.
 
 If you need the underlying per-pair predictions — e.g. to audit which specific pairs a model got wrong — regenerate them with `python experiments.py --model <haiku|sonnet|opus>`. This reproduces the same frozen prompt and protocol, so results land very close to what's published here (the reproducibility check above estimates run-to-run standard deviations of up to 0.0075 macro-F1), but not bit-for-bit identical, since the API samples at a non-zero default temperature.
 
