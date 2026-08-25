@@ -9,16 +9,16 @@ training data for a 4-class problem, so this uses stratified 5-fold CV
 instead and reports mean ± std across folds, plus a pooled out-of-fold
 classification report per combo.
 
-No API calls — pure sklearn.
+No API calls - pure sklearn.
 
 Run via:
   python3 baseline.py
 """
 
+# Libraries
 import json
 import os
 from itertools import combinations as icombs
-
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
@@ -39,6 +39,7 @@ from experiments import (
     load_pairs,
 )
 
+# Configuration variables
 N_FOLDS = 5
 SPLIT_SEED = 42
 BASELINE_RESULTS_DIR = os.path.join(RESULTS_DIR, "baseline")
@@ -146,6 +147,6 @@ def main() -> None:
         json.dump(summary, f, indent=2)
     print(f"\nWritten to {out_path}")
 
-
+# Main guard
 if __name__ == "__main__":
     main()
