@@ -12,15 +12,16 @@ Run via:
   python3 generate_tables.py
 """
 
+# Libraries
 import math
 import os
 import random
 import numpy as np
 import pandas as pd
-
 random.seed(42)
 np.random.seed(42)
 
+# Configuration variables
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 TABLES_DIR = os.path.join(SCRIPT_DIR, "..", "dataset", "tables")
 
