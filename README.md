@@ -1,13 +1,13 @@
 # Lakehouse Conflict Detection
 
-Dataset and full factorial LLM experiment for detecting semantic integration conflicts in data lakehouse column pairs, with a non-LLM baseline, a multi-model comparison, and a reproducibility check.
+Dataset and full factorial LLM experiment for detecting semantic integration conflicts in data lakehouse column pairs. The research study includes a non-LLM baseline and a multi-LLM comparison, together with a reproducibility check.
 
 ## Problem
 
-When integrating tables from a data lakehouse, two classes of semantic conflict arise that are invisible to schema-level checks:
+When integrating tables from a data lakehouse (open table format), two classes of semantic conflict arise that are invisible to schema-level (entity match) checks:
 
-- TYPE1 (measure mismatch): the same concept is expressed in different units (e.g. annual revenue in USD vs EUR, venue capacity in seats vs thousands).
-- TYPE2 (granularity mismatch): the same concept is aggregated at different levels (e.g. monthly vs annual sales, per-employee vs per-grade salary).
+- TYPE1 (measure mismatch): the same concept is expressed in different units (e.g. annual revenue in USD versus EUR, venue capacity in seats versus thousands).
+- TYPE2 (granularity mismatch): the same concept is aggregated at different levels (e.g. monthly versus annual sales, per-employee versus per-grade salary).
 
 Standard column type classifiers (e.g. Sherlock) have low recall on the entity types where these conflicts are most common, making them unsuitable as a first-pass filter. This repository targets those entity types directly.
 
