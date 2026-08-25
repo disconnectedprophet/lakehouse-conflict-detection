@@ -103,10 +103,9 @@ LABEL_DESCRIPTIONS = """\
 def read_api_key() -> str:
     """Look for the Anthropic API key: env vars first, then shell rc files
     (some setups use ~/.bashrc, others ~/.zshrc depending on the shell)."""
-    for var in ("ANTHROPIC_API_KEY", "ANTHROPIC_KEY"):
-        val = os.environ.get(var)
-        if val:
-            return val
+    val = os.environ.get("ANTHROPIC_API_KEY")
+    if val:
+        return val
     for rc in ("~/.zshrc", "~/.bashrc", "~/.zshenv", "~/.profile"):
         path = os.path.expanduser(rc)
         if not os.path.exists(path):
