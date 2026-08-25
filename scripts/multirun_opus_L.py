@@ -13,10 +13,10 @@ Run via:
   python3 scripts/multirun_opus_L.py
 """
 
+# Libraries
 import json
 import os
 import sys
-
 import anthropic
 import numpy as np
 
@@ -24,6 +24,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import experiments as E
 
+# Configuration variables
 MODEL_KEY = "opus"
 COMBO = "L"
 N_RUNS = 5
@@ -117,6 +118,6 @@ def main() -> None:
     print(f"\nmacro-F1 = {f1_m:.4f} ± {f1_s:.4f}  across {N_RUNS} runs")
     print(f"Written to {out_path}")
 
-
+# Main guard
 if __name__ == "__main__":
     main()
