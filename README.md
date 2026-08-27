@@ -101,15 +101,15 @@ Pre-computed results are in `results/`, one subdirectory per model:
 
 ```
 results/
-    haiku/    summary_full.json, summary_dev.json, summary_test.json, summary_sizes.json
-    sonnet/   the same four files
-    opus/     the same four files
+    haiku/    summary_full.json, summary_sizes.json
+    sonnet/   the same two files
+    opus/     the same two files
     baseline/summary.json          TF-IDF + Logistic Regression, all 15 combinations, 5-fold CV
     multirun/<model>_<combo>_summary.json   5 repeats of each model's highest-scoring config, mean ± std
     multillm_comparison.json       Haiku / Sonnet / Opus side by side, all 15 combinations
 ```
 
-Each `summary_*.json` reports accuracy and macro-averaged precision/recall/F1, plus per-class precision/recall/F1, for every one of the 15 evidence-source combinations. The `summary_dev.json` / `summary_test.json` files are retroactive views of the same single-pass predictions, kept for completeness. The paper reports the full-benchmark (`summary_full.json`) numbers.
+Each `summary_*.json` reports accuracy and macro-averaged precision/recall/F1, plus per-class precision/recall/F1, for every one of the 15 evidence-source combinations. The paper reports the full-benchmark (`summary_full.json`) numbers, cross-checked for size-robustness by `summary_sizes.json`.
 
 ### What's committed
 

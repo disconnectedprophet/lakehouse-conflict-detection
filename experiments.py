@@ -8,8 +8,7 @@ Four evidence sources tested in all 15 non-empty subsets of {D, L, S, V}:
   V — Values up to 10 sample values from CSV
 
 Prompt freeze design: the model is called once per pair on the full 190-pair
-dataset with no split-awareness. Dev/test metrics are computed retroactively
-from the same predictions to show that the split does not affect the result.
+dataset in a single pass, with no prompt or rule adjusted using these pairs.
 
 Multi-size evaluation: metrics are computed on stratified subsets of
 SIZES pairs to show that the source-combination trend is stable across
@@ -32,8 +31,6 @@ are regenerable by re-running the identical frozen prompt.
 Results written to results/<model>/:
   run_{combo}.json         raw predictions for all 190 pairs (not committed)
   summary_full.json        metrics on all 190 pairs for all 15 combos
-  summary_dev.json         metrics on dev subset (~70% of 190)
-  summary_test.json        metrics on test subset (~30% of 190)
   summary_sizes.json       metrics for each combo x size combination
   multirun/<model>_<combo>_run{k}.json   raw predictions per repeat (not committed)
   multirun/<model>_<combo>_summary.json  mean/std across repeats
@@ -84,7 +81,6 @@ RETRY_SLEEP = 10
 MAX_WORKERS = 8
 SIZES = [70, 120, 190]
 SPLIT_SEED = 42
-TEST_FRAC = 0.30
 
 LABELS: list[str] = [
     "TYPE1_MEASURE",
@@ -124,24 +120,6 @@ def read_api_key() -> str:
 def load_pairs() -> list[dict]:
     with open(PAIRS_FILE) as f:
         return json.load(f)
-
-
-def stratified_split(
-    pairs: list[dict], test_frac: float = TEST_FRAC, seed: int = SPLIT_SEED
-) -> tuple[list[dict], list[dict]]:
-    by_label: dict[str, list[dict]] = defaultdict(list)
-    for p in pairs:
-        by_label[p["label"]].append(p)
-    dev: list[dict] = []
-    test: list[dict] = []
-    rng = random.Random(seed)
-    for group in by_label.values():
-        shuffled = group[:]
-        rng.shuffle(shuffled)
-        n_test = max(1, round(len(shuffled) * test_frac))
-        test.extend(shuffled[:n_test])
-        dev.extend(shuffled[n_test:])
-    return dev, test
 
 
 def stratified_sample(pairs: list[dict], n: int, seed: int = SPLIT_SEED) -> list[dict]:
@@ -510,7 +488,6 @@ def run_model(model_key: str, all_pairs: list[dict], client: anthropic.Anthropic
     os.makedirs(results_dir, exist_ok=True)
 
     all_combos = [combo for r in range(1, 5) for combo in icombs(["V", "S", "D", "L"], r)]
-    dev_pairs, test_pairs = stratified_split(all_pairs)
 
     print(f"\n=== {model_key} ({model_id}) — full factorial, 15 combos ===")
     all_results = []
@@ -519,14 +496,10 @@ def run_model(model_key: str, all_pairs: list[dict], client: anthropic.Anthropic
         all_results.append(run_combo(combo, all_pairs, client, model_key, model_id, manifests, ddl_blocks, lineage, results_dir))
 
     summary_full = build_summary(all_results, all_pairs, "full", model_id, results_dir)
-    summary_dev = build_summary(all_results, dev_pairs, "dev", model_id, results_dir)
-    summary_test = build_summary(all_results, test_pairs, "test", model_id, results_dir)
     build_summary_sizes(all_results, all_pairs, model_id, results_dir)
 
     print_summary_table(summary_full, f"{model_key} full")
-    print_summary_table(summary_dev, f"{model_key} dev")
-    print_summary_table(summary_test, f"{model_key} test")
-    print(f"\n{model_key}: summary_{{full,dev,test,sizes}}.json written to {results_dir}/")
+    print(f"\n{model_key}: summary_{{full,sizes}}.json written to {results_dir}/")
 
 
 def run_repeats(model_key: str, combo_str: str, n_repeats: int, all_pairs: list[dict],
@@ -605,12 +578,9 @@ def main() -> None:
     args = parser.parse_args()
 
     all_pairs = load_pairs()
-    dev_pairs, test_pairs = stratified_split(all_pairs)
 
-    print(f"Dataset: {len(all_pairs)} pairs  dev: {len(dev_pairs)}  test: {len(test_pairs)}")
-    for split_name, split in [("full", all_pairs), ("dev", dev_pairs), ("test", test_pairs)]:
-        dist = Counter(p["label"] for p in split)
-        print(f"  {split_name}: " + "  ".join(f"{k}={v}" for k, v in sorted(dist.items())))
+    dist = Counter(p["label"] for p in all_pairs)
+    print(f"Dataset: {len(all_pairs)} pairs  " + "  ".join(f"{k}={v}" for k, v in sorted(dist.items())))
 
     client = anthropic.Anthropic(api_key=read_api_key())
     manifests = load_manifests()
