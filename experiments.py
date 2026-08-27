@@ -79,7 +79,7 @@ MAX_TOKENS = 32  # covers the longest label ("NO_CONFLICT_DIFF_ENTITY") across a
 MAX_RETRIES = 3
 RETRY_SLEEP = 10
 MAX_WORKERS = 8
-SIZES = [70, 120, 190]
+SIZES = [70, 119, 190]
 SPLIT_SEED = 42
 
 LABELS: list[str] = [
