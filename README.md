@@ -2,6 +2,18 @@
 
 Dataset and full factorial LLM experiment for detecting semantic integration conflicts in data lakehouse column pairs. The research study includes a non-LLM baseline and a multi-LLM comparison, together with a reproducibility check.
 
+## Repository structure
+
+```
+.
+├── dataset/            labeled column pairs, source tables, and metadata (see "Dataset")
+├── results/            pre-computed evaluation results, one subdirectory per model (see "Results")
+├── scripts/            one-off scripts used to generate the dataset (see "Scripts")
+├── experiments.py      full factorial LLM evaluation (see "LLM experiment")
+├── baseline.py         non-LLM TF-IDF + Logistic Regression baseline (see "Non-LLM baseline")
+└── requirements.txt    Python dependencies
+```
+
 ## Problem
 
 When integrating tables from a data lakehouse (open table format), two classes of semantic conflict arise that are invisible to schema-level checks and to entity-level matching alike:
